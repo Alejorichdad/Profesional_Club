@@ -3,85 +3,112 @@
   <head>
     <meta charset="utf-8"/>
     <title>Club Recordar Alianzas</title>
-    <link href="css/stylos.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylos.css">
+
+
   </head>
 
-  <body>
-    <header id="header"> <!--  heder -->
-      <figure> <!--  logotipo -->
-        <img src="images/logo_club.png"  alt="Logo Club Recordar">
-      </figure>
-        <a href="https://rn.superlikers.com/signup" target="_blank"><button>Regístrarse</button></a>
-        <a href="https://rn.superlikers.com/login" target="_blank"><button>Iniciar Sesión</button></a>
-    </header> <!--  fin heder -->
-    <section id="portada">  <!--  portada -->
-      <hgroup>
-        <h2>Club Recordar</h2>
-        <h3>Promociones y alianzas</h3>
-      </hgroup>
-      <button>ver más</button>
-    </section> <!--  fin portada -->
-    <section id="nav_principal"> <!--  menu nav pricipal -->
-      <figure> <!--  redes sociales -->
-        <img src="" alt="Facebook"/>
-        <img src="" alt="Youtube"/>
-        <img src="" alt="Twitter"/>
-        <img src="" alt="Instagram"/>
-      </figure> <!--  fin redes sociales -->
-      <figure>  <!--  imagenes menu -->
-        <img src="" alt="imagenes menu"/>
-      </figure>  <!-- fin imagenes menu -->
-      <nav> <!-- inicia menu nav pricipal -->
-        <ul>
-          <li><button type="button" name="button">Alianzas</button></li>
-          <li><button type="button" name="button">Plan Puntos</button></li>
-          <li><button type="button" name="button">Tienda Virtual</button></li>
-          <li><button type="button" name="button">Oportunidades</button></li>
-          <li><button type="button" name="button">Curso de Inglés</button></li>
-        </ul>
-      </nav>  <!-- fin menu nav pricipal -->
-    </section>  <!--  fin menu principal -->
-    <section id="ciudades"> <!--  Ciudades alianzas -->
-      <h1>Alianzas Club Recordar</h1>
-      <figure>
-        <img src="" alt="Alianzas Nacionales"/>
-        <img src="" alt="Alianzas Barranquilla"/>
-        <img src="" alt="Alianzas Bogota"/>
-        <img src="" alt="Alianzas Tunja"/>
-        <img src="" alt="Alianzas Cali"/>
-        <img src="" alt="Alianzas Cartagena"/>
-        <img src="" alt="Alianzas Pasto"/>
-        <img src="" alt="Alianzas Valledupar"/>
-      </figure>
+  <body class="alianzas">
 
-      </section>  <!--  fin Ciudades alianzas -->
-    <section id="banner_sorteo"> <!--  banner Sorteo-->
-      imagen fondo sorteo
-      texto sorteo
-    </section> <!--  fin banner Sorteo-->
-    <section id="ganar_puntos">  <!-- inicia ganar puntos-->
-      titulo
-      estrella
-      texto introduccion
-      registrarse
-      punto subtitulo
-      generales titulo
-      imagen de 5 recuadros
-      categorias
-    </section> <!-- fin ganar puntos-->
-    <section id="tap_menusorteo"> <!--tap tres menus-->
-      tap 3 de tres menus
-    </section> <!--fin tap tres menus-->
-  <section id="app_banner"> <!-- banner app-->
-    titulo
-    image
-  </section> <!-- fin banner app-->
+    <div class="container">
+        </header> <!--  fin heder -->
+        <section id="portada" class="portada contenedor">  <!--  portada -->
 
-    <footer id="footter"> <!--  footer-->
-      datos de contacto
-      redes sociales
-      formulario de contacto
-    </footer> <!--  fin footer-->
+            <header id="header" class="header contenedor"> <!--  heder -->
+              <figure class="logotipo"> <!--  logotipo -->
+                <img src="images/logo_club.png"  alt="Logo Club Recordar">
+              </figure>
+           <div class="buttons">
+                <a href="https://rn.superlikers.com/signup" target="_blank"><button class="registrarse">Regístrarse</button></a>
+                <a href="https://rn.superlikers.com/login" target="_blank"><button class="iniciar_sesion">Iniciar Sesión</button></a>
+          </div>
+          </
+          <div class="contenedor">
+            <hgroup>
+              <h1 class="titulo">Club Recordar</h1>  <!-- titulo -->
+              <h3 class="titulo_b">PROMOCIONES Y ALIANZAS</h3>
+            </hgroup>
+            <button>ver más</button>
+          </div>
+        </section> <!--  fin portada -->
 
-  </body>
+        <section id="nav_principal" class="nav_principal contenedor"> <!--  menu nav pricipal -->
+          <figure> <!--  redes sociales -->
+            <img src="" alt="Facebook"/>
+            <img src="" alt="Youtube"/>
+            <img src="" alt="Twitter"/>
+            <img src="" alt="Instagram"/>
+          </figure> <!--  fin redes sociales -->
+          <figure class="imagen_menu">  <!--  imagenes menu -->
+            <img src="" alt="imagenes menu"/>
+          </figure>  <!-- fin imagenes menu -->
+          <nav class="nav_principal"> <!-- inicia menu nav pricipal -->
+            <ul>
+              <li><a href="#ciudades">Alianzas</a></li>
+              <li><a href="#ciudades">Plan Puntos</a></li>
+              <li><a href="#ciudades">Tienda Virtual</a></li>
+              <li><a href="#ciudades">Oportunidades</a></li>
+              <li><a href="#ciudades">Curso de Ingles</a></li>
+
+            </ul>
+          </nav>  <!-- fin menu nav pricipal -->
+        </section>  <!--  fin menu principal -->
+          <h1 class="titulo_c">Alianzas Club Recordar</h1>
+
+        <section class="ciudades__list row center middle wrap" id="ciudades"> <!--  Ciudades alianzas -->
+
+            <article class="ciudad">
+              <figure class="ciudad--logo">
+                <a href="#"><img class="ciudad--logo--img" src="images/a_nacional.png" onmouseover="this.src='images/green_nacionales.jpg'" onmouseout="this.src='images/a_nacional.png'" /></a>
+              </figure>
+            </article>
+
+            <article class="ciudad">
+              <figure class="ciudad--logo">
+                <a href="#"><img class="ciudad--logo--img" src="images/a_barranquilla.png" alt="Alianzas Barranquilla"/></a>
+              </figure>
+            </article>
+
+            <article class="ciudad">
+              <figure class="ciudades--logo">
+                <a href="#"><img class="ciudad--logo--img" src="images/a_bogota.jpg" alt="Alianzas Bogota"></a>
+              </figure>
+            </article>
+
+            <article class="ciudad">
+              <figure class="ciudad--logo">
+                <a href="#"><img class="ciudad--logo--img" src="images/a_tunja.jpg" alt="Alianzas Tunja"></a>
+              </figure>
+            </article>
+
+            <article class="ciudad">
+              <figure class="ciudad--logo">
+                <a href="#"><img class="ciudad--logo--img" src="images/a_cali.jpg" alt="Alianzas Cali"></a>
+              </figure>
+            </article>
+
+            <article class="ciudad">
+              <figure class="ciudad--logo">
+                <a href="#"><img class="ciudad--logo--img" src="images/a_cartagena.jpg" alt="Alianzas Cartagena"></a>
+              </figure>
+            </article>
+
+            <article class="ciudad">
+              <figure class="ciudad--logo">
+                <a href="#"><img class="ciudad--logo--img" src="images/a_pasto.jpg" alt="Alianzas Pasto"></a>
+              </figure>
+            </article>
+
+            <article class="ciudad">
+              <figure class="ciudad--logo">
+                <a href="#"><img class="ciudad--logo--img"src="images/a_valledupar.jpg" alt="alianzas Valledupar"></a>
+              </figure>
+            </article>
+
+          </section>
+
+    </div>
+   </body>
+
 </html>

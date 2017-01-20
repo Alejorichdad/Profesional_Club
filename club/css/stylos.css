@@ -1,0 +1,196 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+
+body {
+  display: inline-block;
+}
+
+.logo--club {   /*  estilos de logo*/
+  position: absolute;
+  z-index: 999;
+  padding: 5px;
+}
+
+.logo--club--img{
+  width: 200px;
+}                /* fin de estilos de logo*/
+
+.buttons {       /* estilos de botones  header*/
+  margin: 0;
+  padding-right: 10px;
+  padding-top: 25px;
+  text-align: right;
+  width: auto;
+
+  position: absolute;
+  z-index: 999;
+  right: 0;
+
+}
+.registrarse {
+  padding: 4px 30px 4px 30px;
+  background-color: inherit;
+  border: solid 1px;
+  border-color: #fff;
+  border-radius: 14px;
+  font-family: lato, sans serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+.registrarse:hover {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+}
+
+
+.iniciar_sesion {
+  padding: 4px 30px 4px 30px;
+  background-color: inherit;
+  border: solid 1px;
+  border-color: #ffffff;
+  border-radius: 14px;
+  font-family: lato, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.iniciar_sesion:hover {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+}
+
+.iniciar_sesion a active{
+  border-color: #B3C642;
+
+}                         /* fin estilos de botones header */
+
+.titulo_c {
+  text-align: center;    /*titulo de las alianzas*/
+  padding: 30px;
+  bottom: 20px;
+}
+.redes1{
+  position: absolute;
+  z-index: 999;
+  padding-top: 0px;
+
+}
+
+.redes2{
+  position: absolute;
+  z-index: 999;
+  padding-top: 40px;
+}
+
+.redes3{
+  position: absolute;
+  z-index: 999;
+  padding-top: 80px;
+}
+
+
+.redes4{
+  position: absolute;
+  z-index: 999;
+  padding-top: 120px;
+}
+
+
+                         /* inicio stilos contenedor del nav*/
+
+.nav__list  {
+  margin-top: 0;
+  padding: 20px;
+  background-color: #E9EAE8;
+}
+.container-n {
+
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.container-n img {
+  border-radius: 50%;
+}
+
+                         /* estilos de botones nav */
+.nav-header-button {
+  text-align: center;
+  align-items: center;
+  padding: 03px;
+
+
+}
+
+.buttons-n2, .buttons-n1, .buttons-n3, .buttons-n5  {
+  text-align: center;
+  color: #84C546;
+  font-size: 14px;
+  background-color: inherit;
+  border: 1px solid;
+  padding: 4px 20px 4px 20px;
+  border-radius: 14px;
+  font-family: lato, sans serif;
+}
+
+.buttons-n4 {
+  text-align: center;
+  color: #84C546;
+  font-size: 14px;
+  background-color: inherit;
+  border: 1px solid;
+  padding: 4px 17px 4px 20px;
+  border-radius: 14px;
+  font-family: lato, sans serif;
+}
+
+.hover:hover {
+  background: #84C546;
+  color: #000000;
+  cursor: pointer;
+  border-color: #84C546;
+
+
+
+}
+                          /* fin estilos de botones nav */
+
+
+
+                          /* Estilos del contenedor alianzas */
+
+.container_c{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.ciudad {
+
+  width: auto;
+  margin: 7px;
+  margin-bottom: 7px;
+}
+
+.national {
+  top; 50%;
+  position: absolute;
+  z-index: 999;
+  bottom: 5%;
+  font-size: 2rem;
+  color: #ffffff;
+
+}
+                            /* fin Estilos del contenedor alianzas */
