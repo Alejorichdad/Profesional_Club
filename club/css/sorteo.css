@@ -14,8 +14,6 @@ body {
 
 .container {           /* container de  sorteo */
 
-  border: 1px solid;
-  border-color: blue;
   display: flex;
   width: 100%;
   margin: auto;
@@ -27,15 +25,21 @@ body {
 }
 .logo-club {
   float: left;
-
   position: absolute;
   padding-left: 20px;
   padding-top: 20px;
   cursor: pointer;
 
 }
+
+.sorteo_list {
+  justify-content: center;
+  width: 700px;
+}
+
+
 .sorteo--img {
-  width: 100%;
+  width: 540px;
 }
 
 
@@ -53,6 +57,7 @@ body {
   font-size: 25px;
 }
 
+
 .linea-derecha {        /* stilos lineas de sorteos anteriore */
   float: inherit;
   margin-bottom: 4px;
@@ -66,7 +71,6 @@ body {
 }
 
 .contenedor--sorteo {     /* contenedor slider sorteo */
-
   margin: auto;
   width: 500px;
   padding-top: 20px;
