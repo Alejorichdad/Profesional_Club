@@ -39,7 +39,7 @@ body {
 
 
 .sorteo--img {
-  width: 540px;
+  width: 700px;
 }
 
 
@@ -71,10 +71,12 @@ body {
 }
 
 .contenedor--sorteo {     /* contenedor slider sorteo */
+
   margin: auto;
   width: 500px;
   padding-top: 20px;
   padding-bottom: 30px;
+
   }
                                /* contenedor condiciones */
 .condiciones {
@@ -99,19 +101,7 @@ body {
 
                             /*  Utilizamos media queri para la senticia horizontal de la madida alta del contenedor para la chica */
 
-  @media screen (max-width: 900px) and (orientation: landscape) {
-    .condiciones {
 
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      height: 100%;
-      justify-content: center;
-      margin: auto;
-      background-color: red;
-    }
-
-}
 
 .container--condiciones {   /* contenedor condiciones */
 
@@ -408,4 +398,46 @@ table {                      /* stilos table en verde para registro */
 .mailto {
   text-decoration: none;
   color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+
+
+  }
+
+  body {
+    font-family: 'Lato', sans-serif;
+
+  }
+
+
+  .sorteos-container {
+    justify-content: center;
+
+  }
+
+  .sorteo--img {
+  width: 400px;
+  margin-left: 60px;
+  }
+
+
+
+  .condiciones {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin: auto;
+
+  }
+
+}
+
 }

@@ -1,3 +1,4 @@
+
 * {
 margin: 0;
 padding: 0;
@@ -8,6 +9,11 @@ body {
   display: inline-block;
 }
 
+
+.margen-1024 {
+
+  width: 1024px;
+}
 .logo--club {   /*  estilos de logo*/
   position: absolute;
   z-index: 999;
@@ -18,13 +24,12 @@ body {
   width: 200px;
 }                /* fin de estilos de logo*/
 
-.buttons {       /* estilos de botones  header*/
+.buttons1 {       /* estilos de botones  header*/
   margin: 0;
   padding-right: 10px;
   padding-top: 25px;
   text-align: right;
   width: auto;
-
   position: absolute;
   z-index: 999;
   right: 0;
@@ -69,34 +74,73 @@ body {
 
 }                         /* fin estilos de botones header */
 
+
+.link-videos{
+  width: 100%;
+
+}
+
+.container-link {
+
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 10px;
+
+}
+.link-videos-texto {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: lato, sans-serif;
+  font-weight: normal;;
+  color: #B3C642;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.alinea-texto {
+
+
+  width: 20%;
+  margin: 0 auto;
+}
+
+.alinea-texto img{
+  width: 35px;
+}
+
 .titulo_c {
   text-align: center;    /*titulo de las alianzas*/
   padding: 30px;
   bottom: 20px;
+  font-family: lato, sans-serif;
 }
+
+
 .redes1{
   position: absolute;
   z-index: 999;
   padding-top: 0px;
 
+
 }
 
 .redes2{
   position: absolute;
-  z-index: 999;
+  z-index: 998;
   padding-top: 40px;
 }
 
 .redes3{
   position: absolute;
-  z-index: 999;
+  z-index: 997;
   padding-top: 80px;
 }
 
 
 .redes4{
   position: absolute;
-  z-index: 999;
+  z-index: 996;
   padding-top: 120px;
 }
 
@@ -105,16 +149,24 @@ body {
 
 .nav__list  {
   margin-top: 0;
-  padding: 20px;
+  padding-top: 20px;
   background-color: #E9EAE8;
 }
-.container-n {
 
+.nav-header--img {
+  padding-left: 8px;
+}
+
+.nav--3 {
+  padding-left: 5px;
+}
+.container-n {
   display: flex;
-  width: 80%;
+  max-width: 1024px;
   margin: 0 auto;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-bottom: 10px
 
 }
 
@@ -164,16 +216,25 @@ body {
 }
                           /* fin estilos de botones nav */
 
+                             /* Estilos div seccion videos */
+.carito {
+  text-decoration: none;
+  color: #84C546;
 
+}
+
+
+                          /* FIN Estilos div seccion videos */
 
                           /* Estilos del contenedor alianzas */
 
 .container_c{
   display: flex;
-  width: 80%;
+  max-width: 1024px;
   margin: 0 auto;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 20px;
 
 }
 
@@ -194,3 +255,879 @@ body {
 
 }
                             /* fin Estilos del contenedor alianzas */
+
+
+
+
+                              /* fin Estilos del contenedor chica */
+.container-chica {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+  background-image: url(../images/play1.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+
+}
+
+.container-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+
+  padding-top: 40px;
+
+  }
+
+                              /* fin Estilos del contenedor chica */
+
+                              /*  Estilos del contenedor recuadro verde y texto */
+.container-imgtext {
+  position: relative;
+  width: 100%;
+
+}
+
+.textsorteo {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: lato, sans-serif;
+  font-size: 20px;
+  color: #84C546;
+}
+
+.textsorteo1 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: lato, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.textsorteo2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: lato, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  padding-top: 77px;
+}
+.container-recuadro-img {
+  padding-top: 10px;
+  width: 100%;
+
+}
+                              /*  Estilos del contenedor recuadro verde y texto */
+
+                              /* fin Estilos del contenedor chica */
+
+
+
+                             /*  Estilos del contenedor puntos */
+.container-puntos {
+  display: flex;
+  justify-content: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.container-puntos-interno {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.ganar-puntos {
+  font-family: lato, sans-serif;
+  font-size: 35px;
+  padding-left: 35px;
+  font-weight: 200;
+  padding-top: 35px;
+
+}
+
+.container-puntos-img {
+  padding-top: 40px;
+}
+
+.tres-imagen-texto {
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+                                          /*stilos de la fuente de puntos*/
+.texto-hazte {
+  font-family: lato, sans-serif;
+  font-size: 20px;
+  width: 47%;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+
+.texto-hazte p {
+  font-size: 20px;
+  font-weight: 200;
+}
+                                        /*fin stilos de la fuente de puntos*/
+
+
+
+.container--registro {
+ align-items: center;
+ margin-left: initial;
+
+}
+
+
+.registe-puntos {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+
+.register {                      /* stilos table en verde para registro */
+  width: 270px;
+  height: 170px;
+  border: 1px solid;
+  border-color: #80A000;
+  border-radius: 6px;
+}
+
+
+.register td {
+  border-radius: 6px;
+  background-color: #80A000;
+}
+
+.text-registro  {
+  font-family: lato, sans-serif;
+  font-size: 15px;
+  color: #fff;
+
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;;;
+}
+
+
+.buttons {
+  width: 200px;
+
+  padding-top: 40px
+}
+
+.registrarse {
+  background-color: inherit;
+
+  padding: 4px 15px 4px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-family: lato, sans-serif;
+}
+
+.registrarse:hover {
+  background-color: #fff;
+  color: #80A000;
+  cursor: pointer;
+}
+
+.iniciar_sesion {
+  background-color: inherit;
+
+  padding: 4px 15px 4px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-family: lato, sans-serif;
+}
+
+.iniciar_sesion:hover {
+  background-color: #fff;
+  color: #80A000;
+  cursor: pointer;
+}
+                                      /* fin stilos table en verde para registro */
+
+                                      /* inicia seccion de generales */
+.generales {
+padding-top: 50px;
+}
+
+.container-generales {
+  display: block;;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-generales-puntos P {
+  font-family: lato, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #80A53D;
+  padding-bottom: 15px;
+}
+
+.container-generales-general {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: lato, sans-serif;
+  font-size: 38px;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.linea-izq hr{
+
+  border: 0;
+  background-color: #80A53D;
+  width: 380px;
+  height: 1px;
+
+}
+
+.contenedor-txt-generales {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.linea-derecha hr{
+  border: 0;
+  background-color: #80A53D;
+  width: 380px;
+  height: 1px;
+
+}
+                                        /* fin seccion de generales */
+
+
+
+.container-tablas-puntos{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+  max-width: 1024px;
+  padding-top: 20px;
+
+}
+
+.container-tablas-puntos-cuadrado{
+  width: 187px;
+  height: 181px;
+  border-spacing: 0px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+
+
+}
+
+.fila-superior {
+
+
+  background-color: #112548;
+
+}
+
+
+.fila-superior td{
+  border-top-right-radius: 4px;
+  border-top-left-radius:  4px;
+}
+.fila-inferior {
+
+  background-color: #3795B6;
+}
+.fila-inferior td {
+  height: 160px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius:  4px;
+
+}
+
+.tex-puntos {
+  font-family: lato, sans-serif;
+  font-size: 13px;
+  padding: 5px;
+  padding-bottom: 16px;
+}
+.tex-puntos1 {
+  font-family: lato, sans-serif;
+  font-size: 13px;
+}
+
+.tamano-img{
+width: 118px;
+height: 89px;
+}
+                                    /*inicia seccion de plan puntos TAPS*/
+
+
+
+
+#container-main{
+	margin:40px auto;
+	width:95%;
+	min-width:320px;
+	max-width:1024px;
+  padding-bottom: 30px;
+}
+
+#container-main h1{
+	font-size: 40px;
+
+}
+
+
+.accordion-container {
+	width: 100%;
+	margin: 0 0 1px;
+	clear:both;
+}
+
+
+.accordion-titulo {
+	position: relative;
+	display: block;
+	padding: 20px;
+	font-size: 24px;
+  font-family: lato,sans-serif;
+	font-weight: 300;
+	background: #2c3e50;
+	color: #fff;
+	text-decoration: none;
+}
+.accordion-titulo.open {
+	background: #16a085;
+	color: #fff;
+}
+.accordion-titulo:hover {
+	background: #1abc9c;
+}
+
+.accordion-titulo span.toggle-icon:before {
+	content:"+";
+}
+
+.accordion-titulo.open span.toggle-icon:before {
+	content:"-";
+}
+
+.accordion-titulo span.toggle-icon {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.accordion-content {
+	display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+	padding: 20px;
+	overflow: auto;
+}
+
+.accordion--fila-superior{
+  background-color: #373F04;
+  height: 20px;
+}
+
+
+.accordion-fila-inferior{
+  background-color: #B3C642;
+}
+
+#fondo-vip {
+  background-color: #C1BF67;
+}
+
+.ccordion-tamano-img {
+  padding-top: 5px;
+}
+
+.vigencia {
+  text-align: center;
+  font-family: lato, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.accordion-content-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+
+}
+
+
+.accordeon-tabla {
+margin: 3px;
+
+}
+
+.accordion-puntos-img {
+  text-align: center;
+
+}
+
+}
+.accordion-content p{
+	margin:0;
+}
+
+.accordeon-tamano-img  {
+  width: 118px;
+  height: 89px;
+}
+
+
+
+.accordion-content img {
+
+}
+
+
+@media (max-width: 767px) {
+	.accordion-content {
+		padding: 10px 0;
+	}
+}
+
+
+
+                                   /* FIN  seccion de plan puntos TAPS*/
+
+
+                                    /*  inicia Stilos seccion app*/
+.container-tech{
+
+  background-image: url(../images/tech.jpg);
+  background-attachment: fixed;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+
+}
+
+.container-descargas-app{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+  width: 1024px;
+  min-width: 320px;
+  margin: 0 auto;
+
+}
+
+.container-descarga-store {
+
+    width: 400px;
+    margin: 20px;
+}
+
+.texto-app {
+  font-family: lato, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 60px;
+
+
+}
+
+.container-descarga-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.playstore {
+  width: 160px;
+
+}
+.container-mano-app {
+
+  width: 400px;
+  margin: 20px;
+  padding-top: 2px;
+}
+.container-mano-app img{
+  width: 239px;
+  padding-left: 180px;
+
+}
+                                    /* fin Stilos seccion app*/
+.footer-seccion{
+  background-color: #253341;
+  width: 100%;
+
+
+
+}
+
+.footer-seccion-div{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.footer-info {
+
+  width: auto;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: lato, sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 100;
+
+}
+
+.footer-info ul {
+list-style-type: circle;
+color: #B3C642;
+padding-left: 20px;
+padding-top: 25px;
+
+
+
+}
+
+.lista {
+  margin-bottom: 10px;
+  text-align: justify;
+  width: 300px;
+}
+
+span {
+  color: #ffffff;
+
+}
+.footer-redes {
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.redes-sociales-container {
+  display: flex;
+  justify-content: space-around;
+  width: 210px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-form{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 6px;
+}
+
+.entrada {
+  margin-top: 4px;
+  margin-bottom: 4px;
+
+}
+
+
+.buton1 {
+  width: 90px;
+
+}
+
+
+                                                /* media queries*/
+
+
+@media screen and (max-width: 1224px){
+  .linea-derecha hr{
+    width: 200px;
+  }
+
+  .linea-izq hr{
+    width: 200px;
+  }
+}
+
+
+@media screen and (max-width: 1040px){
+
+  .container-n{
+    width: 800px;
+  }
+  .container-tech{
+    height: 534px;
+  }
+  .container-mano-app {
+    padding-top: 6px;
+  }
+
+  .container-descargas-app {
+    display: block;
+    max-width: 400px;
+  }
+
+  .container-descarga-store {
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    max-width: 1024px;
+  }
+
+
+  .container-mano-app {
+    margin: 0 auto;
+  }
+  .container-mano-app img {
+    padding-left: 100px;
+  }
+
+  .footer-seccion-div {
+    width: 400px;
+  }
+
+  .footer-info {
+    padding-top: 10px;
+  }
+  .footer-redes {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+
+  .container-n{
+    width: 688px;
+  }
+
+
+    .cabecera {
+      background-color: #253341;
+    }
+
+    .buttons1 {
+      position: static;
+      padding-bottom: 20px;
+    }
+
+    .logo--club--img {
+      width: 200px;
+      padding-top: 10px;;
+    }
+
+@media screen and (max-width: 775px){
+
+  .registe-puntos {
+    padding-top: 30px;
+  }
+
+  .linea-derecha hr{
+    width: 70px;
+  }
+
+  .linea-izq hr{
+    width: 70px;
+  }
+
+}
+
+@media screen and (max-width: 760px){
+
+  .container-n{
+    width: 300px;
+  }
+@media screen and (max-width: 700px){
+
+
+  .container-recuadro-img {
+  width: 380px;
+
+  }
+
+
+  .textsorteo1 {
+    font-size: 20px;
+      padding-top: 30px;
+  }
+
+  .textsorteo2 {
+        font-size: 16px;
+          padding-top: 50px;
+  }
+
+  .accordion-titulo{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 570px){
+  .accordion-titulo{
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 531px){
+  .accordion-titulo{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .linea-derecha hr{
+    width: 50px;
+  }
+
+  .cabecera {
+    background-color: #253341;
+  }
+
+  .buttons1 {
+    position: static;
+    padding-bottom: 20px;
+  }
+
+  .logo--club--img {
+    width: 150px;
+    padding-top: 10px;;
+  }
+
+
+  .linea-izq hr{
+    width: 50px;
+  }
+
+  .link-videos-texto {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 460px){
+  .accordion-titulo{
+    font-size:18px;
+  }
+}
+
+
+@media screen and (max-width: 420px){
+  .accordion-titulo{
+    font-size:21px;
+  }
+}
+
+                                        /* media queries de TAPS*/
+@media screen and (max-width: 1285px){
+  .width-input {
+    width: 180px;
+    font-size: 14px;
+  }
+
+  .container--taps{
+    width: 805px;
+}
+
+
+@media screen and (max-width: 1011px){
+  .width-input {
+    width: 106px;
+    font-size: 12px;
+  }
+
+
+  .container--taps{
+    width: 585px;
+  }
+
+}
+
+@media screen and (max-width: 770px){
+  .width-input {
+    width: 64px;
+    font-size: 12px;
+  }
+
+
+  .container--taps{
+    width: 380px;
+  }
+
+}
+
+@media screen and (max-width: 732px){
+  .width-input {
+    width: 250px;
+    font-size: 12px;
+  }
+
+
+  .container--taps{
+    width: 380px;
+  }
+
+}
+
+@media screen and (max-width: 474px){
+  .width-input {
+    width: 30px;
+    font-size: 11px;
+  }
+
+
+  .container--taps{
+    width: 250px;
+  }
+
+}
+
+
+                                        /* fin media queries de TAPS*/

@@ -73,3 +73,10 @@ margin-left: calc(100vw / 2 - 100px);
   display: table-cell;
 
 }
+
+
+ @media screen (max-width: 800px){
+   body {
+     background-color: #000;
+   }
+ }
