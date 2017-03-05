@@ -1,0 +1,436 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.imagen-bogota {
+  background-image: url(../images/bogota/bogota1.jpg);
+  background-repeat: no-repeat;
+}
+
+.container-bogota {
+
+  border: solid 1px red;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1024px;
+  height: 450px;
+}
+
+
+.container-section2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+}
+
+.container-recuadro-img {
+  padding-top: 18px;
+}
+
+.container-cuadro-texto {
+  position: absolute;
+  top:130;
+  width: 708px;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: lato, sans-serif;
+
+}
+
+.textsorteo {
+  color: #84C546;
+  padding-bottom: 35px;
+}
+
+.textsorteo2 {
+  color: #ffffff;
+  padding-bottom: 35px;
+}
+.container-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo--club{
+  position: absolute;
+}
+
+.logo--club--img{
+  width: 200px;
+}
+
+
+                                        /*stilos de botones*/
+
+.buttons1 {       /* estilos de botones  header*/
+  margin: 0;
+  padding-right: 10px;
+  padding-top: 25px;
+  text-align: right;
+  width: auto;
+  position: absolute;
+  z-index: 999;
+  right: 0;
+
+}
+.registrarse {
+  padding: 4px 30px 4px 30px;
+  background-color: inherit;
+  border: solid 1px;
+  border-color: #fff;
+  border-radius: 14px;
+  font-family: lato, sans serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+.registrarse:hover {
+  background-color: #ffffff;
+  color: #80A000;
+  cursor: pointer;
+}
+
+
+.iniciar_sesion {
+  padding: 4px 30px 4px 30px;
+  background-color: inherit;
+  border: solid 1px;
+  border-color: #ffffff;
+  border-radius: 14px;
+  font-family: lato, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.iniciar_sesion:hover {
+  background-color: #ffffff;
+  color: #80A000;
+  cursor: pointer;
+}
+
+.iniciar_sesion a active{
+  border-color: #80A000;
+
+}                         /* fin estilos de botones header */
+
+
+                                        /*fin stilos botones*/
+@media screen and (max-width: 3000px){
+
+.imagen-bogota {
+ background-image: url(../images/bogota/bogota2.jpg);
+ }
+
+}
+
+@media screen and (max-width: 1920px){
+
+.imagen-bogota {
+ background-image: url(../images/bogota/bogota1.jpg);
+ }
+
+}
+
+@media screen and (max-width: 1000px){
+
+    .cabecera {
+      background-color: #253341;
+    }
+
+    .buttons1 {
+      position: static;
+      padding-bottom: 20px;
+    }
+
+    .logo--club--img {
+      width: 200px;
+      padding-top: 10px;
+    }
+  }
+
+    /*inicia seccion de acordeon*/
+
+
+#container-main{
+	margin:40px auto;
+	width:95%;
+	min-width:320px;
+	max-width:1024px;
+  padding-bottom: 30px;
+}
+
+#container-main h1{
+	font-size: 14px;
+}
+
+.accordion-container {
+
+	width: 100%;
+	margin: 0 0 1px;
+	clear:both;
+}
+
+.accordion-titulo {
+	position: relative;
+	display: block;
+	padding: 20px;
+	font-size: 24px;
+  font-family: lato,sans-serif;
+	font-weight: 200;
+	background: #ffffff;
+	color: #2c3e50;
+	text-decoration: none;
+}
+
+.minimizando{
+  width: 60px;
+  padding-right: 10px;
+}
+
+.accordion-titulo p {
+
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+
+.accordion-titulo.open {
+	background: #fafafa;
+	color: #84C546;
+}
+.accordion-titulo:hover {
+	background: #f2f2f2;
+}
+
+.accordion-titulo span.toggle-icon:before {
+	content:"+";
+}
+
+.toggle-icon:before {
+  font-size: 25px;
+}
+.accordion-titulo.open span.toggle-icon:before {
+	content:"-";
+}
+
+.accordion-titulo span.toggle-icon {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.accordion-content {
+  border: solid 1px red;
+	display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+	padding: 20px;
+	overflow: auto;
+}
+
+.accordion--fila-superior{
+  background-color: #373F04;
+  height: 20px;
+}
+
+
+.accordion-fila-inferior{
+  background-color: #B3C642;
+}
+
+#fondo-vip {
+  background-color: #C1BF67;
+}
+
+.ccordion-tamano-img {
+  padding-top: 5px;
+}
+
+.vigencia {
+  text-align: center;
+  font-family: lato, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.accordion-content-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.accordeon-tabla {
+margin: 3px;
+}
+
+.accordion-puntos-img {
+  text-align: center;
+}
+
+
+.accordion-content p{
+	margin:0;
+}
+
+.accordeon-tamano-img  {
+  width: 118px;
+  height: 89px;
+}
+
+.accordion-content img {
+}
+
+
+@media (max-width: 767px) {
+	.accordion-content {
+		padding: 10px 0;
+	}
+}
+
+
+
+/* estilos de accordion interno  alianzas*/
+.accordion1 {
+  width: 340px;
+  margin: 10px auto;;
+}
+
+.ancho-imagen{
+  width: 340px
+}
+.accordion1 h1, h2, h3, h4 {
+  cursor: pointer;
+}
+.accordion1 h2, h3, h4 {
+  font-family: "News Cycle";
+}
+.accordion1 h1 {
+  padding: 10px 20px;
+  background-color: #76B503;
+  font-family: lato,sans-serif;;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #ffffff;
+}
+.accordion1 h1:hover {
+  color: #2c3e50;
+}
+
+.accordion1 h1:first-child {
+  border-radius: 10px 10px 0 0;
+}
+.accordion1 h1:last-of-type {
+  border-radius: 0 0 10px 10px;
+}
+.accordion1 h1:not(:last-of-type) {
+  border-bottom: 1.5px dotted #ffffff;
+}
+.accordion1 div, .accordion1 p {
+  display: none;
+}
+.accordion1 h2 {
+  padding: 5px 25px;
+  background-color: #1abc9c;
+  font-size: 1.1rem;
+  color: #333;
+}
+.accordion1 h2:hover {
+  background-color: #09ab8b;
+}
+.accordion1 h3 {
+  padding: 5px 30px;
+  background-color: #b94152;
+  font-size: .9rem;
+  color: #ddd;
+}
+.accordion1 h3:hover {
+  background-color: #a93142;
+}
+.accordion1 h4 {
+  padding: 5px 35px;
+  background-color: #ffc25a;
+  font-size: .9rem;
+  color: #af720a;
+}
+.accordion1 h4:hover {
+  background-color: #e0b040;
+}
+.accordion1 p {
+  padding: 15px 35px;
+  background-color: #ddd;
+  font-family: lato,sans-serif;
+  font-size: .8rem;
+  color: #333;
+  line-height: 1.3rem;
+}
+.accordion1 .opened-for-codepen {
+  padding: 0;
+  display: block;
+}
+.container-flex{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.imagen-full {
+  padding: 0;
+}
+.tamano-imagen{
+  padding: 0px 0px;
+  width: 380px;
+  }
+
+
+/* Fin de estilos accorderon interno alianzas*/
+
+
+
+
+
+/*  Estilos del contenedor recuadro verde y texto
+.container-imgtext {
+position: relative;
+width: 100%;
+
+}
+
+.textsorteo {
+position: absolute;
+width: 100%;
+text-align: center;
+font-family: lato, sans-serif;
+font-size: 20px;
+color: #84C546;
+}
+
+.textsorteo1 {
+position: absolute;
+width: 100%;
+text-align: center;
+font-family: lato, sans-serif;
+font-size: 30px;
+color: #ffffff;
+padding-top: 50px;
+}
+
+.textsorteo2 {
+position: absolute;
+width: 100%;
+text-align: center;
+font-family: lato, sans-serif;
+font-size: 30px;
+color: #ffffff;
+padding-top: 77px;
+}
+
+/*  Estilos del contenedor recuadro verde y texto */
+
+/* fin Estilos del contenedor chica */

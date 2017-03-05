@@ -1,1 +1,57 @@
-prueba.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>acordeon  espcial</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/br.css">
+  </head>
+<body>
+
+
+
+  <aside class="accordion1">
+    <h1>Empresa</h1>
+      <p class="opened-for-codepen imagen-full"><img  class="ancho-imagen"src="images/q1.jpg" alt=""  class="tamano-imagen"/></p>
+  	<h1 >Actividad</h1>
+  		<p>Accesorios de lujo para vehiculo<p>
+   	<h1>Beneficio</h1>
+  		<p>forros de sientos para carro, con cualquier medio de pago.</p>
+    <h1>Condiciones</h1>
+     	<p>Presentar el carnet del Club Recordar y el documento de identificación.</p>
+    <h1>contacto</h1>
+    	<p>Calle 74 No. 43 - 67 <br> Tel. (5) 356 0194 - 352 8396 - Jorge Perez</p>
+  </aside>
+
+
+  <script>
+  var headers = ["H1","H2","H3","H4","H5","H6"];
+
+$(".accordion1").click(function(e) {
+  var target = e.target,
+      name = target.nodeName.toUpperCase();
+
+  if($.inArray(name,headers) > -1) {
+    var subItem = $(target).next();
+
+    //slideUp all elements (except target) at current depth or greater
+    var depth = $(subItem).parents().length;
+    var allAtDepth = $(".accordion1 p, .accordion1 div").filter(function() {
+      if($(this).parents().length >= depth && this !== subItem.get(0)) {
+        return true;
+      }
+    });
+    $(allAtDepth).slideUp("fast");
+
+    //slideToggle target content and adjust bottom border if necessary
+    subItem.slideToggle("fast",function() {
+        $(".accordion1 :visible:last").css("border-radius","0 0 10px 10px");
+    });
+    $(target).css({"border-bottom-right-radius":"0", "border-bottom-left-radius":"0"});
+  }
+});
+</script>
+</body>
+</html>

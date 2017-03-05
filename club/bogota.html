@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>Alianzas Bogotá</title>
+  <link rel="stylesheet" href="css/bogota.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+</head>
+<body>
+  <section class="cabecera">
+    <figure class="logo--club">
+      <a href="index.html"><img class="logo--club--img" src="images/logo_club.png" alt="logo Club Recordar" /></a>
+    </figure>
+    <div class="buttons1">
+      <a href="https://rn.superlikers.com/signup" target="_blank"><button class="registrarse">Regístrarse</button></a>
+      <a href="https://rn.superlikers.com/login" target="_blank"><button class="iniciar_sesion">Iniciar Sesión</button></a>
+    </div>
+  </section>
+  <header class="imagen-bogota">
+    <div class="container-bogota">
+      <section class="container-section">
+        <div>
+          <article class="articulo-sorteo">
+            <div class="container-imgtext">
+             <figure class="container-recuadro">
+                <div class="container-cuadro-texto">
+                  <h3 class="textsorteo">Alianzas</h3>
+                  <h3  class="textsorteo1"></h3>
+                  <h3  class="textsorteo2">BOGOTÁ</h3>
+                </div>
+                <img class="container-recuadro-img" src="images/recuadro.png" alt="cuadro de texto">
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </header>
+
+                              <!-- fin de contenido del plan puntos-->
+
+<div id="container-main">
+
+
+
+	<div class="accordion-container">
+
+
+         <div class="accordion-titulo">
+            <table>
+               <tr>
+                 <td>
+                   <img  class="minimizando" src="images/asistencia.png" alt="">
+                 </td>
+                 <td>Asistencias<span class="toggle-icon"></span>
+                  <p class="subtitulo">Abogados, Arquitectos, Consultorías, Polígrafo...</p></a>
+                 </td>
+               </tr>
+           </table>
+            </div>
+            <div class="accordion-content">
+              <!--inicia acordion interno aliaza-->
+
+
+              <!--fin acordion interno aliaza-->
+            </div>
+        </div>
+
+          <div class="accordion-titulo">
+               <table>
+                  <tr>
+                    <td>
+                      <img  class="minimizando" src="images/educacion2.png" alt="">
+                    </td>
+                    <td>Educación<span class="toggle-icon"></span>
+                     <p class="subtitulo">Universidades, Colegios, Institutos, Cursos, Asesorías en tareas......</p></a>
+                    </td>
+                  </tr>
+              </table>
+            </div>
+
+
+  		<div class="accordion-content">
+  			<img src="http://e0.365dm.com/15/05/660x350/champions-league-barcelona-bayern-munich-soccer-messi_3299830.jpg?20150506214236" alt=""/>
+  		  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  		</div>
+
+	<div class="accordion-container">
+		<a href="#" class="accordion-titulo">Cristiano<span class="toggle-icon"></span></a>
+		<div class="accordion-content">
+			<img src="http://www.abc.es/Media/201301/10/cristiano-ronaldo--644x362.jpg" alt=""/>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+
+</div>
+
+  <!-- Inicio de javascript para acordeon-->
+  <script type="text/javascript">
+  $(function(){
+    //$("#activo").show();
+  $(".accordion-titulo").click(function(e){
+
+        e.preventDefault();
+
+        var contenido=$(this).next(".accordion-content");
+
+        if(contenido.css("display")=="none"){ //open
+
+          $(".accordion-titulo").removeClass("open");
+          $(".accordion-content").slideUp(550);
+          contenido.slideDown(550);
+          $(this).addClass("open");
+        }
+        else{ //close
+          contenido.slideUp(550);
+          $(this).removeClass("open");
+        }
+
+
+      });
+  });
+  </script>
+
+  <!-- script para contenedor interno-->
+
+  <script>
+  var headers = ["H1","H2","H3","H4","H5","H6"];
+
+  $(".accordion1").click(function(e) {
+  var target = e.target,
+      name = target.nodeName.toUpperCase();
+
+  if($.inArray(name,headers) > -1) {
+    var subItem = $(target).next();
+
+    //slideUp all elements (except target) at current depth or greater
+    var depth = $(subItem).parents().length;
+    var allAtDepth = $(".accordion1 p, .accordion1 div").filter(function() {
+      if($(this).parents().length >= depth && this !== subItem.get(0)) {
+        return true;
+      }
+    });
+    $(allAtDepth).slideUp("fast");
+
+    //slideToggle target content and adjust bottom border if necessary
+    subItem.slideToggle("fast",function() {
+        $(".accordion1 :visible:last").css("border-radius","0 0 10px 10px");
+    });
+    $(target).css({"border-bottom-right-radius":"0", "border-bottom-left-radius":"0"});
+  }
+  });
+  </script>
+
+</body>
+</html>
