@@ -1,185 +1,3477 @@
-* {
-  margin: 0; padding: 0;
-}
-body {
-  font-size: 100%;
+/* Estilos acordion interno de alianzas
+crado por alejandro calderon
+marzo 2017 */
+
+
+
+/* Alianza # 1  adn */
+
+#adn-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
 }
 
-/* Alianza # 1 */
-.accordion1 {
-  width: 340px;
-  margin: 10px auto;;
+#adn-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
 }
 
-.ancho-imagen{
-  width: 340px
-}
-.accordion1 h1, h2, h3, h4 {
-  cursor: pointer;
-}
-.accordion1 h2, h3, h4 {
-  font-family: "News Cycle";
-}
-.accordion1 h1 {
-  padding: 10px 20px;
-  background-color: #76B503;
-  font-family: lato,sans-serif;;
-  font-size: 1rem;
-  font-weight: normal;
-  color: #ffffff;
-}
-.accordion1 h1:hover {
-  color: #2c3e50;
+.adn-container {
+width: 100%;
+margin: 0 0 1px;
 }
 
-.accordion1 h1:first-child {
-  border-radius: 10px 10px 0 0;
-}
-.accordion1 h1:last-of-type {
-  border-radius: 0 0 10px 10px;
-}
-.accordion1 h1:not(:last-of-type) {
-  border-bottom: 1.5px dotted #ffffff;
-}
-.accordion1 div, .accordion1 p {
-  display: none;
-}
-.accordion1 h2 {
-  padding: 5px 25px;
-  background-color: #1abc9c;
-  font-size: 1.1rem;
-  color: #333;
-}
-.accordion1 h2:hover {
-  background-color: #09ab8b;
-}
-.accordion1 h3 {
-  padding: 5px 30px;
-  background-color: #b94152;
-  font-size: .9rem;
-  color: #ddd;
-}
-.accordion1 h3:hover {
-  background-color: #a93142;
-}
-.accordion1 h4 {
-  padding: 5px 35px;
-  background-color: #ffc25a;
-  font-size: .9rem;
-  color: #af720a;
-}
-.accordion1 h4:hover {
-  background-color: #e0b040;
-}
-.accordion1 p {
-  padding: 15px 35px;
-  background-color: #ddd;
-  font-family: lato,sans-serif;
-  font-size: .8rem;
-  color: #333;
-  line-height: 1.3rem;
-}
-.accordion1 .opened-for-codepen {
-  padding: 0;
-  display: block;
+.adn-imagen{
+width: 340px;
 }
 
-.imagen-full {
-  padding: 0;
-}
-.tamano-imagen{
-  padding: 0px 0px;
-  width: 380px;
-  }
-
-/* Alianza # 2 */
-
-.accordion2 {
-  width: 340px;
-  margin: 10px auto;;
+.adn-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
 }
 
-.ancho-imagen{
-  width: 340px
-}
-.accordion2 h1, h2, h3, h4 {
-  cursor: pointer;
-}
-.accordion2 h2, h3, h4 {
-  font-family: "News Cycle";
-}
-.accordion2 h1 {
-  padding: 10px 20px;
-  background-color: #76B503;
-  font-family: lato,sans-serif;
-  font-size: 1rem;
-  font-weight: normal;
-  color: #ffffff;
-}
-.accordion2 h1:hover {
-  color: #2c3e50;
+.adn-titulo.open {
+background: #76B503;
+color: #fff;
 }
 
-.accordion2 h1:first-child {
-  border-radius: 10px 10px 0 0;
+.adn-titulo:hover {
+background: #84C599;
+color: #2c3e50;
 }
-.accordion2 h1:last-of-type {
-  border-radius: 0 0 10px 10px;
+
+.adn-titulo span.toggle-icon1:before {
+content:"+";
 }
-.accordion2 h1:not(:last-of-type) {
-  border-bottom: 1.5px dotted #ffffff;
+
+.adn-titulo.open span.toggle-icon1:before {
+content:"-";
 }
-.accordion2 div, .accordion2 p {
-  display: none;
+
+.adn-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
 }
-.accordion2 h2 {
-  padding: 5px 25px;
-  background-color: #1abc9c;
-  font-size: 1.1rem;
-  color: #333;
+
+.adn-content {
+display: none;
+overflow: auto;
 }
-.accordion2 h2:hover {
-  background-color: #09ab8b;
+
+.adn-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
 }
-.accordion2 h3 {
-  padding: 5px 30px;
-  background-color: #b94152;
-  font-size: .9rem;
-  color: #ddd;
+
+.adn-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
 }
-.accordion2 h3:hover {
-  background-color: #a93142;
+
+
+/* Alianza # 2  central */
+
+#central-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
 }
-.accordion2 h4 {
-  padding: 5px 35px;
-  background-color: #ffc25a;
-  font-size: .9rem;
-  color: #af720a;
+
+#central-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
 }
-.accordion2 h4:hover {
-  background-color: #e0b040;
+
+.central-container {
+width: 100%;
+margin: 0 0 1px;
 }
-.accordion2 p {
-  padding: 15px 35px;
-  background-color: #ddd;
-  font-family: lato,sans-serif;
-  font-size: .8rem;
-  color: #333;
-  line-height: 1.3rem;
+
+.central-imagen{
+width: 340px;
 }
-.accordion2 .opened-for-codepen {
-  padding: 0;
-  display: block;
+
+.central-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
 }
-.container-flex{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+
+.central-titulo.open {
+background: #76B503;
+color: #fff;
 }
-.imagen-full {
-  padding: 0;
+
+.central-titulo:hover {
+background: #84C599;
+color: #2c3e50;
 }
-.tamano-imagen{
-  padding: 0px 0px;
-  width: 380px;
-  }
+
+.central-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.central-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.central-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.central-content {
+display: none;
+overflow: auto;
+}
+
+.central-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.central-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+/* Alianza # 3  cad3 */
+
+#cad3-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#cad3-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.cad3-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.cad3-imagen{
+width: 340px;
+}
+
+.cad3-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.cad3-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.cad3-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.cad3-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.cad3-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.cad3-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.cad3-content {
+display: none;
+overflow: auto;
+}
+
+.cad3-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.cad3-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 4  alfa21 */
+
+#alfa21-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#alfa21-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.alfa21-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.alfa21-imagen{
+width: 340px;
+}
+
+.alfa21-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.alfa21-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.alfa21-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.alfa21-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.alfa21-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.alfa21-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.alfa21-content {
+display: none;
+overflow: auto;
+}
+
+.alfa21-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.alfa21-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 4  cad3 */
+
+#cad3-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#cad3-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.cad3-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.cad3-imagen{
+width: 340px;
+}
+
+.cad3-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.cad3-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.cad3-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.cad3-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.cad3-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.cad3-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.cad3-content {
+display: none;
+overflow: auto;
+}
+
+.cad3-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.cad3-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 4  sanjose */
+
+#sanjose-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#sanjose-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.sanjose-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.sanjose-imagen{
+width: 340px;
+}
+
+.sanjose-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.sanjose-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.sanjose-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.sanjose-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.sanjose-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.sanjose-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.sanjose-content {
+display: none;
+overflow: auto;
+}
+
+.sanjose-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.sanjose-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 5  palco */
+
+#palco-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#palco-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.palco-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.palco-imagen{
+width: 340px;
+}
+
+.palco-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.palco-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.palco-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.palco-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.palco-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.palco-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.palco-content {
+display: none;
+overflow: auto;
+}
+
+.palco-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.palco-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+/* Alianza # 6  trespimientas */
+
+#trespimientas-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#trespimientas-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.trespimientas-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.trespimientas-imagen{
+width: 340px;
+}
+
+.trespimientas-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.trespimientas-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.trespimientas-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.trespimientas-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.trespimientas-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.trespimientas-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.trespimientas-content {
+display: none;
+overflow: auto;
+}
+
+.trespimientas-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.trespimientas-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 7  raclette */
+
+#raclette-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#raclette-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.raclette-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.raclette-imagen{
+width: 340px;
+}
+
+.raclette-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.raclette-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.raclette-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.raclette-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.raclette-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.raclette-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.raclette-content {
+display: none;
+overflow: auto;
+}
+
+.raclette-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.raclette-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+/* Alianza # 8  visa */
+
+#visa-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#visa-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.visa-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.visa-imagen{
+width: 340px;
+}
+
+.visa-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.visa-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.visa-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.visa-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.visa-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.visa-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.visa-content {
+display: none;
+overflow: auto;
+}
+
+.visa-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.visa-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 9 catuai */
+
+#catuai-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#catuai-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.catuai-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.catuai-imagen{
+width: 340px;
+}
+
+.catuai-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.catuai-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.catuai-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.catuai-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.catuai-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.catuai-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.catuai-content {
+display: none;
+overflow: auto;
+}
+
+.catuai-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.catuai-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 10 huertas */
+
+#huertas-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#huertas-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.huertas-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.huertas-imagen{
+width: 340px;
+}
+
+.huertas-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.huertas-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.huertas-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.huertas-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.huertas-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.huertas-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.huertas-content {
+display: none;
+overflow: auto;
+}
+
+.huertas-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.huertas-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 11 green */
+
+#green-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#green-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.green-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.green-imagen{
+width: 340px;
+}
+
+.green-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.green-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.green-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.green-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.green-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.green-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.green-content {
+display: none;
+overflow: auto;
+}
+
+.green-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.green-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+#canfort-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#canfort-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.canfort-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.canfort-imagen{
+width: 340px;
+}
+
+.canfort-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.canfort-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.canfort-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.canfort-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.canfort-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.canfort-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.canfort-content {
+display: none;
+overflow: auto;
+}
+
+.canfort-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.canfort-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 13 mindset2 */
+
+#mindset2-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#mindset2-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.mindset2-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.mindset2-imagen{
+width: 340px;
+}
+
+.mindset2-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.mindset2-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.mindset2-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.mindset2-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.mindset2-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.mindset2-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.mindset2-content {
+display: none;
+overflow: auto;
+}
+
+.mindset2-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.mindset2-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+#mindset2-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#mindset2-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.mindset2-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.mindset2-imagen{
+width: 340px;
+}
+
+.mindset2-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.mindset2-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.mindset2-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.mindset2-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.mindset2-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.mindset2-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.mindset2-content {
+display: none;
+overflow: auto;
+}
+
+.mindset2-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.mindset2-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 14 musicalizate */
+
+#musicalizate-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#musicalizate-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.musicalizate-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.musicalizate-imagen{
+width: 340px;
+}
+
+.musicalizate-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.musicalizate-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.musicalizate-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.musicalizate-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.musicalizate-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.musicalizate-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.musicalizate-content {
+display: none;
+overflow: auto;
+}
+
+.musicalizate-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.musicalizate-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 15 sura */
+
+#sura-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#sura-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.sura-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.sura-imagen{
+width: 340px;
+}
+
+.sura-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.sura-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.sura-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.sura-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.sura-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.sura-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.sura-content {
+display: none;
+overflow: auto;
+}
+
+.sura-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.sura-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+/* Alianza # 16 colturex2 */
+
+#staff-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#staff-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.staff-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.staff-imagen{
+width: 340px;
+}
+
+.staff-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.staff-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.staff-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.staff-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.staff-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.staff-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.staff-content {
+display: none;
+overflow: auto;
+}
+
+.staff-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.staff-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 17 flores */
+
+#flores-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#flores-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.flores-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.flores-imagen{
+width: 340px;
+}
+
+.flores-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.flores-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.flores-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.flores-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.flores-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.flores-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.flores-content {
+display: none;
+overflow: auto;
+}
+
+.flores-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.flores-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 18 son */
+
+#son-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#son-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.son-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.son-imagen{
+width: 340px;
+}
+
+.son-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.son-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.son-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.son-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.son-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.son-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.son-content {
+display: none;
+overflow: auto;
+}
+
+.son-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.son-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/* Alianza # 19 alfa-21 */
+
+#alfa-21-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#alfa-21-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.alfa-21-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.alfa-21-imagen{
+width: 340px;
+}
+
+.alfa-21-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.alfa-21-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.alfa-21-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.alfa-21-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.alfa-21-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.alfa-21-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.alfa-21-content {
+display: none;
+overflow: auto;
+}
+
+.alfa-21-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.alfa-21-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 19 palcopa */
+
+#palcopa-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#palcopa-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.palcopa-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.palcopa-imagen{
+width: 340px;
+}
+
+.palcopa-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.palcopa-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.palcopa-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.palcopa-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.palcopa-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.palcopa-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.palcopa-content {
+display: none;
+overflow: auto;
+}
+
+.palcopa-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.palcopa-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 20 place */
+
+#place-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#place-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.place-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.place-imagen{
+width: 340px;
+}
+
+.place-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.place-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.place-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.place-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.place-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.place-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.place-content {
+display: none;
+overflow: auto;
+}
+
+.place-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.place-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 21 arte */
+
+#arte-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#arte-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.arte-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.arte-imagen{
+width: 340px;
+}
+
+.arte-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.arte-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.arte-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.arte-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.arte-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.arte-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.arte-content {
+display: none;
+overflow: auto;
+}
+
+.arte-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.arte-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+/* Alianza # 22 sonria2 */
+
+#sonria2-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#sonria2-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.sonria2-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.sonria2-imagen{
+width: 340px;
+}
+
+.sonria2-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.sonria2-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.sonria2-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.sonria2-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.sonria2-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.sonria2-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.sonria2-content {
+display: none;
+overflow: auto;
+}
+
+.sonria2-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.sonria2-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 23 gonzalo */
+
+#gonzalo-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#gonzalo-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.gonzalo-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.gonzalo-imagen{
+width: 340px;
+}
+
+.gonzalo-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.gonzalo-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.gonzalo-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.gonzalo-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.gonzalo-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.gonzalo-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.gonzalo-content {
+display: none;
+overflow: auto;
+}
+
+.gonzalo-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.gonzalo-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 24 aguilar */
+
+#aguilar-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#aguilar-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.aguilar-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.aguilar-imagen{
+width: 340px;
+}
+
+.aguilar-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.aguilar-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.aguilar-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.aguilar-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.aguilar-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.aguilar-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.aguilar-content {
+display: none;
+overflow: auto;
+}
+
+.aguilar-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.aguilar-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 25 colturex */
+
+#colturex-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#colturex-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.colturex-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.colturex-imagen{
+width: 340px;
+}
+
+.colturex-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.colturex-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.colturex-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.colturex-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.colturex-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.colturex-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.colturex-content {
+display: none;
+overflow: auto;
+}
+
+.colturex-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.colturex-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/* Alianza # 26 trespimientas2 */
+
+#trespimientas2-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#trespimientas2-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.trespimientas2-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.trespimientas2-imagen{
+width: 340px;
+}
+
+.trespimientas2-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.trespimientas2-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.trespimientas2-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.trespimientas2-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.trespimientas2-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.trespimientas2-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.trespimientas2-content {
+display: none;
+overflow: auto;
+}
+
+.trespimientas2-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.trespimientas2-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 27 alf21 */
+
+#alf21-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#alf21-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.alf21-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.alf21-imagen{
+width: 340px;
+}
+
+.alf21-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.alf21-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.alf21-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.alf21-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.alf21-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.alf21-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.alf21-content {
+display: none;
+overflow: auto;
+}
+
+.alf21-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.alf21-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+/* Alianza # 28  */
+
+#cad4-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#cad4-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.cad4-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.cad4-imagen{
+width: 340px;
+}
+
+.cad4-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.cad4-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.cad4-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.cad4-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.cad4-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.cad4-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.cad4-content {
+display: none;
+overflow: auto;
+}
+
+.cad4-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.cad4-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 28 coffeex */
+
+#coffeex-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#coffeex-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.coffeex-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.coffeex-imagen{
+width: 340px;
+}
+
+.coffeex-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.coffeex-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.coffeex-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.coffeex-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.coffeex-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.coffeex-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.coffeex-content {
+display: none;
+overflow: auto;
+}
+
+.coffeex-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.coffeex-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 29 mindset3 */
+
+#mindset3-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#mindset3-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.mindset3-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.mindset3-imagen{
+width: 340px;
+}
+
+.mindset3-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.mindset3-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.mindset3-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.mindset3-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.mindset3-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.mindset3-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.mindset3-content {
+display: none;
+overflow: auto;
+}
+
+.mindset3-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.mindset3-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 30 sin-visa */
+
+#sin-visa-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#sin-visa-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.sin-visa-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.sin-visa-imagen{
+width: 340px;
+}
+
+.sin-visa-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.sin-visa-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.sin-visa-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.sin-visa-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.sin-visa-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.sin-visa-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.sin-visa-content {
+display: none;
+overflow: auto;
+}
+
+.sin-visa-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.sin-visa-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+/* Alianza # 31 catuai3 */
+
+#catuai3-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#catuai3-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.catuai3-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.catuai3-imagen{
+width: 340px;
+}
+
+.catuai3-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.catuai3-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.catuai3-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.catuai3-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.catuai3-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.catuai3-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.catuai3-content {
+display: none;
+overflow: auto;
+}
+
+.catuai3-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.catuai3-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 32 central3 */
+
+#central3-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#central3-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.central3-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.central3-imagen{
+width: 340px;
+}
+
+.central3-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.central3-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.central3-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.central3-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.central3-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.central3-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.central3-content {
+display: none;
+overflow: auto;
+}
+
+.central3-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.central3-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 32 central3 */
+
+#central3-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#central3-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.central3-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.central3-imagen{
+width: 340px;
+}
+
+.central3-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.central3-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.central3-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.central3-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.central3-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.central3-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.central3-content {
+display: none;
+overflow: auto;
+}
+
+.central3-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.central3-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+/* Alianza # 33 mindset4 */
+
+#mindset4-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#mindset4-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.mindset4-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.mindset4-imagen{
+width: 340px;
+}
+
+.mindset4-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.mindset4-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.mindset4-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.mindset4-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.mindset4-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.mindset4-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.mindset4-content {
+display: none;
+overflow: auto;
+}
+
+.mindset4-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.mindset4-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 34 egph */
+
+#egph-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#egph-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.egph-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.egph-imagen{
+width: 340px;
+}
+
+.egph-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.egph-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.egph-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.egph-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.egph-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.egph-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.egph-content {
+display: none;
+overflow: auto;
+}
+
+.egph-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.egph-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 35 colturex2 */
+
+#colturex2-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#colturex2-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.colturex2-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.colturex2-imagen{
+width: 340px;
+}
+
+.colturex2-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.colturex2-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.colturex2-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.colturex2-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.colturex2-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.colturex2-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.colturex2-content {
+display: none;
+overflow: auto;
+}
+
+.colturex2-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.colturex2-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 36 colturex2 */
+
+#tecnilimpio-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#tecnilimpio-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.tecnilimpio-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.tecnilimpio-imagen{
+width: 340px;
+}
+
+.tecnilimpio-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.tecnilimpio-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.tecnilimpio-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.tecnilimpio-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.tecnilimpio-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.tecnilimpio-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.tecnilimpio-content {
+display: none;
+overflow: auto;
+}
+
+.tecnilimpio-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.tecnilimpio-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}

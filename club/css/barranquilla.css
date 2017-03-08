@@ -4,7 +4,7 @@
 }
 
 .imagen-bogota {
-  background-image: url(../images/bogota/bogota1.jpg);
+  background-image: url(../images/barranquilla/barranquilla1.jpg);
 
 }
 
@@ -672,7 +672,7 @@ span {
 
     .buttons1 {
       position: static;
-      padding-bottom: 20px;
+      padding-bottom: 25px;
     }
 
     .logo--club--img {
@@ -718,7 +718,7 @@ span {
 
   .buttons1 {
     position: static;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
   }
 
   .logo--club--img {

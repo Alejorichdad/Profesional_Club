@@ -1,0 +1,178 @@
+* {
+  margin: 0; padding: 0;
+}
+body {
+  font-size: 100%;
+}
+
+/* Alianza # 1  cad */
+
+
+
+#cad-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+  background-color: #ddd;
+
+}
+
+#cad-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.cad-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.cad-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.cad-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.cad-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.cad-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.cad-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.cad-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.cad-content {
+	display: none;
+	overflow: auto;
+}
+
+.cad-content p{
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.cad-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+/* Alianza # 1  cad */
+
+
+
+#alfa-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+  background-color: #ddd;
+
+}
+
+#alfa-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.alfa-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.alfa-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.alfa-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.alfa-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.alfa-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.alfa-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.alfa-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.alfa-content {
+	display: none;
+	overflow: auto;
+}
+
+.alfa-content p{
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.alfa-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}

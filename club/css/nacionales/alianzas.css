@@ -1,0 +1,733 @@
+* {
+  margin: 0; padding: 0;
+}
+body {
+  font-size: 100%;
+}
+
+/* Alianza # 1  cad */
+
+
+
+#cad-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#cad-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.cad-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.cad-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.cad-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.cad-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.cad-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.cad-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.cad-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.cad-content {
+	display: none;
+	overflow: auto;
+}
+
+.cad-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.cad-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+#cad-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.cad-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.cad-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.cad-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.cad-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.cad-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.cad-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.cad-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.cad-content {
+	display: none;
+	overflow: auto;
+}
+
+.cad-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.cad-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+/* Alianza # 1  cad */
+
+/*elite */
+
+#elite-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#elite-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.elite-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.elite-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.elite-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.elite-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.elite-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.elite-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.elite-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.elite-content {
+	display: none;
+	overflow: auto;
+}
+
+.elite-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.elite-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+#elite-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.elite-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.elite-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.elite-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.elite-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.elite-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.elite-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.elite-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.elite-content {
+	display: none;
+	overflow: auto;
+}
+
+.elite-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.elite-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+/* Alianza # 2 alfa21*/
+
+#alfa-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+}
+
+#alfa-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+}
+
+.alfa-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.alfa-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.alfa-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.alfa-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.alfa-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.alfa-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.alfa-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.alfa-content {
+	display: none;
+	overflow: auto;
+}
+
+.alfa-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.alfa-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+/* Alianza # 3  mindset */
+
+#mindset-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+}
+
+#mindset-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+}
+
+.mindset-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.mindset-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.mindset-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.mindset-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.mindset-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.mindset-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.mindset-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.mindset-content {
+	display: none;
+	overflow: auto;
+}
+
+.mindset-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.mindset-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+/* Alianza # 4  mindset */
+
+#agn-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+}
+
+#agn-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+}
+
+.agn-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.agn-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.agn-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.agn-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.agn-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.agn-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.agn-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.agn-content {
+	display: none;
+	overflow: auto;
+}
+
+.agn-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.agn-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+/* Alianza # 5  sonria */
+
+#sonria-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+}
+
+#sonria-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+}
+
+.sonria-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.sonria-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.sonria-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.sonria-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.sonria-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.sonria-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.sonria-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.sonria-content {
+	display: none;
+	overflow: auto;
+}
+
+.sonria-content p{
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.sonria-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+/* Alianza # 5  sonria */
+
+#sonria2-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+}
+
+#sonria2-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+}
+
+.sonria2-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.sonria2-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.sonria2-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.sonria2-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.sonria2-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.sonria2-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.sonria2-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.sonria2-content {
+	display: none;
+	overflow: auto;
+}
+
+.sonria2-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.sonria2-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}

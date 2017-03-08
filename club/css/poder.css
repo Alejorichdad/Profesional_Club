@@ -1,0 +1,165 @@
+
+#icontainer-main{
+	margin:40px auto;
+	min-width:320px;
+	max-width:340px;
+  background-color: #ddd;
+
+}
+
+#icontainer-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.iaccordion-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.iaccordion-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.iaccordion-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.iaccordion-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.iaccordion-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.iaccordion-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.iaccordion-titulo span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.iaccordion-content {
+	display: none;
+	overflow: auto;
+}
+
+.iaccordion-content p{
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.iaccordion-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+/*segundo container*/
+
+#icontainer-main1{
+	margin:40px auto;
+	min-width:320px;
+	max-width:340px;
+  background-color: #ddd;
+
+}
+
+#icontainer-main1 h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.iaccordion-container1 {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ancho-imagen{
+  width: 340px;
+}
+
+.iaccordion-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.iaccordion-titulo1.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.iaccordion-titulo1:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.iaccordion-titulo1 span.toggle-icon1:before {
+	content:"+";
+}
+
+.iaccordion-titulo1.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.iaccordion-titulo1 span.toggle-icon1 {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.iaccordion-content1 {
+	display: none;
+	overflow: auto;
+}
+
+.iaccordion-content1 p{
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.iaccordion-content1 img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
