@@ -3394,7 +3394,6 @@ width: 340px;
 height: auto;
 }
 
-
 /* Alianza # 36 colturex2 */
 
 #tecnilimpio-main{
@@ -3470,6 +3469,415 @@ color: #2c3e50;
 }
 
 .tecnilimpio-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+/* Alianza # 37 stage */
+
+#stage-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#stage-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.stage-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.stage-imagen{
+width: 340px;
+}
+
+.stage-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.stage-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.stage-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.stage-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.stage-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.stage-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.stage-content {
+display: none;
+overflow: auto;
+}
+
+.stage-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.stage-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 38 sonria5 */
+
+#sonria5-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#sonria5-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.sonria5-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.sonria5-imagen{
+width: 340px;
+}
+
+.sonria5-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.sonria5-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.sonria5-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.sonria5-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.sonria5-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.sonria5-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.sonria5-content {
+display: none;
+overflow: auto;
+}
+
+.sonria5-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.sonria5-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 39 raclette */
+
+#laraclette-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#laraclette-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.laraclette-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.laraclette-imagen{
+width: 340px;
+}
+
+.laraclette-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.laraclette-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.laraclette-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.laraclette-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.laraclette-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.laraclette-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.laraclette-content {
+display: none;
+overflow: auto;
+}
+
+.laraclette-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.laraclette-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 40 raclette */
+
+#farmaoptica-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#farmaoptica-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.farmaoptica-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.farmaoptica-imagen{
+width: 340px;
+}
+
+.farmaoptica-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.farmaoptica-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.farmaoptica-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.farmaoptica-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.farmaoptica-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.farmaoptica-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.farmaoptica-content {
+display: none;
+overflow: auto;
+}
+
+.farmaoptica-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.farmaoptica-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+/* Alianza # 41 naturalmk */
+
+#naturalmk-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#naturalmk-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.naturalmk-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.naturalmk-imagen{
+width: 340px;
+}
+
+.naturalmk-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.naturalmk-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.naturalmk-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.naturalmk-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.naturalmk-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.naturalmk-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.naturalmk-content {
+display: none;
+overflow: auto;
+}
+
+.naturalmk-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.naturalmk-content img {
 display: block;
 float: left;
 width: 340px;

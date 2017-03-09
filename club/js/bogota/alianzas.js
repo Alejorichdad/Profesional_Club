@@ -963,20 +963,96 @@ $(document).ready(function(){
 
 
 
-  //show tecnilimpio
 
+      //show tecnilimpio
+
+        $(function(){
+        $("#activo62").show();
+        $(".tecnilimpio-titulo").click(function(e){
+
+              e.preventDefault();
+
+              var contenido=$(this).next(".tecnilimpio-content");
+
+              if(contenido.css("display")=="none"){ //open
+
+                $(".tecnilimpio-titulo").removeClass("open");
+                $(".tecnilimpio-content").slideUp(550);
+                contenido.slideDown(550);
+                $(this).addClass("open");
+              }
+              else{ //close
+                contenido.slideUp(550);
+                $(this).removeClass("open");
+              }
+            });
+        });
+
+
+
+
+      //show stage
+        $(function(){
+        $("#activo63").show();
+        $(".stage-titulo").click(function(e){
+
+              e.preventDefault();
+
+              var contenido=$(this).next(".stage-content");
+
+              if(contenido.css("display")=="none"){ //open
+
+                $(".stage-titulo").removeClass("open");
+                $(".stage-content").slideUp(550);
+                contenido.slideDown(550);
+                $(this).addClass("open");
+              }
+              else{ //close
+                contenido.slideUp(550);
+                $(this).removeClass("open");
+              }
+            });
+        });
+
+
+
+      //show sonría
+        $(function(){
+        $("#activo64").show();
+        $(".sonria5-titulo").click(function(e){
+
+              e.preventDefault();
+
+              var contenido=$(this).next(".sonria5-content");
+
+              if(contenido.css("display")=="none"){ //open
+
+                $(".sonria5-titulo").removeClass("open");
+                $(".sonria5-content").slideUp(550);
+                contenido.slideDown(550);
+                $(this).addClass("open");
+              }
+              else{ //close
+                contenido.slideUp(550);
+                $(this).removeClass("open");
+              }
+            });
+        });
+
+
+  //show la raclette
     $(function(){
-    $("#activo62").show();
-    $(".tecnilimpio-titulo").click(function(e){
+    $("#activo65").show();
+    $(".laraclette-titulo").click(function(e){
 
           e.preventDefault();
 
-          var contenido=$(this).next(".tecnilimpio-content");
+          var contenido=$(this).next(".laraclette-content");
 
           if(contenido.css("display")=="none"){ //open
 
-            $(".tecnilimpio-titulo").removeClass("open");
-            $(".tecnilimpio-content").slideUp(550);
+            $(".laraclette-titulo").removeClass("open");
+            $(".laraclette-content").slideUp(550);
             contenido.slideDown(550);
             $(this).addClass("open");
           }
@@ -987,6 +1063,56 @@ $(document).ready(function(){
         });
     });
 
+
+
+    //show farma óptica
+
+      $(function(){
+      $("#activo66").show();
+      $(".farmaoptica-titulo").click(function(e){
+
+            e.preventDefault();
+
+            var contenido=$(this).next(".farmaoptica-content");
+
+            if(contenido.css("display")=="none"){ //open
+
+              $(".farmaoptica-titulo").removeClass("open");
+              $(".farmaoptica-content").slideUp(550);
+              contenido.slideDown(550);
+              $(this).addClass("open");
+            }
+            else{ //close
+              contenido.slideUp(550);
+              $(this).removeClass("open");
+            }
+          });
+      });
+
+
+    //show farma óptica
+
+      $(function(){
+      $("#activo67").show();
+      $(".naturalmk-titulo").click(function(e){
+
+            e.preventDefault();
+
+            var contenido=$(this).next(".naturalmk-content");
+
+            if(contenido.css("display")=="none"){ //open
+
+              $(".naturalmk-titulo").removeClass("open");
+              $(".naturalmk-content").slideUp(550);
+              contenido.slideDown(550);
+              $(this).addClass("open");
+            }
+            else{ //close
+              contenido.slideUp(550);
+              $(this).removeClass("open");
+            }
+          });
+      });
 
 
 
