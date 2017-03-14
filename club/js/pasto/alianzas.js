@@ -1,60 +1,164 @@
 
-
-
 $(document).ready(function(){
 
-var headers = ["H1","H2","H3","H4","H5","H6"];
 
-$(".accordion1").click(function(e) {
-var target = e.target,
-    name = target.nodeName.toUpperCase();
 
-if($.inArray(name,headers) > -1) {
-  var subItem = $(target).next();
 
-  //slideUp all elements (except target) at current depth or greater
-  var depth = $(subItem).parents().length;
-  var allAtDepth = $(".accordion1 p, .accordion1 div").filter(function() {
-    if($(this).parents().length >= depth && this !== subItem.get(0)) {
-      return true;
-    }
-  });
-  $(allAtDepth).slideUp("fast");
+$(function(){
+$("#activo132").show();
+$(".xilon-titulo").click(function(e){
 
-  //slideToggle target content and adjust bottom border if necessary
-  subItem.slideToggle("fast",function() {
-      $(".accordion1 :visible:last").css("border-radius","0 0 10px 10px");
-  });
-  $(target).css({"border-bottom-right-radius":"0", "border-bottom-left-radius":"0"});
+e.preventDefault();
+
+var contenido=$(this).next(".xilon-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".xilon-titulo").removeClass("open");
+$(".xilon-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
 }
 });
+});
 
-//ALIANZAS # 2
 
-var headers = ["H1","H2","H3","H4","H5","H6"];
 
-$(".accordion2").click(function(e) {
-var target = e.target,
-    name = target.nodeName.toUpperCase();
+//bater
 
-if($.inArray(name,headers) > -1) {
-  var subItem = $(target).next();
+$(function(){
+$("#activo133").show();
+$(".bater-titulo").click(function(e){
 
-  //slideUp all elements (except target) at current depth or greater
-  var depth = $(subItem).parents().length;
-  var allAtDepth = $(".accordion2 p, .accordion2 div").filter(function() {
-    if($(this).parents().length >= depth && this !== subItem.get(0)) {
-      return true;
-    }
-  });
-  $(allAtDepth).slideUp("fast");
+e.preventDefault();
 
-  //slideToggle target content and adjust bottom border if necessary
-  subItem.slideToggle("fast",function() {
-      $(".accordion2 :visible:last").css("border-radius","0 0 10px 10px");
-  });
-  $(target).css({"border-bottom-right-radius":"0", "border-bottom-left-radius":"0"});
+var contenido=$(this).next(".bater-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".bater-titulo").removeClass("open");
+$(".bater-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
 }
 });
+});
+
+
+
+
+//cero
+
+$(function(){
+$("#activo134").show();
+$(".cero-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".cero-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".cero-titulo").removeClass("open");
+$(".cero-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//riviera
+
+$(function(){
+$("#activo135").show();
+$(".riviera-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".riviera-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".riviera-titulo").removeClass("open");
+$(".riviera-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//sonrisas sanas
+
+$(function(){
+$("#activo140").show();
+$(".son-risas-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".son-risas-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".son-risas-titulo").removeClass("open");
+$(".son-risas-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+//sonrisas sanas
+
+$(function(){
+$("#activo141").show();
+$(".saul-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".saul-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".saul-titulo").removeClass("open");
+$(".saul-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
 
 });

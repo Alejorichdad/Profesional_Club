@@ -4,7 +4,15 @@
 }
 
 .imagen-bogota {
-  background-image: url(../images/bogota/bogota1.jpg);
+  background-image: url(../images/cartagena/bg1920.jpg);
+
+}
+
+@media screen and (max-width: 1366px){
+
+  .imagen-bogota{
+      background-image: url(../images/cartagena/bg1366.jpg);
+  }
 
 }
 
@@ -70,7 +78,7 @@
 .buttons1 {       /* estilos de botones  header*/
   margin: 0;
   padding-right: 10px;
-  padding-top: 20px;
+  padding-top: 22px;
   text-align: right;
   width: auto;
   position: absolute;

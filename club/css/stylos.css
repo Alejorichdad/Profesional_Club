@@ -1,5 +1,6 @@
 
 * {
+
 margin: 0;
 padding: 0;
 }
@@ -84,7 +85,7 @@ body {
 
   max-width: 1024px;
   margin: 0 auto;
-  padding-top: 10px;
+  padding-top: 20px;
 
 }
 .link-videos-texto {
@@ -310,17 +311,18 @@ body {
   font-family: lato, sans-serif;
   font-size: 30px;
   color: #ffffff;
-  padding-top: 50px;
+  padding-top: 53px;
 }
 
 .textsorteo2 {
   position: absolute;
   width: 100%;
   text-align: center;
+  font-weight: 200;
   font-family: lato, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: #ffffff;
-  padding-top: 77px;
+  padding-top: 85px;
 }
 .container-recuadro-img {
   padding-top: 10px;
@@ -466,7 +468,8 @@ body {
 
                                       /* inicia seccion de generales */
 .generales {
-padding-top: 50px;
+
+padding-top: 25px;
 }
 
 .container-generales {
@@ -481,7 +484,7 @@ padding-top: 50px;
   font-size: 15px;
   font-weight: bold;
   color: #80A53D;
-  padding-bottom: 15px;
+  padding-bottom: px;
 }
 
 .container-generales-general {
@@ -492,7 +495,7 @@ padding-top: 50px;
   font-size: 38px;
   align-items: center;
   width: 100%;
-  padding-top: 15px;
+
 }
 
 .linea-izq hr{
@@ -507,6 +510,7 @@ padding-top: 50px;
 .contenedor-txt-generales {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 10px;
 }
 
 .linea-derecha hr{
@@ -568,7 +572,6 @@ padding-top: 50px;
 .tex-puntos {
   font-family: lato, sans-serif;
   font-size: 13px;
-  padding: 5px;
   padding-bottom: 16px;
 }
 .tex-puntos1 {
@@ -577,8 +580,8 @@ padding-top: 50px;
 }
 
 .tamano-img{
-width: 118px;
-height: 89px;
+width: 109px;
+height: 80px;
 }
                                     /*inicia seccion de plan puntos TAPS*/
 
@@ -586,7 +589,7 @@ height: 89px;
 
 
 #container-main{
-	margin:40px auto;
+	margin:30px auto;
 	width:95%;
 	min-width:320px;
 	max-width:1024px;
@@ -722,26 +725,28 @@ margin: 3px;
 
 
                                     /*  inicia Stilos seccion app*/
+
+
 .container-tech{
 
   background-image: url(../images/tech.jpg);
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: center;
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 300px;
+  height: 306px;
   margin: 0 auto;
 
 }
+
+
 
 .container-descargas-app{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
-
-  width: 1024px;
+  max-width: 1024px;
   min-width: 320px;
   margin: 0 auto;
 
@@ -779,11 +784,11 @@ margin: 3px;
 
   width: 400px;
   margin: 20px;
-  padding-top: 2px;
+
 }
 .container-mano-app img{
   width: 239px;
-  padding-left: 180px;
+  padding-left: 100px;
 
 }
                                     /* fin Stilos seccion app*/
@@ -890,6 +895,13 @@ span {
                                                 /* media queries*/
 
 
+
+
+
+@media screen and (max-width: 1366px){
+  .container-tech{
+    background-image: url(../images/tech2.jpg);
+}
 @media screen and (max-width: 1224px){
   .linea-derecha hr{
     width: 200px;
@@ -915,12 +927,13 @@ span {
 
   .container-descargas-app {
     display: block;
-    max-width: 400px;
+    max-width: 800px;
+    justify-content: center;
   }
 
   .container-descarga-store {
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 31px;
     padding-bottom: 20px;
     max-width: 1024px;
   }
@@ -968,6 +981,11 @@ span {
       padding-top: 5px;
     }
 
+    .container-descargas-app {
+      display: block;
+      max-width: 600px;
+    }
+
 @media screen and (max-width: 775px){
 
   .registe-puntos {
@@ -1005,7 +1023,8 @@ span {
 
   .textsorteo2 {
         font-size: 16px;
-          padding-top: 50px;
+        padding-top: 50px;
+
   }
 
   .accordion-titulo{

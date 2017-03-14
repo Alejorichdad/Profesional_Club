@@ -3,22 +3,22 @@
 
 $(document).ready(function(){
 
-   alert("Hola Mundo!");
+
 
 // - ALIANZA -  CAD -//
 
   $(function(){
-  $("#activo").show();
-  $(".cad-titulo").click(function(e){
+  $("#activoN").show();
+  $(".cad-N-titulo").click(function(e){
 
         e.preventDefault();
 
-        var contenido=$(this).next(".cad-content");
+        var contenido=$(this).next(".cad-N-content");
 
         if(contenido.css("display")=="none"){ //open
 
-          $(".cad-titulo").removeClass("open");
-          $(".cad-content").slideUp(550);
+          $(".cad-N-titulo").removeClass("open");
+          $(".cad-N-content").slideUp(550);
           contenido.slideDown(550);
           $(this).addClass("open");
         }
@@ -30,20 +30,20 @@ $(document).ready(function(){
   });
 
 
-  / - ALIANZA -  CAD -//
+  // - ALIANZA -  ALFA 21 -//
 
     $(function(){
     $("#activo1").show();
-    $(".elite-titulo").click(function(e){
+    $(".alfa-N-titulo").click(function(e){
 
           e.preventDefault();
 
-          var contenido=$(this).next(".elite-content");
+          var contenido=$(this).next(".alfa-N-content");
 
           if(contenido.css("display")=="none"){ //open
 
-            $(".elite-titulo").removeClass("open");
-            $(".elite-content").slideUp(550);
+            $(".alfa-N-titulo").removeClass("open");
+            $(".alfa-N-content").slideUp(550);
             contenido.slideDown(550);
             $(this).addClass("open");
           }
@@ -55,45 +55,21 @@ $(document).ready(function(){
     });
 
 
-// - ALIANZA -  ALFA21 -//
-
-  $(function(){
-  $("#activo1").show();
-  $(".alfa-titulo").click(function(e){
-
-        e.preventDefault();
-
-        var contenido=$(this).next(".alfa-content");
-
-        if(contenido.css("display")=="none"){ //open
-
-          $(".alfa-titulo").removeClass("open");
-          $(".alfa-content").slideUp(550);
-          contenido.slideDown(550);
-          $(this).addClass("open");
-        }
-        else{ //close
-          contenido.slideUp(550);
-          $(this).removeClass("open");
-        }
-
-      });
-  });
 
 // - ALIANZA -  MINSET -//
 
   $(function(){
   $("#activo2").show();
-  $(".mindset-titulo").click(function(e){
+  $(".mindset-N-titulo").click(function(e){
 
         e.preventDefault();
 
-        var contenido=$(this).next(".mindset-content");
+        var contenido=$(this).next(".mindset-N-content");
 
         if(contenido.css("display")=="none"){ //open
 
-          $(".mindset-titulo").removeClass("open");
-          $(".mindset-content").slideUp(550);
+          $(".mindset-N-titulo").removeClass("open");
+          $(".mindset-N-content").slideUp(550);
           contenido.slideDown(550);
           $(this).addClass("open");
         }
@@ -111,16 +87,16 @@ $(document).ready(function(){
 
     $(function(){
     $("#activo3").show();
-    $(".agn-titulo").click(function(e){
+    $(".agn-N-titulo").click(function(e){
 
           e.preventDefault();
 
-          var contenido=$(this).next(".agn-content");
+          var contenido=$(this).next(".agn-N-content");
 
           if(contenido.css("display")=="none"){ //open
 
-            $(".agn-titulo").removeClass("open");
-            $(".agn-content").slideUp(550);
+            $(".agn-N-titulo").removeClass("open");
+            $(".agn-N-content").slideUp(550);
             contenido.slideDown(550);
             $(this).addClass("open");
           }
@@ -136,16 +112,16 @@ $(document).ready(function(){
 
       $(function(){
       $("#activo4").show();
-      $(".sonria-titulo").click(function(e){
+      $(".sonria-N-titulo").click(function(e){
 
             e.preventDefault();
 
-            var contenido=$(this).next(".sonria-content");
+            var contenido=$(this).next(".sonria-N-content");
 
             if(contenido.css("display")=="none"){ //open
 
-              $(".sonria-titulo").removeClass("open");
-              $(".sonria-content").slideUp(550);
+              $(".sonria-N-titulo").removeClass("open");
+              $(".sonria-N-content").slideUp(550);
               contenido.slideDown(550);
               $(this).addClass("open");
             }

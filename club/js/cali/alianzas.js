@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-alert("Hola Mundo!");
 
 
 / - ALIANZA -  humantecnology -//
@@ -470,21 +469,21 @@ $(this).removeClass("open");
 
 
 
-// - ALIANZA -  eylon -//
+// - ALIANZA -  eden-a-h -//
 
 
 $(function(){
 $("#activo87").show();
-$(".eylon-titulo").click(function(e){
+$(".eden-a-h-titulo").click(function(e){
 
 e.preventDefault();
 
-var contenido=$(this).next(".eylon-content");
+var contenido=$(this).next(".eden-a-h-content");
 
 if(contenido.css("display")=="none"){ //open
 
-$(".eylon-titulo").removeClass("open");
-$(".eylon-content").slideUp(550);
+$(".eden-a-h-titulo").removeClass("open");
+$(".eden-a-h-content").slideUp(550);
 contenido.slideDown(550);
 $(this).addClass("open");
 }
@@ -597,6 +596,7 @@ $(this).removeClass("open");
 });
 });
 
+
 // - ALIANZA -  torrecali -//
 
 
@@ -622,6 +622,423 @@ $(this).removeClass("open");
 });
 });
 
+
+// - ALIANZA -  lago grande -//
+
+
+$(function(){
+$("#activo94").show();
+$(".lagogrande-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".lagogrande-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".lagogrande-titulo").removeClass("open");
+$(".lagogrande-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+// - ALIANZA -  lago grande -//
+
+
+$(function(){
+$("#activo95").show();
+$(".yanaco-motor-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".yanaco-motor-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".yanaco-motor-titulo").removeClass("open");
+$(".yanaco-motor-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+// - ALIANZA -  lago grande -//
+
+
+$(function(){
+$("#activo98").show();
+$(".alta-pelq-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".alta-pelq-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".alta-pelq-titulo").removeClass("open");
+$(".alta-pelq-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+// - ALIANZA -  lago grande -//
+
+
+$(function(){
+$("#activo99").show();
+$(".human-tecno-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".human-tecno-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".human-tecno-titulo").removeClass("open");
+$(".human-tecno-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+// - ALIANZA -  korin tours -//
+
+
+$(function(){
+$("#activo100").show();
+$(".korin3-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".korin3-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".korin3-titulo").removeClass("open");
+$(".korin3-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+
+// - ALIANZA -  Ortho Oral -//
+
+
+$(function(){
+$("#activo101").show();
+$(".ortho-o-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".ortho-o-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".ortho-o-titulo").removeClass("open");
+$(".ortho-o-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+// - ALIANZA -  Human Help -//
+
+
+$(function(){
+$("#activo102").show();
+$(".hhelp-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".hhelp-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".hhelp-titulo").removeClass("open");
+$(".hhelp-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+// - ALIANZA -  torre de cali -//
+
+
+$(function(){
+$("#activo103").show();
+$(".torr-cali-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".torr-cali-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".torr-cali-titulo").removeClass("open");
+$(".torr-cali-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+// - ALIANZA -  opti color -//
+
+
+$(function(){
+$("#activo104").show();
+$(".opt-color-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".opt-color-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".opt-color-titulo").removeClass("open");
+$(".opt-color-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+// - ALIANZA -  Extreme world -//
+
+
+$(function(){
+$("#activo105").show();
+$(".Extr-wordl-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".Extr-wordl-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".Extr-wordl-titulo").removeClass("open");
+$(".Extr-wordl-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+// - ALIANZA -  Giant´s gym -//
+
+
+$(function(){
+$("#activo106").show();
+$(".Giants-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".Giants-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".Giants-titulo").removeClass("open");
+$(".Giants-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+// - ALIANZA - CCED -//
+
+
+$(function(){
+$("#activo107").show();
+$(".c-ceed-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".c-ceed-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".c-ceed-titulo").removeClass("open");
+$(".c-ceed-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+// - ALIANZA - elyon-//
+
+
+$(function(){
+$("#activo108").show();
+$(".Ylon-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".Ylon-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".Ylon-titulo").removeClass("open");
+$(".Ylon-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+$(function(){
+$("#activo109").show();
+$(".den-a-h-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".den-a-h-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".den-a-h-titulo").removeClass("open");
+$(".den-a-h-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+// - ALIANZA - dentAH-//
+
+
+$(function(){
+$("#activo110").show();
+$(".c-arva-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".c-arva-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".c-arva-titulo").removeClass("open");
+$(".c-arva-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+// - ALIANZA - carva-//
+
+
+$(function(){
+$("#activo111").show();
+$(".b-nostra-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".b-nostra-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".b-nostra-titulo").removeClass("open");
+$(".b-nostra-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
 
 
 });

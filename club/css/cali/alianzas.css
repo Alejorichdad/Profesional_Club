@@ -1532,31 +1532,31 @@ height: auto;
 }
 
 
-/* Alianza # 16 eylon */
+/* Alianza # 16 eden-a-h */
 
-#eylon-main{
+#eden-a-h-main{
 margin:40px auto;
 min-width:320px;
 width:340px;
 
 }
 
-#eylon-main h1{
+#eden-a-h-main h1{
 font-size: 40px;
 text-shadow:4px 4px 5px #16a085;
 
 }
 
-.eylon-container {
+.eden-a-h-container {
 width: 100%;
 margin: 0 0 1px;
 }
 
-.eylon-imagen{
+.eden-a-h-imagen{
 width: 340px;
 }
 
-.eylon-titulo {
+.eden-a-h-titulo {
 position: relative;
 display: block;
 padding: 10px;
@@ -1568,25 +1568,25 @@ color: #fff;
 text-decoration: none;
 }
 
-.eylon-titulo.open {
+.eden-a-h-titulo.open {
 background: #76B503;
 color: #fff;
 }
 
-.eylon-titulo:hover {
+.eden-a-h-titulo:hover {
 background: #84C599;
 color: #2c3e50;
 }
 
-.eylon-titulo span.toggle-icon1:before {
+.eden-a-h-titulo span.toggle-icon1:before {
 content:"+";
 }
 
-.eylon-titulo.open span.toggle-icon1:before {
+.eden-a-h-titulo.open span.toggle-icon1:before {
 content:"-";
 }
 
-.eylon-titulo span.toggle-icon1 {
+.eden-a-h-titulo span.toggle-icon1 {
 position: abaprisa2ute;
 top: 10px;
 right: 20px;
@@ -1594,12 +1594,12 @@ font-size: 38px;
 font-weight:bold;
 }
 
-.eylon-content {
+.eden-a-h-content {
 display: none;
 overflow: auto;
 }
 
-.eylon-content p{
+.eden-a-h-content p{
 text-align: justify;
 font-size: 15px;
 font-family: lato, sans-serif;
@@ -1608,7 +1608,7 @@ background-color: #ddd;
 color: #2c3e50;
 }
 
-.eylon-content img {
+.eden-a-h-content img {
 display: block;
 float: left;
 width: 340px;
@@ -2029,6 +2029,1361 @@ color: #2c3e50;
 }
 
 .korin-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 23 lago grande */
+
+#lagogrande-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#lagogrande-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.lagogrande-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.lagogrande-imagen{
+width: 340px;
+}
+
+.lagogrande-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.lagogrande-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.lagogrande-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.lagogrande-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.lagogrande-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.lagogrande-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.lagogrande-content {
+display: none;
+overflow: auto;
+}
+
+.lagogrande-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.lagogrande-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 24 lago grande */
+
+#yanaco-motor-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#yanaco-motor-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.yanaco-motor-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.yanaco-motor-imagen{
+width: 340px;
+}
+
+.yanaco-motor-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.yanaco-motor-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.yanaco-motor-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.yanaco-motor-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.yanaco-motor-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.yanaco-motor-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.yanaco-motor-content {
+display: none;
+overflow: auto;
+}
+
+.yanaco-motor-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.yanaco-motor-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 25 Alta peluqeria */
+
+#alta-pelq-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#alta-pelq-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.alta-pelq-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.alta-pelq-imagen{
+width: 340px;
+}
+
+.alta-pelq-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.alta-pelq-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.alta-pelq-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.alta-pelq-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.alta-pelq-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.alta-pelq-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.alta-pelq-content {
+display: none;
+overflow: auto;
+}
+
+.alta-pelq-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.alta-pelq-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 25 Alta peluqeria */
+
+#human-tecno-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#human-tecno-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.human-tecno-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.human-tecno-imagen{
+width: 340px;
+}
+
+.human-tecno-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.human-tecno-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.human-tecno-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.human-tecno-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.human-tecno-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.human-tecno-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.human-tecno-content {
+display: none;
+overflow: auto;
+}
+
+.human-tecno-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.human-tecno-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 22 torrecali */
+
+#korin3-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#korin3-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.korin3-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.korin3-imagen{
+width: 340px;
+}
+
+.korin3-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.korin3-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.korin3-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.korin3-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.korin3-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.korin3-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.korin3-content {
+display: none;
+overflow: auto;
+}
+
+.korin3-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.korin3-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 26 Ortho Oral*/
+
+#ortho-o-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#ortho-o-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.ortho-o-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.ortho-o-imagen{
+width: 340px;
+}
+
+.ortho-o-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.ortho-o-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.ortho-o-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.ortho-o-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.ortho-o-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.ortho-o-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.ortho-o-content {
+display: none;
+overflow: auto;
+}
+
+.ortho-o-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.ortho-o-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 27 hhelp*/
+
+#hhelp-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#hhelp-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.hhelp-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.hhelp-imagen{
+width: 340px;
+}
+
+.hhelp-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.hhelp-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.hhelp-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.hhelp-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.hhelp-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.hhelp-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.hhelp-content {
+display: none;
+overflow: auto;
+}
+
+.hhelp-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.hhelp-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 28 torre-cali*/
+
+#torr-cali-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#torr-cali-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.torr-cali-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.torr-cali-imagen{
+width: 340px;
+}
+
+.torr-cali-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.torr-cali-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.torr-cali-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.torr-cali-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.torr-cali-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.torr-cali-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.torr-cali-content {
+display: none;
+overflow: auto;
+}
+
+.torr-cali-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.torr-cali-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 29 torre-cali*/
+
+#opt-color-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#opt-color-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.opt-color-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.opt-color-imagen{
+width: 340px;
+}
+
+.opt-color-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.opt-color-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.opt-color-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.opt-color-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.opt-color-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.opt-color-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.opt-color-content {
+display: none;
+overflow: auto;
+}
+
+.opt-color-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.opt-color-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 30 extreme world*/
+
+#Extr-wordl-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#Extr-wordl-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.Extr-wordl-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.Extr-wordl-imagen{
+width: 340px;
+}
+
+.Extr-wordl-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.Extr-wordl-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.Extr-wordl-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.Extr-wordl-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.Extr-wordl-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.Extr-wordl-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.Extr-wordl-content {
+display: none;
+overflow: auto;
+}
+
+.Extr-wordl-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.Extr-wordl-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 31 extreme world*/
+
+#Giants-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#Giants-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.Giants-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.Giants-imagen{
+width: 340px;
+}
+
+.Giants-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.Giants-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.Giants-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.Giants-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.Giants-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.Giants-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.Giants-content {
+display: none;
+overflow: auto;
+}
+
+.Giants-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.Giants-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 32 CCED*/
+
+#c-ceed-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#c-ceed-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.c-ceed-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.c-ceed-imagen{
+width: 340px;
+}
+
+.c-ceed-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.c-ceed-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.c-ceed-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.c-ceed-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.c-ceed-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.c-ceed-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.c-ceed-content {
+display: none;
+overflow: auto;
+}
+
+.c-ceed-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.c-ceed-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+/* Alianza # 34 dentAH*/
+
+#Ylon-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#Ylon-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.Ylon-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.Ylon-imagen{
+width: 340px;
+}
+
+.Ylon-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.Ylon-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.Ylon-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.Ylon-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.Ylon-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.Ylon-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.Ylon-content {
+display: none;
+overflow: auto;
+}
+
+.Ylon-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.Ylon-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 34 dentAH*/
+
+#den-a-h-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#den-a-h-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.den-a-h-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.den-a-h-imagen{
+width: 340px;
+}
+
+.den-a-h-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.den-a-h-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.den-a-h-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.den-a-h-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.den-a-h-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.den-a-h-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.den-a-h-content {
+display: none;
+overflow: auto;
+}
+
+.den-a-h-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.den-a-h-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 35 Carva de colombia*/
+
+#c-arva-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#c-arva-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.c-arva-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.c-arva-imagen{
+width: 340px;
+}
+
+.c-arva-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.c-arva-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.c-arva-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.c-arva-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.c-arva-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.c-arva-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.c-arva-content {
+display: none;
+overflow: auto;
+}
+
+.c-arva-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.c-arva-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/* Alianza # 36 Boca Nostra*/
+
+#b-nostra-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#b-nostra-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.b-nostra-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.b-nostra-imagen{
+width: 340px;
+}
+
+.b-nostra-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.b-nostra-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.b-nostra-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.b-nostra-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.b-nostra-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.b-nostra-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.b-nostra-content {
+display: none;
+overflow: auto;
+}
+
+.b-nostra-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.b-nostra-content img {
 display: block;
 float: left;
 width: 340px;

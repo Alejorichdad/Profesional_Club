@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
 
-   alert("Hola Mundo!");
+  
 
 // - ALIANZA -  CARIBE -//
 
