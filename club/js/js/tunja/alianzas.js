@@ -1,0 +1,3 @@
+
+
+//listo para recibir alianzas
