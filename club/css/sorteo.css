@@ -23,6 +23,7 @@ body {
   padding-top: 30px;
 
 }
+
 .logo-club {
   float: left;
   position: absolute;
@@ -39,9 +40,25 @@ body {
 
 
 .sorteo--img {
-  width: 700px;
+  margin: 0 auto;
+  width: 600px;
 }
 
+.sorteo--img--app{
+  display: none;
+  width: 500px;
+}
+
+
+.contenedor--sorteo--app{
+  display: none;
+  margin: auto;
+  width: 500px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+
+}
 
 .item {
                                    /*centrado de items sorteo */
@@ -56,6 +73,8 @@ body {
   margin-top: 20px;
   font-size: 25px;
 }
+
+
 
 
 .linea-derecha {        /* stilos lineas de sorteos anteriore */
@@ -80,12 +99,9 @@ body {
   }
                                /* contenedor condiciones */
 .condiciones {
-
-
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-
   justify-content: center;
   margin: auto;
   background-color: #f2f2f2;
@@ -122,10 +138,6 @@ float: left;
 margin: auto;
 position: relative;
 bottom: 30px;
-
-
-
-
 }
 
 .item--chica {
@@ -137,21 +149,20 @@ bottom: 30px;
 }
 
 .item--img {
-
   margin: auto;
 }
 
 .condiciones--list {
-
   display: block;
   margin: auto;
   padding: 20px 30px 50px 30px;
 }
+
 h2 {                        /* stilos de titulo condiciones*/
   width: 100%;
   padding-top: 20px;
   padding-left:  2px;
-  font-style: lato, Sans serif;
+  font-style: lato, Sans-serif;
 }
 
 .text-green {               /* stilos de parrafo condiciones linea verde */
@@ -174,7 +185,6 @@ span {                            /* recoloreado de texto */
 
 
 .container-tarjeton-titulo {       /* inicia stilos tarjeton titulo */
-
   display: flex;
   max-width: : 1260;
   flex-wrap: wrap;
@@ -219,22 +229,18 @@ span {                            /* recoloreado de texto */
 
 }
 
-.linea-izquierda2{
-  float: inherit;
-  padding-top: 30px;
-  padding-right:  20px;
-}
 
-.linea-derecha2 {
-  float: inherit;
-  padding-top: 30px;
-  padding-left: 20px;
+hr{
+  margin: 25px;
+  border: 0;
+  background-color: #80A53D;
+  width: 280px;
+  height: 1px;
 
 }
 
 .container--registro {
   align-items: center;
-
   margin-left: initial;
   padding-left: 30px;
 }
@@ -323,9 +329,7 @@ table {                      /* stilos table en verde para registro */
 
 .container-5 {                      /* inicia stilos container footer */
   max-width: 1260px;
-
   margin: auto;
-
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -335,7 +339,6 @@ table {                      /* stilos table en verde para registro */
 
 .contacto {
   display: flex;
-
   width: 300px;
   flex-wrap: wrap;
   margin: auto;
@@ -344,7 +347,6 @@ table {                      /* stilos table en verde para registro */
   font-family: lato, sans-serif;
   color: #fff;
   margin: 0;
-
 }
 
 .info {
@@ -374,6 +376,7 @@ table {                      /* stilos table en verde para registro */
   margin: auto;
   margin-bottom: 0;
 }
+
 .formulario {                               /* inicia stilos formulario */
 
   display: block;
@@ -400,19 +403,10 @@ table {                      /* stilos table en verde para registro */
   color: #fff;
 }
 
+
 @media screen and (max-width: 900px) {
 
-  * {
-    margin: 0;
-    padding: 0;
 
-
-  }
-
-  body {
-    font-family: 'Lato', sans-serif;
-
-  }
 
 
   .sorteos-container {
@@ -420,12 +414,10 @@ table {                      /* stilos table en verde para registro */
 
   }
 
-  .sorteo--img {
-  width: 400px;
-  margin-left: 60px;
+
+  .container-5{
+    padding-top: 20px;
   }
-
-
 
   .condiciones {
 
@@ -439,5 +431,40 @@ table {                      /* stilos table en verde para registro */
   }
 
 }
+
+@media screen and (max-width: 700px){
+
+
+.tarjeton--img--1{
+  width: 370px;
+}
+
+hr {
+  width: 50px;
+}
+.sorteo--img {
+  display: none;
+}
+
+.contenedor--sorteo{
+  display: none;
+}
+
+.sorteo--img--app{
+  display: inline-block;
+  width: 350px;
+  text-align: center;
+
+}
+
+.contenedor--sorteo--app{
+  display: inline-block;
+  width: 350px;
+  padding: 0;
+  margin: 0 auto;
+
+
+}
+
 
 }

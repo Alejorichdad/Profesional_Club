@@ -474,6 +474,238 @@ $(this).removeClass("open");
 
 
 
+//pixel studios
 
+$(function(){
+$("#activoc123").show();
+$(".pixel-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".pixel-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".pixel-titulo").removeClass("open");
+$(".pixel-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+//pixel studios
+
+$(function(){
+$("#activoc124").show();
+$(".pixel2-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".pixel2-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".pixel2-titulo").removeClass("open");
+$(".pixel2-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//palma
+
+$(function(){
+$("#activoc125").show();
+$(".palma-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".palma-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".palma-titulo").removeClass("open");
+$(".palma-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+//palma2
+
+$(function(){
+$("#activoc126").show();
+$(".palma2-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".palma2-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".palma2-titulo").removeClass("open");
+$(".palma2-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+//global
+
+$(function(){
+$("#activoc127").show();
+$(".global-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".global-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".global-titulo").removeClass("open");
+$(".global-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+//global2
+
+$(function(){
+$("#activoc128").show();
+$(".global2-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".global2-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".global2-titulo").removeClass("open");
+$(".global2-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//platanal
+
+$(function(){
+$("#activoc130").show();
+$(".platanal-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".platanal-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".platanal-titulo").removeClass("open");
+$(".platanal-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//sonrie
+
+$(function(){
+$("#activoc132").show();
+$(".sonrie-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".sonrie-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".sonrie-titulo").removeClass("open");
+$(".sonrie-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//ardent
+
+$(function(){
+$("#activoc136").show();
+$(".artdent-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".artdent-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".artdent-titulo").removeClass("open");
+$(".artdent-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
 
 });

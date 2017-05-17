@@ -2074,29 +2074,29 @@ width: 340px;
 height: auto;
 }
 
-/* Alianza # 22 sonria2 */
+/* Alianza # 22 sonria2-2 B */
 
-#sonria2-main{
+#sonria2-2-main{
 margin:40px auto;
 min-width:320px;
 width:340px;
 }
 
-#sonria2-main h1{
+#sonria2-2-main h1{
 font-size: 40px;
 text-shadow:4px 4px 5px #16a085;
 }
 
-.sonria2-container {
+.sonria2-2-container {
 width: 100%;
 margin: 0 0 1px;
 }
 
-.sonria2-imagen{
+.sonria2-2-imagen{
 width: 340px;
 }
 
-.sonria2-titulo {
+.sonria2-2-titulo {
 position: relative;
 display: block;
 padding: 10px;
@@ -2108,25 +2108,25 @@ color: #fff;
 text-decoration: none;
 }
 
-.sonria2-titulo.open {
+.sonria2-2-titulo.open {
 background: #76B503;
 color: #fff;
 }
 
-.sonria2-titulo:hover {
+.sonria2-2-titulo:hover {
 background: #84C599;
 color: #2c3e50;
 }
 
-.sonria2-titulo span.toggle-icon1:before {
+.sonria2-2-titulo span.toggle-icon1:before {
 content:"+";
 }
 
-.sonria2-titulo.open span.toggle-icon1:before {
+.sonria2-2-titulo.open span.toggle-icon1:before {
 content:"-";
 }
 
-.sonria2-titulo span.toggle-icon1 {
+.sonria2-2-titulo span.toggle-icon1 {
 position: abaprisa2ute;
 top: 10px;
 right: 20px;
@@ -2134,12 +2134,12 @@ font-size: 38px;
 font-weight:bold;
 }
 
-.sonria2-content {
+.sonria2-2-content {
 display: none;
 overflow: auto;
 }
 
-.sonria2-content p{
+.sonria2-2-content p{
 text-align: justify;
 font-size: 15px;
 font-family: lato, sans-serif;
@@ -2148,7 +2148,7 @@ background-color: #ddd;
 color: #2c3e50;
 }
 
-.sonria2-content img {
+.sonria2-2-content img {
 display: block;
 float: left;
 width: 340px;
@@ -3557,29 +3557,29 @@ height: auto;
 }
 
 
-/* Alianza # 38 sonria5 */
+/* Alianza # 38 sonria5 A*/
 
-#sonria5-main{
+#sonria5-5-main{
 margin:40px auto;
 min-width:320px;
 width:340px;
 }
 
-#sonria5-main h1{
+#sonria5-5-main h1{
 font-size: 40px;
 text-shadow:4px 4px 5px #16a085;
 }
 
-.sonria5-container {
+.sonria5-5-container {
 width: 100%;
 margin: 0 0 1px;
 }
 
-.sonria5-imagen{
+.sonria5-5-imagen{
 width: 340px;
 }
 
-.sonria5-titulo {
+.sonria5-5-titulo {
 position: relative;
 display: block;
 padding: 10px;
@@ -3591,25 +3591,25 @@ color: #fff;
 text-decoration: none;
 }
 
-.sonria5-titulo.open {
+.sonria5-5-titulo.open {
 background: #76B503;
 color: #fff;
 }
 
-.sonria5-titulo:hover {
+.sonria5-5-titulo:hover {
 background: #84C599;
 color: #2c3e50;
 }
 
-.sonria5-titulo span.toggle-icon1:before {
+.sonria5-5-titulo span.toggle-icon1:before {
 content:"+";
 }
 
-.sonria5-titulo.open span.toggle-icon1:before {
+.sonria5-5-titulo.open span.toggle-icon1:before {
 content:"-";
 }
 
-.sonria5-titulo span.toggle-icon1 {
+.sonria5-5-titulo span.toggle-icon1 {
 position: abaprisa2ute;
 top: 10px;
 right: 20px;
@@ -3617,12 +3617,12 @@ font-size: 38px;
 font-weight:bold;
 }
 
-.sonria5-content {
+.sonria5-5-content {
 display: none;
 overflow: auto;
 }
 
-.sonria5-content p{
+.sonria5-5-content p{
 text-align: justify;
 font-size: 15px;
 font-family: lato, sans-serif;
@@ -3631,7 +3631,89 @@ background-color: #ddd;
 color: #2c3e50;
 }
 
-.sonria5-content img {
+.sonria5-5-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 38 sonria-N- A*/
+
+#sonria-4-4-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#sonria-4-4-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.sonria-4-4-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.sonria-4-4-imagen{
+width: 340px;
+}
+
+.sonria-4-4-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.sonria-4-4-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.sonria-4-4-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.sonria-4-4-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.sonria-4-4-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.sonria-4-4-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.sonria-4-4-content {
+display: none;
+overflow: auto;
+}
+
+.sonria-4-4-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.sonria-4-4-content img {
 display: block;
 float: left;
 width: 340px;
@@ -3878,6 +3960,763 @@ color: #2c3e50;
 }
 
 .naturalmk-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 68 3 carites */
+
+#carites-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#carites-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.carites-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.carites-imagen{
+width: 340px;
+}
+
+.carites-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.carites-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.carites-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.carites-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.carites-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.carites-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.carites-content {
+display: none;
+overflow: auto;
+}
+
+.carites-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.carites-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 69 sandrab */
+
+#sandrab-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#sandrab-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.sandrab-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.sandrab-imagen{
+width: 340px;
+}
+
+.sandrab-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.sandrab-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.sandrab-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.sandrab-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.sandrab-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.sandrab-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.sandrab-content {
+display: none;
+overflow: auto;
+}
+
+.sandrab-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.sandrab-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/* Alianza # 70 */
+
+#villadel-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#villadel-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.villadel-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.villadel-imagen{
+width: 340px;
+}
+
+.villadel-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.villadel-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.villadel-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.villadel-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.villadel-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.villadel-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.villadel-content {
+display: none;
+overflow: auto;
+}
+
+.villadel-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.villadel-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 71 */
+
+#zhay-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#zhay-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.zhay-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.zhay-imagen{
+width: 340px;
+}
+
+.zhay-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.zhay-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.zhay-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.zhay-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.zhay-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.zhay-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.zhay-content {
+display: none;
+overflow: auto;
+}
+
+.zhay-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.zhay-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+/* Alianza # 73 */
+
+#bowling-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#bowling-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.bowling-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.bowling-imagen{
+width: 340px;
+}
+
+.bowling-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.bowling-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.bowling-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.bowling-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.bowling-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.bowling-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.bowling-content {
+display: none;
+overflow: auto;
+}
+
+.bowling-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.bowling-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+
+/* Alianza # 74 */
+
+#marbore-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#marbore-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.marbore-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.marbore-imagen{
+width: 340px;
+}
+
+.marbore-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.marbore-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.marbore-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.marbore-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.marbore-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.marbore-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.marbore-content {
+display: none;
+overflow: auto;
+}
+
+.marbore-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.marbore-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 75 */
+
+#francy-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#francy-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.francy-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.francy-imagen{
+width: 340px;
+}
+
+.francy-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.francy-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.francy-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.francy-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.francy-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.francy-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.francy-content {
+display: none;
+overflow: auto;
+}
+
+.francy-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.francy-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+/* Alianza # 76 */
+
+#rehab-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#rehab-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.rehab-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.rehab-imagen{
+width: 340px;
+}
+
+.rehab-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.rehab-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.rehab-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.rehab-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.rehab-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.rehab-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.rehab-content {
+display: none;
+overflow: auto;
+}
+
+.rehab-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.rehab-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+
+
+/* Alianza # 77 */
+
+#ultra-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#ultra-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.ultra-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.ultra-imagen{
+width: 340px;
+}
+
+.ultra-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.ultra-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.ultra-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.ultra-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.ultra-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.ultra-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.ultra-content {
+display: none;
+overflow: auto;
+}
+
+.ultra-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.ultra-content img {
 display: block;
 float: left;
 width: 340px;

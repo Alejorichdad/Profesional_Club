@@ -570,17 +570,17 @@ $(document).ready(function(){
           //show sonria2
 
             $(function(){
-            $("#activo47").show();
-            $(".sonria2-titulo").click(function(e){
+            $("#activos1047").show();
+            $(".sonria2-2-titulo").click(function(e){
 
                   e.preventDefault();
 
-                  var contenido=$(this).next(".sonria2-content");
+                  var contenido=$(this).next(".sonria2-2-content");
 
                   if(contenido.css("display")=="none"){ //open
 
-                    $(".sonria2-titulo").removeClass("open");
-                    $(".sonria2-content").slideUp(550);
+                    $(".sonria2-2-titulo").removeClass("open");
+                    $(".sonria2-2-content").slideUp(550);
                     contenido.slideDown(550);
                     $(this).addClass("open");
                   }
@@ -591,6 +591,30 @@ $(document).ready(function(){
                 });
             });
 
+
+            //show sonria2
+
+              $(function(){
+              $("#activos64").show();
+              $(".sonria5-5-titulo").click(function(e){
+
+                    e.preventDefault();
+
+                    var contenido=$(this).next(".sonria5-5-content");
+
+                    if(contenido.css("display")=="none"){ //open
+
+                      $(".sonria5-5-titulo").removeClass("open");
+                      $(".sonria5-5-content").slideUp(550);
+                      contenido.slideDown(550);
+                      $(this).addClass("open");
+                    }
+                    else{ //close
+                      contenido.slideUp(550);
+                      $(this).removeClass("open");
+                    }
+                  });
+              });
 
             //show gonzalo
 
@@ -1018,17 +1042,17 @@ $(document).ready(function(){
 
       //show sonría
         $(function(){
-        $("#activo64").show();
-        $(".sonria5-titulo").click(function(e){
+        $("#activo-4-4").show();
+        $(".sonria-4-4-titulo").click(function(e){
 
               e.preventDefault();
 
-              var contenido=$(this).next(".sonria5-content");
+              var contenido=$(this).next(".sonria-4-4-content");
 
               if(contenido.css("display")=="none"){ //open
 
-                $(".sonria5-titulo").removeClass("open");
-                $(".sonria5-content").slideUp(550);
+                $(".sonria-4-4-titulo").removeClass("open");
+                $(".sonria-4-4-content").slideUp(550);
                 contenido.slideDown(550);
                 $(this).addClass("open");
               }
@@ -1114,6 +1138,230 @@ $(document).ready(function(){
           });
       });
 
+      //3 carites
 
+        $(function(){
+        $("#activo-carites68").show();
+        $(".carites-titulo").click(function(e){
+
+              e.preventDefault();
+
+              var contenido=$(this).next(".carites-content");
+
+              if(contenido.css("display")=="none"){ //open
+
+                $(".carites-titulo").removeClass("open");
+                $(".carites-content").slideUp(550);
+                contenido.slideDown(550);
+                $(this).addClass("open");
+              }
+              else{ //close
+                contenido.slideUp(550);
+                $(this).removeClass("open");
+              }
+            });
+        });
+
+        //3 sandrab
+
+          $(function(){
+          $("#activo-sandrab69").show();
+          $(".sandrab-titulo").click(function(e){
+
+                e.preventDefault();
+
+                var contenido=$(this).next(".sandrab-content");
+
+                if(contenido.css("display")=="none"){ //open
+
+                  $(".sandrab-titulo").removeClass("open");
+                  $(".sandrab-content").slideUp(550);
+                  contenido.slideDown(550);
+                  $(this).addClass("open");
+                }
+                else{ //close
+                  contenido.slideUp(550);
+                  $(this).removeClass("open");
+                }
+              });
+          });
+
+
+          //3 villadel
+
+            $(function(){
+            $("#activo-villadel70").show();
+            $(".villadel-titulo").click(function(e){
+
+                  e.preventDefault();
+
+                  var contenido=$(this).next(".villadel-content");
+
+                  if(contenido.css("display")=="none"){ //open
+
+                    $(".villadel-titulo").removeClass("open");
+                    $(".villadel-content").slideUp(550);
+                    contenido.slideDown(550);
+                    $(this).addClass("open");
+                  }
+                  else{ //close
+                    contenido.slideUp(550);
+                    $(this).removeClass("open");
+                  }
+                });
+            });
+
+
+            // Bowling star
+
+              $(function(){
+              $("#activo-bowling71").show();
+              $(".bowling-titulo").click(function(e){
+
+                    e.preventDefault();
+
+                    var contenido=$(this).next(".bowling-content");
+
+                    if(contenido.css("display")=="none"){ //open
+
+                      $(".bowling-titulo").removeClass("open");
+                      $(".bowling-content").slideUp(550);
+                      contenido.slideDown(550);
+                      $(this).addClass("open");
+                    }
+                    else{ //close
+                      contenido.slideUp(550);
+                      $(this).removeClass("open");
+                    }
+                  });
+              });
+
+
+              // zhay
+
+                $(function(){
+                $("#activo-zhay73").show();
+                $(".zhay-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".zhay-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".zhay-titulo").removeClass("open");
+                        $(".zhay-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
+
+
+
+                // marbore 74
+
+                  $(function(){
+                  $("#activo-marbore74").show();
+                  $(".marbore-titulo").click(function(e){
+
+                        e.preventDefault();
+
+                        var contenido=$(this).next(".marbore-content");
+
+                        if(contenido.css("display")=="none"){ //open
+
+                          $(".marbore-titulo").removeClass("open");
+                          $(".marbore-content").slideUp(550);
+                          contenido.slideDown(550);
+                          $(this).addClass("open");
+                        }
+                        else{ //close
+                          contenido.slideUp(550);
+                          $(this).removeClass("open");
+                        }
+                      });
+                  });
+
+
+
+                  // francy 75
+
+                    $(function(){
+                    $("#activo-francy-75").show();
+                    $(".francy-titulo").click(function(e){
+
+                          e.preventDefault();
+
+                          var contenido=$(this).next(".francy-content");
+
+                          if(contenido.css("display")=="none"){ //open
+
+                            $(".francy-titulo").removeClass("open");
+                            $(".francy-content").slideUp(550);
+                            contenido.slideDown(550);
+                            $(this).addClass("open");
+                          }
+                          else{ //close
+                            contenido.slideUp(550);
+                            $(this).removeClass("open");
+                          }
+                        });
+                    });
+
+
+                    // rehab 76
+
+                      $(function(){
+                      $("#activo-rehab76").show();
+                      $(".rehab-titulo").click(function(e){
+
+                            e.preventDefault();
+
+                            var contenido=$(this).next(".rehab-content");
+
+                            if(contenido.css("display")=="none"){ //open
+
+                              $(".rehab-titulo").removeClass("open");
+                              $(".rehab-content").slideUp(550);
+                              contenido.slideDown(550);
+                              $(this).addClass("open");
+                            }
+                            else{ //close
+                              contenido.slideUp(550);
+                              $(this).removeClass("open");
+                            }
+                          });
+                      });
+
+
+
+                      // rehab 76
+
+                        $(function(){
+                        $("#activo-ultra77").show();
+                        $(".ultra-titulo").click(function(e){
+
+                              e.preventDefault();
+
+                              var contenido=$(this).next(".ultra-content");
+
+                              if(contenido.css("display")=="none"){ //open
+
+                                $(".ultra-titulo").removeClass("open");
+                                $(".ultra-content").slideUp(550);
+                                contenido.slideDown(550);
+                                $(this).addClass("open");
+                              }
+                              else{ //close
+                                contenido.slideUp(550);
+                                $(this).removeClass("open");
+                              }
+                            });
+                        });
 
   });

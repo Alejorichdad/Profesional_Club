@@ -892,6 +892,23 @@ span {
 }
 
 
+.terminos {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.validation {
+  visibility: hidden;
+  display: none;
+}
+
+
+/*campo validar form para evitar bots*/
+
+
+
+
                                                 /* media queries*/
 
 

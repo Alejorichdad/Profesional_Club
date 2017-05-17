@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
 
-  
+
 
 // - ALIANZA -  CARIBE -//
 
@@ -29,7 +29,33 @@ $(document).ready(function(){
       });
   });
 
-// academia ELITE //
+
+  // - ALIANZA -  CARIBE 2-//
+
+    $(function(){
+    $("#activo-caribe-6").show();
+    $(".caribe3-titulo").click(function(e){
+
+          e.preventDefault();
+
+          var contenido=$(this).next(".caribe3-content");
+
+          if(contenido.css("display")=="none"){ //open
+
+            $(".caribe3-titulo").removeClass("open");
+            $(".caribe3-content").slideUp(550);
+            contenido.slideDown(550);
+            $(this).addClass("open");
+          }
+          else{ //close
+            contenido.slideUp(550);
+            $(this).removeClass("open");
+          }
+        });
+    });
+
+
+// finacademia elite
 
 
 
@@ -130,7 +156,7 @@ $(document).ready(function(){
   });
 
 
-  // La Marina//
+  // La Marina
 
   $(function(){
   $("#activo11").show();
@@ -203,6 +229,55 @@ $(document).ready(function(){
       });
   });
 
+
+
+    // La novasys 2//
+
+    $(function(){
+    $("#activo13-22").show();
+    $(".novasys2-titulo").click(function(e){
+
+          e.preventDefault();
+
+          var contenido=$(this).next(".novasys2-content");
+
+          if(contenido.css("display")=="none"){ //open
+
+            $(".novasys2-titulo").removeClass("open");
+            $(".novasys2-content").slideUp(550);
+            contenido.slideDown(550);
+            $(this).addClass("open");
+          }
+          else{ //close
+            contenido.slideUp(550);
+            $(this).removeClass("open");
+          }
+        });
+    });
+
+    // La novasys 2//
+
+    $(function(){
+    $("#activo13-3").show();
+    $(".novasys3-titulo").click(function(e){
+
+          e.preventDefault();
+
+          var contenido=$(this).next(".novasys3-content");
+
+          if(contenido.css("display")=="none"){ //open
+
+            $(".novasys3-titulo").removeClass("open");
+            $(".novasys3-content").slideUp(550);
+            contenido.slideDown(550);
+            $(this).addClass("open");
+          }
+          else{ //close
+            contenido.slideUp(550);
+            $(this).removeClass("open");
+          }
+        });
+    });
 
 
   // La way//
@@ -428,6 +503,312 @@ $(document).ready(function(){
           }
         });
     });
+
+
+
+    // servimco//
+
+    $(function(){
+    $("#activo150").show();
+    $(".servimco-titulo").click(function(e){
+
+          e.preventDefault();
+
+          var contenido=$(this).next(".servimco-content");
+
+          if(contenido.css("display")=="none"){ //open
+
+            $(".servimco-titulo").removeClass("open");
+            $(".servimco-content").slideUp(550);
+            contenido.slideDown(550);
+            $(this).addClass("open");
+          }
+          else{ //close
+            contenido.slideUp(550);
+            $(this).removeClass("open");
+          }
+        });
+    });
+
+
+
+    // servimco2//
+
+    $(function(){
+    $("#activo152").show();
+    $(".servimco2-titulo").click(function(e){
+
+          e.preventDefault();
+
+          var contenido=$(this).next(".servimco2-content");
+
+          if(contenido.css("display")=="none"){ //open
+
+            $(".servimco2-titulo").removeClass("open");
+            $(".servimco2-content").slideUp(550);
+            contenido.slideDown(550);
+            $(this).addClass("open");
+          }
+          else{ //close
+            contenido.slideUp(550);
+            $(this).removeClass("open");
+          }
+        });
+    });
+
+
+
+    // salon de belleza Yenner//
+
+    $(function(){
+    $("#activo153").show();
+    $(".yeneer-titulo").click(function(e){
+
+          e.preventDefault();
+
+          var contenido=$(this).next(".yeneer-content");
+
+          if(contenido.css("display")=="none"){ //open
+
+            $(".yeneer-titulo").removeClass("open");
+            $(".yeneer-content").slideUp(550);
+            contenido.slideDown(550);
+            $(this).addClass("open");
+          }
+          else{ //close
+            contenido.slideUp(550);
+            $(this).removeClass("open");
+          }
+        });
+    });
+
+
+
+        // LAM//
+
+        $(function(){
+        $("#activo155").show();
+        $(".lam-titulo").click(function(e){
+
+              e.preventDefault();
+
+              var contenido=$(this).next(".lam-content");
+
+              if(contenido.css("display")=="none"){ //open
+
+                $(".lam-titulo").removeClass("open");
+                $(".lam-content").slideUp(550);
+                contenido.slideDown(550);
+                $(this).addClass("open");
+              }
+              else{ //close
+                contenido.slideUp(550);
+                $(this).removeClass("open");
+              }
+            });
+        });
+
+
+        // LAM//
+
+        $(function(){
+        $("#activo156").show();
+        $(".lam2-titulo").click(function(e){
+
+              e.preventDefault();
+
+              var contenido=$(this).next(".lam2-content");
+
+              if(contenido.css("display")=="none"){ //open
+
+                $(".lam2-titulo").removeClass("open");
+                $(".lam2-content").slideUp(550);
+                contenido.slideDown(550);
+                $(this).addClass("open");
+              }
+              else{ //close
+                contenido.slideUp(550);
+                $(this).removeClass("open");
+              }
+            });
+        });
+
+        // La Fabirca//
+
+        $(function(){
+        $("#activo157").show();
+        $(".lafabrica-titulo").click(function(e){
+
+              e.preventDefault();
+
+              var contenido=$(this).next(".lafabrica-content");
+
+              if(contenido.css("display")=="none"){ //open
+
+                $(".lafabrica-titulo").removeClass("open");
+                $(".lafabrica-content").slideUp(550);
+                contenido.slideDown(550);
+                $(this).addClass("open");
+              }
+              else{ //close
+                contenido.slideUp(550);
+                $(this).removeClass("open");
+              }
+            });
+        });
+
+
+        // La Fabirca//
+
+        $(function(){
+        $("#activo158").show();
+        $(".lafabrica2-titulo").click(function(e){
+
+              e.preventDefault();
+
+              var contenido=$(this).next(".lafabrica2-content");
+
+              if(contenido.css("display")=="none"){ //open
+
+                $(".lafabrica2-titulo").removeClass("open");
+                $(".lafabrica2-content").slideUp(550);
+                contenido.slideDown(550);
+                $(this).addClass("open");
+              }
+              else{ //close
+                contenido.slideUp(550);
+                $(this).removeClass("open");
+              }
+            });
+        });
+
+
+
+
+
+        // kurramba//
+
+        $(function(){
+        $("#activo159").show();
+        $(".kurramba-titulo").click(function(e){
+
+              e.preventDefault();
+
+              var contenido=$(this).next(".kurramba-content");
+
+              if(contenido.css("display")=="none"){ //open
+
+                $(".kurramba-titulo").removeClass("open");
+                $(".kurramba-content").slideUp(550);
+                contenido.slideDown(550);
+                $(this).addClass("open");
+              }
+              else{ //close
+                contenido.slideUp(550);
+                $(this).removeClass("open");
+              }
+            });
+        });
+
+
+
+                // Ingeautos//
+
+                $(function(){
+                $("#activo160").show();
+                $(".ingeautos-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".ingeautos-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".ingeautos-titulo").removeClass("open");
+                        $(".ingeautos-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
+
+
+                // Ingeautos2//
+
+                $(function(){
+                $("#activo162").show();
+                $(".ingeautos2-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".ingeautos2-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".ingeautos2-titulo").removeClass("open");
+                        $(".ingeautos2-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
+
+
+                // edwinR//
+
+                $(function(){
+                $("#activo163").show();
+                $(".edwinR-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".edwinR-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".edwinR-titulo").removeClass("open");
+                        $(".edwinR-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
+
+                // edwinR 2//
+
+                $(function(){
+                $("#activo164").show();
+                $(".edwinR2-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".edwinR2-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".edwinR2-titulo").removeClass("open");
+                        $(".edwinR2-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
 
 
 

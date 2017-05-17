@@ -90,6 +90,91 @@ body {
 
 
 
+/* Alianza # 2  caribe */
+
+#caribe3-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#caribe3-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.caribe3-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.caribe3-imagen{
+  width: 340px;
+}
+
+.caribe3-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.caribe3-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.caribe3-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.caribe3-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.caribe3-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.caribe3-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.caribe3-content {
+	display: none;
+	overflow: auto;
+}
+
+.caribe3-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.caribe3-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
 
 /* Alianza # 2  elite */
 
@@ -593,6 +678,8 @@ body {
 }
 
 
+
+
 /* Alianza # 8 novasys */
 
 #novasys-main{
@@ -677,6 +764,177 @@ body {
 }
 
 
+
+
+/* Alianza novasys  2 */
+
+#novasys2-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#novasys2-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.novasys2-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.novasys2-imagen{
+  width: 340px;
+}
+
+.novasys2-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.novasys2-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.novasys2-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.novasys2-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.novasys2-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.novasys2-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.novasys2-content {
+	display: none;
+	overflow: auto;
+}
+
+.novasys2-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.novasys2-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+/* NOVASYS 3*/
+
+
+
+#novasys3-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#novasys3-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.novasys3-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.novasys3-imagen{
+  width: 340px;
+}
+
+.novasys3-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.novasys3-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.novasys3-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.novasys3-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.novasys3-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.novasys3-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.novasys3-content {
+	display: none;
+	overflow: auto;
+}
+
+.novasys3-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.novasys3-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
 
 /* Alianza # 9 way */
 
@@ -1510,6 +1768,1039 @@ body {
 }
 
 .aprisa2-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+/* servimco*/
+
+#servimco-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#servimco-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.servimco-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.servimco-imagen{
+  width: 340px;
+}
+
+.servimco-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.servimco-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.servimco-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.servimco-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.servimco-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.servimco-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.servimco-content {
+	display: none;
+	overflow: auto;
+}
+
+.servimco-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.servimco-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+/* servimco2*/
+
+#servimco2-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#servimco2-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.servimco2-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.servimco2-imagen{
+  width: 340px;
+}
+
+.servimco2-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.servimco2-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.servimco2-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.servimco2-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.servimco2-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.servimco2-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.servimco2-content {
+	display: none;
+	overflow: auto;
+}
+
+.servimco2-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.servimco2-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+/* yeneer*/
+
+#yeneer-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#yeneer-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.yeneer-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.yeneer-imagen{
+  width: 340px;
+}
+
+.yeneer-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.yeneer-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.yeneer-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.yeneer-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.yeneer-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.yeneer-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.yeneer-content {
+	display: none;
+	overflow: auto;
+}
+
+.yeneer-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.yeneer-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+/* LAM*/
+
+#lam2-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#lam2-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.lam2-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.lam2-imagen{
+  width: 340px;
+}
+
+.lam2-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.lam2-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.lam2-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.lam2-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.lam2-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.lam2-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.lam2-content {
+	display: none;
+	overflow: auto;
+}
+
+.lam2-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.lam2-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+
+/* La Fabrica*/
+
+#lafabrica-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#lafabrica-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.lafabrica-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.lafabrica-imagen{
+  width: 340px;
+}
+
+.lafabrica-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.lafabrica-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.lafabrica-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.lafabrica-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.lafabrica-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.lafabrica-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.lafabrica-content {
+	display: none;
+	overflow: auto;
+}
+
+.lafabrica-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.lafabrica-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+
+/* La Fabrica*/
+
+#lafabrica2-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#lafabrica2-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.lafabrica2-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.lafabrica2-imagen{
+  width: 340px;
+}
+
+.lafabrica2-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.lafabrica2-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.lafabrica2-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.lafabrica2-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.lafabrica2-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.lafabrica2-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.lafabrica2-content {
+	display: none;
+	overflow: auto;
+}
+
+.lafabrica2-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.lafabrica2-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+
+
+/* kurramba*/
+
+#kurramba-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#kurramba-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.kurramba-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.kurramba-imagen{
+  width: 340px;
+}
+
+.kurramba-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.kurramba-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.kurramba-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.kurramba-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.kurramba-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.kurramba-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.kurramba-content {
+	display: none;
+	overflow: auto;
+}
+
+.kurramba-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.kurramba-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+
+
+/*ingeautos*/
+
+#ingeautos-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#ingeautos-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.ingeautos-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ingeautos-imagen{
+  width: 340px;
+}
+
+.ingeautos-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.ingeautos-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.ingeautos-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.ingeautos-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.ingeautos-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.ingeautos-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.ingeautos-content {
+	display: none;
+	overflow: auto;
+}
+
+.ingeautos-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.ingeautos-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+
+
+/*ingeautos2*/
+
+#ingeautos2-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#ingeautos2-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.ingeautos2-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.ingeautos2-imagen{
+  width: 340px;
+}
+
+.ingeautos2-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.ingeautos2-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.ingeautos2-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.ingeautos2-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.ingeautos2-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.ingeautos2-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.ingeautos2-content {
+	display: none;
+	overflow: auto;
+}
+
+.ingeautos2-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.ingeautos2-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+/*lam*/
+
+#lam-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#lam-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.lam-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.lam-imagen{
+  width: 340px;
+}
+
+.lam-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.lam-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.lam-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.lam-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.lam-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.lam-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.lam-content {
+	display: none;
+	overflow: auto;
+}
+
+.lam-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.lam-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+
+
+
+/*Edwin Ramos*/
+
+#edwinR-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#edwinR-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.edwinR-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.edwinR-imagen{
+  width: 340px;
+}
+
+.edwinR-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.edwinR-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.edwinR-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.edwinR-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.edwinR-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.edwinR-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.edwinR-content {
+	display: none;
+	overflow: auto;
+}
+
+.edwinR-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.edwinR-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
+
+
+
+/*Edwin Ramos2*/
+
+#edwinR2-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#edwinR2-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.edwinR2-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.edwinR2-imagen{
+  width: 340px;
+}
+
+.edwinR2-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.edwinR2-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.edwinR2-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.edwinR2-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.edwinR2-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.edwinR2-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.edwinR2-content {
+	display: none;
+	overflow: auto;
+}
+
+.edwinR2-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.edwinR2-content img {
 	display: block;
 	float: left;
 	width: 340px;

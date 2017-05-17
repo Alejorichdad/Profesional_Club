@@ -134,6 +134,7 @@ $(this).removeClass("open");
 
 
 
+
 //sonrisas sanas
 
 $(function(){
@@ -148,6 +149,60 @@ if(contenido.css("display")=="none"){ //open
 
 $(".saul-titulo").removeClass("open");
 $(".saul-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//laboratorio ivan becerra
+
+$(function(){
+$("#activo144").show();
+$(".ivanB-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".ivanB-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".ivanB-titulo").removeClass("open");
+$(".ivanB-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+
+//Odonto familiar
+
+$(function(){
+$("#activo146").show();
+$(".odontoFamiliar-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".odontoFamiliar-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".odontoFamiliar-titulo").removeClass("open");
+$(".odontoFamiliar-content").slideUp(550);
 contenido.slideDown(550);
 $(this).addClass("open");
 }

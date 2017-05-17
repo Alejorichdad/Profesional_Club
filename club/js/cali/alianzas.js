@@ -1041,4 +1041,195 @@ $(this).removeClass("open");
 });
 
 
+
+// - santa-//
+
+
+$(function(){
+$("#activocli138").show();
+$(".santa-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".santa-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".santa-titulo").removeClass("open");
+$(".santa-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+// - santa-//
+
+
+$(function(){
+$("#activocli139").show();
+$(".medicalc-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".medicalc-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".medicalc-titulo").removeClass("open");
+$(".medicalc-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+// - ETS-//
+
+
+$(function(){
+$("#activocli140").show();
+  $(".ets-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".ets-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".ets-titulo").removeClass("open");
+  $(".ets-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+// - drumba-//
+
+
+$(function(){
+$("#activocli141").show();
+  $(".drumba-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".drumba-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".drumba-titulo").removeClass("open");
+  $(".drumba-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+// - drumba2-//
+
+
+$(function(){
+$("#activocli142").show();
+  $(".drumba2-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".drumba2-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".drumba2-titulo").removeClass("open");
+  $(".drumba2-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+// - atxel-//
+
+
+$(function(){
+$("#activocli144").show();
+  $(".atxel-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".atxel-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".atxel-titulo").removeClass("open");
+  $(".atxel-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+// - alko-//
+
+
+$(function(){
+$("#activocli145").show();
+  $(".alko-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".alko-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".alko-titulo").removeClass("open");
+  $(".alko-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
 });

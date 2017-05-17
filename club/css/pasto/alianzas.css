@@ -426,7 +426,7 @@ height: auto;
 
 
 
-/*sonrisas*/
+/*hotel don saul*/
 
 #saul-main{
 margin:40px auto;
@@ -503,6 +503,180 @@ color: #2c3e50;
 }
 
 .saul-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/*Ivan becerra*/
+
+#ivanB-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#ivanB-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.ivanB-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.ivanB-imagen{
+width: 340px;
+}
+
+.ivanB-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.ivanB-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.ivanB-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.ivanB-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.ivanB-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.ivanB-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.ivanB-content {
+display: none;
+overflow: auto;
+}
+
+.ivanB-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.ivanB-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+
+/*Odonto Familiar ac*/
+
+#odontoFamiliar-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#odontoFamiliar-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.odontoFamiliar-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.odontoFamiliar-imagen{
+width: 340px;
+}
+
+.odontoFamiliar-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.odontoFamiliar-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.odontoFamiliar-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.odontoFamiliar-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.odontoFamiliar-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.odontoFamiliar-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.odontoFamiliar-content {
+display: none;
+overflow: auto;
+}
+
+.odontoFamiliar-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.odontoFamiliar-content img {
 display: block;
 float: left;
 width: 340px;
