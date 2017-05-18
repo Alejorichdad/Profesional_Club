@@ -114,17 +114,17 @@ $(this).removeClass("open");
 //diagnosticentro
 
 $(function(){
-$("#activo150").show();
-$(".diagnosti-titulo").click(function(e){
+$("#activodiag2").show();
+$(".diagnosti2-titulo").click(function(e){
 
 e.preventDefault();
 
-var contenido=$(this).next(".diagnosti-content");
+var contenido=$(this).next(".diagnosti2-content");
 
 if(contenido.css("display")=="none"){ //open
 
-$(".diagnosti-titulo").removeClass("open");
-$(".diagnosti-content").slideUp(550);
+$(".diagnosti2-titulo").removeClass("open");
+$(".diagnosti2-content").slideUp(550);
 contenido.slideDown(550);
 $(this).addClass("open");
 }
@@ -140,17 +140,17 @@ $(this).removeClass("open");
 //diagnosticentro 2
 
 $(function(){
-$("#activo151").show();
-$(".diagnosti2-titulo").click(function(e){
+$("#activodiag1").show();
+$(".diagnosti1-titulo").click(function(e){
 
 e.preventDefault();
 
-var contenido=$(this).next(".diagnosti-content");
+var contenido=$(this).next(".diagnosti1-content");
 
 if(contenido.css("display")=="none"){ //open
 
-$(".diagnosti2-titulo").removeClass("open");
-$(".diagnosti2-content").slideUp(550);
+$(".diagnosti1-titulo").removeClass("open");
+$(".diagnosti1-content").slideUp(550);
 contenido.slideDown(550);
 $(this).addClass("open");
 }
@@ -319,5 +319,180 @@ $(this).removeClass("open");
 });
 
 
+
+//Hombe
+
+$(function(){
+$("#activohombe").show();
+$(".hombe-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".hombe-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".hombe-titulo").removeClass("open");
+$(".hombe-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+//Hombe
+
+$(function(){
+$("#activocrh").show();
+$(".crh-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".crh-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".crh-titulo").removeClass("open");
+$(".crh-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+//Hoz
+
+$(function(){
+$("#activohoz").show();
+$(".hoz-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".hoz-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".hoz-titulo").removeClass("open");
+$(".hoz-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+//ksai
+
+$(function(){
+$("#activoksai").show();
+$(".ksai-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".ksai-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".ksai-titulo").removeClass("open");
+$(".ksai-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//maranata
+
+$(function(){
+$("#activomara").show();
+$(".maranata-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".maranata-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".maranata-titulo").removeClass("open");
+$(".maranata-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//asadero
+
+$(function(){
+$("#activoasadero").show();
+$(".asadero-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".asadero-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".asadero-titulo").removeClass("open");
+$(".asadero-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+//yeinnys
+
+$(function(){
+$("#activoyeinnys").show();
+$(".yeinnys-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".yeinnys-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".yeinnys-titulo").removeClass("open");
+$(".yeinnys-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
 
 });
