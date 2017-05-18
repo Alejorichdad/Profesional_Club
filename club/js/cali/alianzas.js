@@ -1257,4 +1257,124 @@ $(this).removeClass("open");
 
 
 
+
+$(function(){
+$("#activochambu").show();
+  $(".chambu-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".chambu-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".chambu-titulo").removeClass("open");
+  $(".chambu-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+$(function(){
+$("#activoalcora").show();
+  $(".alcora-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".alcora-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".alcora-titulo").removeClass("open");
+  $(".alcora-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+$(function(){
+$("#activoseven7").show();
+  $(".seven7-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".seven7-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".seven7-titulo").removeClass("open");
+  $(".seven7-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+$(function(){
+$("#activosevenw").show();
+  $(".sevenw-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".sevenw-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".sevenw-titulo").removeClass("open");
+  $(".sevenw-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+$(function(){
+$("#activotheway").show();
+  $(".theway-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".theway-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".theway-titulo").removeClass("open");
+  $(".theway-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
 });

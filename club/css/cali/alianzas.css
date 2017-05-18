@@ -3393,7 +3393,7 @@ height: auto;
 
 
 
-/* Alianza # 36 Boca Nostra*/
+/* Alianza # rocas*/
 
 #rocas-main{
 margin:40px auto;
@@ -3470,6 +3470,435 @@ color: #2c3e50;
 }
 
 .rocas-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # rocas*/
+
+#chambu-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#chambu-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.chambu-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.chambu-imagen{
+width: 340px;
+}
+
+.chambu-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.chambu-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.chambu-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.chambu-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.chambu-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.chambu-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.chambu-content {
+display: none;
+overflow: auto;
+}
+
+.chambu-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.chambu-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/* Alianza # alcora*/
+
+#alcora-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#alcora-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.alcora-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.alcora-imagen{
+width: 340px;
+}
+
+.alcora-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.alcora-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.alcora-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.alcora-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.alcora-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.alcora-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.alcora-content {
+display: none;
+overflow: auto;
+}
+
+.alcora-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.alcora-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+/* Alianza # seven7*/
+
+#seven7-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#seven7-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.seven7-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.seven7-imagen{
+width: 340px;
+}
+
+.seven7-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.seven7-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.seven7-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.seven7-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.seven7-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.seven7-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.seven7-content {
+display: none;
+overflow: auto;
+}
+
+.seven7-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.seven7-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/* Alianza # seven7*/
+
+#sevenw-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#sevenw-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.sevenw-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.sevenw-imagen{
+width: 340px;
+}
+
+.sevenw-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.sevenw-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.sevenw-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.sevenw-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.sevenw-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.sevenw-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.sevenw-content {
+display: none;
+overflow: auto;
+}
+
+.sevenw-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.sevenw-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/* Alianza # seven7*/
+
+#theway-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#theway-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.theway-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.theway-imagen{
+width: 340px;
+}
+
+.theway-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.theway-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.theway-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.theway-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.theway-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.theway-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.theway-content {
+display: none;
+overflow: auto;
+}
+
+.theway-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.theway-content img {
 display: block;
 float: left;
 width: 340px;
