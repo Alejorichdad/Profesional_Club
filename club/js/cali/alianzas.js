@@ -1232,4 +1232,29 @@ $(this).removeClass("open");
 
 
 
+
+$(function(){
+$("#activorocas").show();
+  $(".rocas-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".rocas-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".rocas-titulo").removeClass("open");
+  $(".rocas-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
 });
