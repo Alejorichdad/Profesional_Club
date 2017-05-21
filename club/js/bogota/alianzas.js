@@ -1364,4 +1364,153 @@ $(document).ready(function(){
                             });
                         });
 
+                        // alamo
+
+                          $(function(){
+                          $("#activoalamo").show();
+                          $(".alamo-titulo").click(function(e){
+
+                                e.preventDefault();
+
+                                var contenido=$(this).next(".alamo-content");
+
+                                if(contenido.css("display")=="none"){ //open
+
+                                  $(".alamo-titulo").removeClass("open");
+                                  $(".alamo-content").slideUp(550);
+                                  contenido.slideDown(550);
+                                  $(this).addClass("open");
+                                }
+                                else{ //close
+                                  contenido.slideUp(550);
+                                  $(this).removeClass("open");
+                                }
+                              });
+                          });
+
+                          // artes
+
+                            $(function(){
+                            $("#activoartes").show();
+                            $(".artes-titulo").click(function(e){
+
+                                  e.preventDefault();
+
+                                  var contenido=$(this).next(".artes-content");
+
+                                  if(contenido.css("display")=="none"){ //open
+
+                                    $(".artes-titulo").removeClass("open");
+                                    $(".artes-content").slideUp(550);
+                                    contenido.slideDown(550);
+                                    $(this).addClass("open");
+                                  }
+                                  else{ //close
+                                    contenido.slideUp(550);
+                                    $(this).removeClass("open");
+                                  }
+                                });
+                            });
+
+
+
+                  // avivas
+
+                    $(function(){
+                    $("#activoavivas").show();
+                    $(".avivas-titulo").click(function(e){
+
+                          e.preventDefault();
+
+                          var contenido=$(this).next(".avivas-content");
+
+                          if(contenido.css("display")=="none"){ //open
+
+                            $(".avivas-titulo").removeClass("open");
+                            $(".avivas-content").slideUp(550);
+                            contenido.slideDown(550);
+                            $(this).addClass("open");
+                          }
+                          else{ //close
+                            contenido.slideUp(550);
+                            $(this).removeClass("open");
+                          }
+                        });
+                    });
+
+
+                // ledermang
+
+                  $(function(){
+                  $("#activoledermang").show();
+                  $(".ledermang-titulo").click(function(e){
+
+                        e.preventDefault();
+
+                        var contenido=$(this).next(".ledermang-content");
+
+                        if(contenido.css("display")=="none"){ //open
+
+                          $(".ledermang-titulo").removeClass("open");
+                          $(".ledermang-content").slideUp(550);
+                          contenido.slideDown(550);
+                          $(this).addClass("open");
+                        }
+                        else{ //close
+                          contenido.slideUp(550);
+                          $(this).removeClass("open");
+                        }
+                      });
+                  });
+
+
+                  // al100
+
+                    $(function(){
+                    $("#activoal100").show();
+                    $(".al100-titulo").click(function(e){
+
+                          e.preventDefault();
+
+                          var contenido=$(this).next(".al100-content");
+
+                          if(contenido.css("display")=="none"){ //open
+
+                            $(".al100-titulo").removeClass("open");
+                            $(".al100-content").slideUp(550);
+                            contenido.slideDown(550);
+                            $(this).addClass("open");
+                          }
+                          else{ //close
+                            contenido.slideUp(550);
+                            $(this).removeClass("open");
+                          }
+                        });
+                    });
+
+
+                // alud
+
+                  $(function(){
+                  $("#activoalud").show();
+                  $(".alud-titulo").click(function(e){
+
+                        e.preventDefault();
+
+                        var contenido=$(this).next(".alud-content");
+
+                        if(contenido.css("display")=="none"){ //open
+
+                          $(".alud-titulo").removeClass("open");
+                          $(".alud-content").slideUp(550);
+                          contenido.slideDown(550);
+                          $(this).addClass("open");
+                        }
+                        else{ //close
+                          contenido.slideUp(550);
+                          $(this).removeClass("open");
+                        }
+                      });
+                  });
+
   });

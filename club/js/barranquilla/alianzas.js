@@ -811,6 +811,101 @@ $(document).ready(function(){
                 });
 
 
+                // //
 
+                $(function(){
+                $("#activoalmacenamiento").show();
+                $(".almacenamiento-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".almacenamiento-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".almacenamiento-titulo").removeClass("open");
+                        $(".almacenamiento-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
+
+
+                // //
+
+                $(function(){
+                $("#activocayeying").show();
+                $(".cayeying-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".cayeying-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".cayeying-titulo").removeClass("open");
+                        $(".cayeying-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
+
+
+
+
+                $(function(){
+                $("#activocoomedicosta").show();
+                $(".coomedicosta-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".coomedicosta-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".coomedicosta-titulo").removeClass("open");
+                        $(".coomedicosta-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
+
+
+                $(function(){
+                $("#activoinnovus").show();
+                $(".innovus-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".innovus-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".innovus-titulo").removeClass("open");
+                        $(".innovus-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
 
     });
