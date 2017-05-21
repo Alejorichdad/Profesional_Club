@@ -708,4 +708,81 @@ $(this).removeClass("open");
 });
 });
 
+
+
+
+//canadiense
+
+$(function(){
+$("#activocanada").show();
+$(".canada-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".canada-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".canada-titulo").removeClass("open");
+$(".canada-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//canadiense
+
+$(function(){
+$("#activofuerza").show();
+$(".fuerza-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".fuerza-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".fuerza-titulo").removeClass("open");
+$(".fuerza-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+//canadiense
+
+$(function(){
+$("#activoyireh").show();
+$(".yireh-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".yireh-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".yireh-titulo").removeClass("open");
+$(".yireh-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
 });

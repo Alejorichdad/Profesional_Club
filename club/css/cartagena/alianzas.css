@@ -2384,3 +2384,259 @@ float: left;
 width: 340px;
 height: auto;
 }
+
+
+
+/*alianza canadiense*/
+
+#canada-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#canada-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.canada-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.canada-imagen{
+width: 340px;
+}
+
+.canada-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.canada-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.canada-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.canada-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.canada-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.canada-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.canada-content {
+display: none;
+overflow: auto;
+}
+
+.canada-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.canada-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/*fuerza*/
+
+#fuerza-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#fuerza-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.fuerza-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.fuerza-imagen{
+width: 340px;
+}
+
+.fuerza-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.fuerza-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.fuerza-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.fuerza-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.fuerza-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.fuerza-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.fuerza-content {
+display: none;
+overflow: auto;
+}
+
+.fuerza-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.fuerza-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/*fuerza*/
+
+#yireh-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#yireh-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.yireh-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.yireh-imagen{
+width: 340px;
+}
+
+.yireh-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.yireh-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.yireh-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.yireh-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.yireh-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.yireh-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.yireh-content {
+display: none;
+overflow: auto;
+}
+
+.yireh-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.yireh-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
