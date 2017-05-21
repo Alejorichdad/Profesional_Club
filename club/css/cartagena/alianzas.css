@@ -2640,3 +2640,347 @@ float: left;
 width: 340px;
 height: auto;
 }
+
+
+
+
+/*ala*/
+
+#ala-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#ala-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.ala-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.ala-imagen{
+width: 340px;
+}
+
+.ala-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.ala-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.ala-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.ala-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.ala-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.ala-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.ala-content {
+display: none;
+overflow: auto;
+}
+
+.ala-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.ala-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/*ala1*/
+
+#ala1-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#ala1-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.ala1-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.ala1-imagen{
+width: 340px;
+}
+
+.ala1-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.ala1-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.ala1-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.ala1-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.ala1-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.ala1-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.ala1-content {
+display: none;
+overflow: auto;
+}
+
+.ala1-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.ala1-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/*ala2*/
+
+#ala2-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#ala2-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.ala2-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.ala2-imagen{
+width: 340px;
+}
+
+.ala2-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.ala2-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.ala2-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.ala2-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.ala2-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.ala2-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.ala2-content {
+display: none;
+overflow: auto;
+}
+
+.ala2-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.ala2-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+/*heroica*/
+
+#heroica-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#heroica-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.heroica-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.heroica-imagen{
+width: 340px;
+}
+
+.heroica-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.heroica-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.heroica-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.heroica-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.heroica-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.heroica-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.heroica-content {
+display: none;
+overflow: auto;
+}
+
+.heroica-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.heroica-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}

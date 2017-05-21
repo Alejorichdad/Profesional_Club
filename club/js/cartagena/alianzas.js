@@ -785,4 +785,106 @@ $(this).removeClass("open");
 });
 });
 
+
+//Jardin ala
+
+$(function(){
+$("#activoala").show();
+$(".ala-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".ala-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".ala-titulo").removeClass("open");
+$(".ala-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+//Jardin ala1
+
+$(function(){
+$("#activoala1").show();
+$(".ala1-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".ala1-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".ala1-titulo").removeClass("open");
+$(".ala1-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+//Jardin ala2
+
+$(function(){
+$("#activoala2").show();
+$(".ala2-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".ala2-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".ala2-titulo").removeClass("open");
+$(".ala2-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//Jardin ala2
+
+$(function(){
+$("#activoheroica").show();
+$(".heroica-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".heroica-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".heroica-titulo").removeClass("open");
+$(".heroica-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
 });
