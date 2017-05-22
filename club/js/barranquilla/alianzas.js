@@ -839,6 +839,31 @@ $(document).ready(function(){
                 // //
 
                 $(function(){
+                $("#activoalmacenamiento1").show();
+                $(".almacenamiento1-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".almacenamiento1-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".almacenamiento1-titulo").removeClass("open");
+                        $(".almacenamiento1-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
+
+
+                // //
+
+                $(function(){
                 $("#activocayeying").show();
                 $(".cayeying-titulo").click(function(e){
 
