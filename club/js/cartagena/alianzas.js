@@ -887,4 +887,185 @@ $(this).removeClass("open");
 });
 
 
+
+
+//Jardin boca
+
+$(function(){
+$("#activoboca").show();
+$(".boca-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".boca-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".boca-titulo").removeClass("open");
+$(".boca-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+//Jardin boca
+
+$(function(){
+$("#activoboca1").show();
+$(".boca1-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".boca1-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".boca1-titulo").removeClass("open");
+$(".boca1-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+//hja
+
+$(function(){
+$("#activohja").show();
+$(".hja-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".hja-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".hja-titulo").removeClass("open");
+$(".hja-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+
+//hja
+
+$(function(){
+$("#activohja1").show();
+$(".hja1-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".hja1-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".hja1-titulo").removeClass("open");
+$(".hja1-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+//jm
+
+$(function(){
+$("#activojm").show();
+$(".jm-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".jm-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".jm-titulo").removeClass("open");
+$(".jm-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//jm
+
+$(function(){
+$("#activojm1").show();
+$(".jm1-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".jm1-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".jm1-titulo").removeClass("open");
+$(".jm1-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+//jm
+
+$(function(){
+$("#activojota").show();
+$(".jota-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".jota-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".jota-titulo").removeClass("open");
+$(".jota-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
 });

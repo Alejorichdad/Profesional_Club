@@ -495,4 +495,136 @@ $(this).removeClass("open");
 });
 });
 
+
+
+//yeinnys
+
+$(function(){
+$("#activofaiver").show();
+$(".faiver-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".faiver-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".faiver-titulo").removeClass("open");
+$(".faiver-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//aroma
+
+$(function(){
+$("#activoaroma").show();
+$(".aroma-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".aroma-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".aroma-titulo").removeClass("open");
+$(".aroma-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+//quinoa
+
+$(function(){
+$("#activoquinoa").show();
+$(".quinoa-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".quinoa-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".quinoa-titulo").removeClass("open");
+$(".quinoa-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+//mr
+
+$(function(){
+$("#activomr").show();
+$(".mr-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".mr-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".mr-titulo").removeClass("open");
+$(".mr-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+//mr
+
+$(function(){
+$("#activosenses").show();
+$(".senses-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".senses-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".senses-titulo").removeClass("open");
+$(".senses-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
 });
