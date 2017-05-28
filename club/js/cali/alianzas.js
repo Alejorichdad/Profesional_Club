@@ -1377,4 +1377,204 @@ $(this).removeClass("open");
 
 
 
+
+
+
+$(function(){
+$("#activocerveza").show();
+  $(".cerveza-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".cerveza-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".cerveza-titulo").removeClass("open");
+  $(".cerveza-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+
+
+$(function(){
+$("#activocerveza1").show();
+  $(".cerveza1-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".cerveza1-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".cerveza1-titulo").removeClass("open");
+  $(".cerveza1-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+
+$(function(){
+$("#activocerveceria").show();
+  $(".cerveceria-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".cerveceria-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".cerveceria-titulo").removeClass("open");
+  $(".cerveceria-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+$(function(){
+$("#activocerveceria1").show();
+  $(".cerveceria1-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".cerveceria1-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".cerveceria1-titulo").removeClass("open");
+  $(".cerveceria1-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+
+$(function(){
+$("#activorancho").show();
+  $(".rancho-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".rancho-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".rancho-titulo").removeClass("open");
+  $(".rancho-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+$(function(){
+$("#activorancho1").show();
+  $(".rancho1-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".rancho1-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".rancho1-titulo").removeClass("open");
+  $(".rancho1-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+$(function(){
+$("#activotienda").show();
+  $(".tienda-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".tienda-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".tienda-titulo").removeClass("open");
+  $(".tienda-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+$(function(){
+$("#activotienda1").show();
+  $(".tienda1-titulo").click(function(e){
+
+e.preventDefault();
+
+  var contenido=$(this).next(".tienda1-content");
+
+if(contenido.css("display")=="none"){ //open
+
+  $(".tienda1-titulo").removeClass("open");
+  $(".tienda1-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
 });

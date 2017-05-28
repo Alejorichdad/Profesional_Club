@@ -3904,3 +3904,696 @@ float: left;
 width: 340px;
 height: auto;
 }
+
+
+
+
+
+/* bar*/
+
+#cerveza-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#cerveza-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.cerveza-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.cerveza-imagen{
+width: 340px;
+}
+
+.cerveza-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.cerveza-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.cerveza-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.cerveza-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.cerveza-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.cerveza-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.cerveza-content {
+display: none;
+overflow: auto;
+}
+
+.cerveza-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.cerveza-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+/* cerveza*/
+
+#cerveza1-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#cerveza1-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.cerveza1-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.cerveza1-imagen{
+width: 340px;
+}
+
+.cerveza1-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.cerveza1-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.cerveza1-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.cerveza1-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.cerveza1-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.cerveza1-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.cerveza1-content {
+display: none;
+overflow: auto;
+}
+
+.cerveza1-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.cerveza1-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/* cervecería*/
+
+#cerveceria-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#cerveceria-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.cerveceria-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.cerveceria-imagen{
+width: 340px;
+}
+
+.cerveceria-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.cerveceria-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.cerveceria-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.cerveceria-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.cerveceria-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.cerveceria-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.cerveceria-content {
+display: none;
+overflow: auto;
+}
+
+.cerveceria-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.cerveceria-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+
+/* cervecería1*/
+
+#cerveceria1-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#cerveceria1-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.cerveceria1-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.cerveceria1-imagen{
+width: 340px;
+}
+
+.cerveceria1-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.cerveceria1-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.cerveceria1-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.cerveceria1-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.cerveceria1-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.cerveceria1-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.cerveceria1-content {
+display: none;
+overflow: auto;
+}
+
+.cerveceria1-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.cerveceria1-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/*rancho*/
+
+#rancho-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#rancho-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.rancho-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.rancho-imagen{
+width: 340px;
+}
+
+.rancho-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.rancho-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.rancho-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.rancho-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.rancho-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.rancho-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.rancho-content {
+display: none;
+overflow: auto;
+}
+
+.rancho-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.rancho-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+/*rancho1*/
+
+#rancho1-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#rancho1-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.rancho1-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.rancho1-imagen{
+width: 340px;
+}
+
+.rancho1-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.rancho1-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.rancho1-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.rancho1-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.rancho1-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.rancho1-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.rancho1-content {
+display: none;
+overflow: auto;
+}
+
+.rancho1-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.rancho1-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/*tienda*/
+
+#tienda-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#tienda-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.tienda-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.tienda-imagen{
+width: 340px;
+}
+
+.tienda-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.tienda-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.tienda-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.tienda-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.tienda-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.tienda-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.tienda-content {
+display: none;
+overflow: auto;
+}
+
+.tienda-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.tienda-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/*tienda1*/
+
+#tienda1-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#tienda1-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.tienda1-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.tienda1-imagen{
+width: 340px;
+}
+
+.tienda1-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.tienda1-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.tienda1-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.tienda1-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.tienda1-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.tienda1-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.tienda1-content {
+display: none;
+overflow: auto;
+}
+
+.tienda1-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.tienda1-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}

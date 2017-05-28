@@ -933,4 +933,148 @@ $(document).ready(function(){
                     });
                 });
 
+
+
+              $(function(){
+              $("#activoberaca").show();
+              $(".beraca-titulo").click(function(e){
+
+                    e.preventDefault();
+
+                    var contenido=$(this).next(".beraca-content");
+
+                    if(contenido.css("display")=="none"){ //open
+
+                      $(".beraca-titulo").removeClass("open");
+                      $(".beraca-content").slideUp(550);
+                      contenido.slideDown(550);
+                      $(this).addClass("open");
+                    }
+                    else{ //close
+                      contenido.slideUp(550);
+                      $(this).removeClass("open");
+                    }
+                  });
+              });
+
+
+
+              $(function(){
+              $("#activoberaca1").show();
+              $(".beraca1-titulo").click(function(e){
+
+                    e.preventDefault();
+
+                    var contenido=$(this).next(".beraca1-content");
+
+                    if(contenido.css("display")=="none"){ //open
+
+                      $(".beraca1-titulo").removeClass("open");
+                      $(".beraca1-content").slideUp(550);
+                      contenido.slideDown(550);
+                      $(this).addClass("open");
+                    }
+                    else{ //close
+                      contenido.slideUp(550);
+                      $(this).removeClass("open");
+                    }
+                  });
+              });
+
+
+
+              $(function(){
+              $("#activoceas").show();
+              $(".ceas-titulo").click(function(e){
+
+                    e.preventDefault();
+
+                    var contenido=$(this).next(".ceas-content");
+
+                    if(contenido.css("display")=="none"){ //open
+
+                      $(".ceas-titulo").removeClass("open");
+                      $(".ceas-content").slideUp(550);
+                      contenido.slideDown(550);
+                      $(this).addClass("open");
+                    }
+                    else{ //close
+                      contenido.slideUp(550);
+                      $(this).removeClass("open");
+                    }
+                  });
+              });
+
+
+
+            $(function(){
+            $("#activoceas1").show();
+            $(".ceas1-titulo").click(function(e){
+
+                  e.preventDefault();
+
+                  var contenido=$(this).next(".ceas1-content");
+
+                  if(contenido.css("display")=="none"){ //open
+
+                    $(".ceas1-titulo").removeClass("open");
+                    $(".ceas1-content").slideUp(550);
+                    contenido.slideDown(550);
+                    $(this).addClass("open");
+                  }
+                  else{ //close
+                    contenido.slideUp(550);
+                    $(this).removeClass("open");
+                  }
+                });
+            });
+
+
+            $(function(){
+            $("#activopromotors").show();
+            $(".promotors-titulo").click(function(e){
+
+                  e.preventDefault();
+
+                  var contenido=$(this).next(".promotors-content");
+
+                  if(contenido.css("display")=="none"){ //open
+
+                    $(".promotors-titulo").removeClass("open");
+                    $(".promotors-content").slideUp(550);
+                    contenido.slideDown(550);
+                    $(this).addClass("open");
+                  }
+                  else{ //close
+                    contenido.slideUp(550);
+                    $(this).removeClass("open");
+                  }
+                });
+            });
+
+
+            $(function(){
+            $("#activopromotors1").show();
+            $(".promotors1-titulo").click(function(e){
+
+                  e.preventDefault();
+
+                  var contenido=$(this).next(".promotors1-content");
+
+                  if(contenido.css("display")=="none"){ //open
+
+                    $(".promotors1-titulo").removeClass("open");
+                    $(".promotors1-content").slideUp(550);
+                    contenido.slideDown(550);
+                    $(this).addClass("open");
+                  }
+                  else{ //close
+                    contenido.slideUp(550);
+                    $(this).removeClass("open");
+                  }
+                });
+            });
+
+
+
     });

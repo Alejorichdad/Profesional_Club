@@ -627,4 +627,31 @@ $(this).removeClass("open");
 
 
 
+
+
+//mr
+
+$(function(){
+$("#activobar").show();
+$(".bar-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".bar-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".bar-titulo").removeClass("open");
+$(".bar-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
 });

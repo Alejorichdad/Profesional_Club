@@ -54,7 +54,7 @@ content:"-";
 }
 
 .xilon-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -139,7 +139,7 @@ content:"-";
 }
 
 .bater-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -224,7 +224,7 @@ content:"-";
 }
 
 .cero-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -311,7 +311,7 @@ content:"-";
 }
 
 .riviera-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -396,7 +396,7 @@ content:"-";
 }
 
 .son-risas-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -481,7 +481,7 @@ content:"-";
 }
 
 .saul-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -567,7 +567,7 @@ content:"-";
 }
 
 .ivanB-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -655,7 +655,7 @@ content:"-";
 }
 
 .odontoFamiliar-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -740,7 +740,7 @@ content:"-";
 }
 
 .angelex-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -825,7 +825,7 @@ content:"-";
 }
 
 .casaoptica-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -909,7 +909,7 @@ content:"-";
 }
 
 .computronix-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -994,7 +994,7 @@ content:"-";
 }
 
 .chaparral-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -1079,7 +1079,7 @@ content:"-";
 }
 
 .morasurco-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -1165,7 +1165,7 @@ content:"-";
 }
 
 .sindamanoy-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -1251,7 +1251,7 @@ content:"-";
 }
 
 .muscle-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -1337,7 +1337,7 @@ content:"-";
 }
 
 .karibena-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -1424,7 +1424,7 @@ content:"-";
 }
 
 .orthomax-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
@@ -1511,12 +1511,15 @@ content:"-";
 }
 
 .poledance-titulo span.toggle-icon1 {
-position: abaprisa2ute;
+position: absolute;
 top: 10px;
 right: 20px;
 font-size: 38px;
 font-weight:bold;
+
+position: absolute;
 }
+
 
 .poledance-content {
 display: none;
@@ -1533,6 +1536,266 @@ color: #2c3e50;
 }
 
 .poledance-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+/*fan*/
+
+#fan-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#fan-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.fan-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.fan-imagen{
+width: 340px;
+}
+
+.fan-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.fan-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.fan-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.fan-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.fan-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.fan-titulo span.toggle-icon1 {
+position: absolute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.fan-content {
+display: none;
+overflow: auto;
+}
+
+.fan-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.fan-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+/*xilonh*/
+
+#xilonh-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#xilonh-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.xilonh-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.xilonh-imagen{
+width: 340px;
+}
+
+.xilonh-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.xilonh-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.xilonh-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.xilonh-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.xilonh-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.xilonh-titulo span.toggle-icon1 {
+position: absolute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.xilonh-content {
+display: none;
+overflow: auto;
+}
+
+.xilonh-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.xilonh-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+/*linda*/
+
+#linda-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#linda-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.linda-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.linda-imagen{
+width: 340px;
+}
+
+.linda-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.linda-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.linda-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.linda-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.linda-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.linda-titulo span.toggle-icon1 {
+position: absolute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.linda-content {
+display: none;
+overflow: auto;
+}
+
+.linda-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.linda-content img {
 display: block;
 float: left;
 width: 340px;

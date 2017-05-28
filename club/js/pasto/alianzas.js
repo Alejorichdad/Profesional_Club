@@ -488,4 +488,81 @@ $(this).removeClass("open");
 });
 
 
+
+
+$(function(){
+$("#activofan").show();
+$(".fan-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".fan-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".fan-titulo").removeClass("open");
+$(".fan-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+$(function(){
+$("#activoxilonh").show();
+$(".xilonh-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".xilonh-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".xilonh-titulo").removeClass("open");
+$(".xilonh-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+
+
+$(function(){
+$("#activolinda").show();
+$(".linda-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".linda-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".linda-titulo").removeClass("open");
+$(".linda-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
 });
