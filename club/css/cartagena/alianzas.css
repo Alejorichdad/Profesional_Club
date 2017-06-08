@@ -1367,6 +1367,92 @@ height: auto;
 
 
 
+
+
+
+#trolly2-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#trolly2-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.trolly2-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.trolly2-imagen{
+width: 340px;
+}
+
+.trolly2-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.trolly2-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.trolly2-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.trolly2-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.trolly2-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.trolly2-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.trolly2-content {
+display: none;
+overflow: auto;
+}
+
+.trolly2-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.trolly2-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
 /*jardin americano*/
 
 #jardin-a-2-main{
@@ -2379,6 +2465,93 @@ color: #2c3e50;
 }
 
 .artdent-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+/*artdent1*/
+
+#artdent1-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#artdent1-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.artdent1-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.artdent1-imagen{
+width: 340px;
+}
+
+.artdent1-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.artdent1-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.artdent1-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.artdent1-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.artdent1-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.artdent1-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.artdent1-content {
+display: none;
+overflow: auto;
+}
+
+.artdent1-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.artdent1-content img {
 display: block;
 float: left;
 width: 340px;

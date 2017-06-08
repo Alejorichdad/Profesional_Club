@@ -765,6 +765,91 @@ body {
 
 
 
+/* Alianza # 8 beta */
+
+#novasysbeta-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#novasysbeta-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.novasysbeta-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.novasysbeta-imagen{
+  width: 340px;
+}
+
+.novasysbeta-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.novasysbeta-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.novasysbeta-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.novasysbeta-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.novasysbeta-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.novasysbeta-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.novasysbeta-content {
+	display: none;
+	overflow: auto;
+}
+
+.novasysbeta-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.novasysbeta-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
+
 
 /* Alianza novasys  2 */
 
@@ -3154,6 +3239,94 @@ body {
 }
 
 
+
+
+
+
+/*coomedicosta*/
+
+#coomedicosta1-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#coomedicosta1-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.coomedicosta1-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.coomedicosta1-imagen{
+  width: 340px;
+}
+
+.coomedicosta1-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.coomedicosta1-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.coomedicosta1-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.coomedicosta1-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.coomedicosta1-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.coomedicosta1-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.coomedicosta1-content {
+	display: none;
+	overflow: auto;
+}
+
+.coomedicosta1-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.coomedicosta1-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
+
+
 /*innovus*/
 
 #innovus-main{
@@ -3237,6 +3410,92 @@ body {
 	height: auto;
 }
 
+
+
+
+
+/*innovus*/
+
+#innovus2-main{
+	margin:40px auto;
+	min-width:320px;
+	width:340px;
+
+}
+
+#innovus2-main h1{
+	font-size: 40px;
+	text-shadow:4px 4px 5px #16a085;
+
+}
+
+.innovus2-container {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+.innovus2-imagen{
+  width: 340px;
+}
+
+.innovus2-titulo {
+	position: relative;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 300;
+  font-family: lato,sans-serif;
+	background: #76B503;
+	color: #fff;
+	text-decoration: none;
+}
+
+.innovus2-titulo.open {
+	background: #76B503;
+	color: #fff;
+}
+
+.innovus2-titulo:hover {
+	background: #84C599;
+  color: #2c3e50;
+}
+
+.innovus2-titulo span.toggle-icon1:before {
+	content:"+";
+}
+
+.innovus2-titulo.open span.toggle-icon1:before {
+	content:"-";
+}
+
+.innovus2-titulo span.toggle-icon1 {
+	position: abaprisa2ute;
+	top: 10px;
+	right: 20px;
+	font-size: 38px;
+	font-weight:bold;
+}
+
+.innovus2-content {
+	display: none;
+	overflow: auto;
+}
+
+.innovus2-content p{
+  text-align: justify;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  padding: 15px 25px;
+  background-color: #ddd;
+  color: #2c3e50;
+}
+
+.innovus2-content img {
+	display: block;
+	float: left;
+	width: 340px;
+	height: auto;
+}
 
 
 
@@ -3434,6 +3693,7 @@ body {
 
 .ceas-imagen{
   width: 340px;
+
 }
 
 .ceas-titulo {

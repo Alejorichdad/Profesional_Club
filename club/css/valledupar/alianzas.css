@@ -1028,6 +1028,93 @@ height: auto;
 
 
 
+
+/*hotel el bosque11*/
+
+#bosque11-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#bosque11-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.bosque11-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.bosque11-imagen{
+width: 340px;
+}
+
+.bosque11-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.bosque11-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.bosque11-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.bosque11-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.bosque11-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.bosque11-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.bosque11-content {
+display: none;
+overflow: auto;
+}
+
+.bosque11-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.bosque11-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
 /*hombe*/
 
 #hombe-main{
@@ -1281,6 +1368,97 @@ float: left;
 width: 340px;
 height: auto;
 }
+
+
+
+
+
+/*hoz*/
+
+#hoz1-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#hoz1-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.hoz1-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.hoz1-imagen{
+width: 340px;
+}
+
+.hoz1-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.hoz1-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.hoz1-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.hoz1-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.hoz1-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.hoz1-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.hoz1-content {
+display: none;
+overflow: auto;
+}
+
+.hoz1-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.hoz1-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
 
 /*ksa*/
 

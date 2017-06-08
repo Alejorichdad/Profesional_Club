@@ -90,6 +90,610 @@ height: auto;
 
 
 
+
+
+#alkoes-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#alkoes-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.alkoes-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.alkoes-imagen{
+width: 340px;
+}
+
+.alkoes-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.alkoes-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.alkoes-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.alkoes-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.alkoes-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.alkoes-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.alkoes-content {
+display: none;
+overflow: auto;
+}
+
+.alkoes-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.alkoes-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+#atxel-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#atxel-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.atxel-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.atxel-imagen{
+width: 340px;
+}
+
+.atxel-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.atxel-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.atxel-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.atxel-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.atxel-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.atxel-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.atxel-content {
+display: none;
+overflow: auto;
+}
+
+.atxel-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.atxel-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+
+#santai-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#santai-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.santai-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.santai-imagen{
+width: 340px;
+}
+
+.santai-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.santai-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.santai-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.santai-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.santai-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.santai-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.santai-content {
+display: none;
+overflow: auto;
+}
+
+.santai-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.santai-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+
+
+
+#mcmedical-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#mcmedical-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.mcmedical-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.mcmedical-imagen{
+width: 340px;
+}
+
+.mcmedical-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.mcmedical-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.mcmedical-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.mcmedical-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.mcmedical-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.mcmedical-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.mcmedical-content {
+display: none;
+overflow: auto;
+}
+
+.mcmedical-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.mcmedical-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+
+
+#ets-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#ets-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.ets-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.ets-imagen{
+width: 340px;
+}
+
+.ets-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.ets-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.ets-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.ets-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.ets-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.ets-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.ets-content {
+display: none;
+overflow: auto;
+}
+
+.ets-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.ets-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+#drumba1-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#drumba1-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.drumba1-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.drumba1-imagen{
+width: 340px;
+}
+
+.drumba1-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.drumba1-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.drumba1-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.drumba1-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.drumba1-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.drumba1-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.drumba1-content {
+display: none;
+overflow: auto;
+}
+
+.drumba1-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.drumba1-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+#drumba-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#drumba-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.drumba-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.drumba-imagen{
+width: 340px;
+}
+
+.drumba-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.drumba-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.drumba-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.drumba-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.drumba-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.drumba-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.drumba-content {
+display: none;
+overflow: auto;
+}
+
+.drumba-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.drumba-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
 /* Alianza # 2  giant */
 
 #giant-main{

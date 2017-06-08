@@ -842,6 +842,93 @@ height: auto;
 
 
 
+/* Alianza # 8  visa */
+
+#visanew-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#visanew-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.visanew-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.visanew-imagen{
+width: 340px;
+}
+
+.visanew-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.visanew-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.visanew-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.visanew-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.visanew-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.visanew-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.visanew-content {
+display: none;
+overflow: auto;
+}
+
+.visanew-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.visanew-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+
+
+
 /* Alianza # 9 catuai */
 
 #catuai-main{
@@ -1410,6 +1497,171 @@ color: #2c3e50;
 }
 
 .musicalizate-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+/* Alianza # 15 sura */
+
+#sura12-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#sura12-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.sura12-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.sura12-imagen{
+width: 340px;
+}
+
+.sura12-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.sura12-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.sura12-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.sura12-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.sura12-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.sura12-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.sura12-content {
+display: none;
+overflow: auto;
+}
+
+.sura12-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.sura12-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+/* Alianza # 15 sura */
+
+#sura1-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#sura1-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.sura1-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.sura1-imagen{
+width: 340px;
+}
+
+.sura1-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.sura1-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.sura1-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.sura1-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.sura1-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.sura1-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.sura1-content {
+display: none;
+overflow: auto;
+}
+
+.sura1-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.sura1-content img {
 display: block;
 float: left;
 width: 340px;
@@ -3232,27 +3484,27 @@ height: auto;
 
 /* Alianza # 34 egph */
 
-#egph-main{
+#egphnew-main{
 margin:40px auto;
 min-width:320px;
 width:340px;
 }
 
-#egph-main h1{
+#egphnew-main h1{
 font-size: 40px;
 text-shadow:4px 4px 5px #16a085;
 }
 
-.egph-container {
+.egphnew-container {
 width: 100%;
 margin: 0 0 1px;
 }
 
-.egph-imagen{
+.egphnew-imagen{
 width: 340px;
 }
 
-.egph-titulo {
+.egphnew-titulo {
 position: relative;
 display: block;
 padding: 10px;
@@ -3264,25 +3516,25 @@ color: #fff;
 text-decoration: none;
 }
 
-.egph-titulo.open {
+.egphnew-titulo.open {
 background: #76B503;
 color: #fff;
 }
 
-.egph-titulo:hover {
+.egphnew-titulo:hover {
 background: #84C599;
 color: #2c3e50;
 }
 
-.egph-titulo span.toggle-icon1:before {
+.egphnew-titulo span.toggle-icon1:before {
 content:"+";
 }
 
-.egph-titulo.open span.toggle-icon1:before {
+.egphnew-titulo.open span.toggle-icon1:before {
 content:"-";
 }
 
-.egph-titulo span.toggle-icon1 {
+.egphnew-titulo span.toggle-icon1 {
 position: abaprisa2ute;
 top: 10px;
 right: 20px;
@@ -3290,12 +3542,12 @@ font-size: 38px;
 font-weight:bold;
 }
 
-.egph-content {
+.egphnew-content {
 display: none;
 overflow: auto;
 }
 
-.egph-content p{
+.egphnew-content p{
 text-align: justify;
 font-size: 15px;
 font-family: lato, sans-serif;
@@ -3304,7 +3556,88 @@ background-color: #ddd;
 color: #2c3e50;
 }
 
-.egph-content img {
+.egphnew-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
+
+
+
+#egphnew-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+}
+
+#egphnew-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+}
+
+.egphnew-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.egphnew-imagen{
+width: 340px;
+}
+
+.egphnew-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.egphnew-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.egphnew-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.egphnew-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.egphnew-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.egphnew-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.egphnew-content {
+display: none;
+overflow: auto;
+}
+
+.egphnew-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.egphnew-content img {
 display: block;
 float: left;
 width: 340px;

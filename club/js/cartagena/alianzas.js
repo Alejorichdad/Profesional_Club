@@ -395,6 +395,34 @@ $(this).removeClass("open");
 
 
 
+
+// trolley
+
+$(function(){
+$("#activo1262").show();
+$(".trolly2-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".trolly2-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".trolly2-titulo").removeClass("open");
+$(".trolly2-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
 //Jardin americano
 
 $(function(){
@@ -709,6 +737,30 @@ $(this).removeClass("open");
 });
 
 
+
+//ardent
+
+$(function(){
+$("#activoc1361").show();
+$(".artdent1-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".artdent1-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".artdent1-titulo").removeClass("open");
+$(".artdent1-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
 
 
 //canadiense

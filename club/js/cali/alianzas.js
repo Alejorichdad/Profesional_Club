@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
 
-/ - ALIANZA -  humantecnology -//
+// - ALIANZA -  humantecnology -//
 
 
 
@@ -30,7 +30,179 @@ $(this).removeClass("open");
 
 
 
-// - ALIANZA -  giant -//
+
+$(function(){
+$("#activoalkoes").show();
+$(".alkoes-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".alkoes-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".alkoes-titulo").removeClass("open");
+$(".alkoes-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+
+$(function(){
+$("#activoatxel").show();
+$(".atxel-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".atxel-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".atxel-titulo").removeClass("open");
+$(".atxel-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+
+$(function(){
+$("#activodrumba1").show();
+$(".drumba1-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".drumba1-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".drumba1-titulo").removeClass("open");
+$(".drumba1-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+
+$(function(){
+$("#activosantai").show();
+$(".santai-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".santai-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".santai-titulo").removeClass("open");
+$(".santai-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+$(function(){
+$("#activoMC").show();
+$(".mcmedical-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".mcmedical-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".mcmedical-titulo").removeClass("open");
+$(".mcmedical-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+$(function(){
+$("#activoets").show();
+$(".ets-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".ets-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".ets-titulo").removeClass("open");
+$(".ets-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
+
+$(function(){
+$("#activodrumba").show();
+$(".drumba-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".drumba-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".drumba-titulo").removeClass("open");
+$(".drumba-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
 
 
 

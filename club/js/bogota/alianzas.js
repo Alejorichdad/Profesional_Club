@@ -216,6 +216,32 @@ $(document).ready(function(){
       });
   });
 
+
+  // visa
+    $(function(){
+    $("#activo32new").show();
+    $(".visanew-titulo").click(function(e){
+
+          e.preventDefault();
+
+          var contenido=$(this).next(".visanew-content");
+
+          if(contenido.css("display")=="none"){ //open
+
+            $(".visanew-titulo").removeClass("open");
+            $(".visanew-content").slideUp(550);
+            contenido.slideDown(550);
+            $(this).addClass("open");
+          }
+          else{ //close
+            contenido.slideUp(550);
+            $(this).removeClass("open");
+          }
+        });
+    });
+
+
+
 // catuai
   $(function(){
   $("#activo33").show();
@@ -386,6 +412,57 @@ $(document).ready(function(){
               }
             });
         });
+
+
+        // sura
+
+          $(function(){
+          $("#activo391").show();
+          $(".sura1-titulo").click(function(e){
+
+                e.preventDefault();
+
+                var contenido=$(this).next(".sura1-content");
+
+                if(contenido.css("display")=="none"){ //open
+
+                  $(".sura1-titulo").removeClass("open");
+                  $(".sura1-content").slideUp(550);
+                  contenido.slideDown(550);
+                  $(this).addClass("open");
+                }
+                else{ //close
+                  contenido.slideUp(550);
+                  $(this).removeClass("open");
+                }
+              });
+          });
+
+
+          // sura
+
+            $(function(){
+            $("#activo3912").show();
+            $(".sura12-titulo").click(function(e){
+
+                  e.preventDefault();
+
+                  var contenido=$(this).next(".sura12-content");
+
+                  if(contenido.css("display")=="none"){ //open
+
+                    $(".sura12-titulo").removeClass("open");
+                    $(".sura12-content").slideUp(550);
+                    contenido.slideDown(550);
+                    $(this).addClass("open");
+                  }
+                  else{ //close
+                    contenido.slideUp(550);
+                    $(this).removeClass("open");
+                  }
+                });
+            });
+
 
 // staff
 
@@ -959,6 +1036,33 @@ $(document).ready(function(){
           }
         });
     });
+
+
+    //show egph
+
+      $(function(){
+      $("#activo60new").show();
+      $(".egphnew-titulo").click(function(e){
+
+            e.preventDefault();
+
+            var contenido=$(this).next(".egphnew-content");
+
+            if(contenido.css("display")=="none"){ //open
+
+              $(".egphnew-titulo").removeClass("open");
+              $(".egphnew-content").slideUp(550);
+              contenido.slideDown(550);
+              $(this).addClass("open");
+            }
+            else{ //close
+              contenido.slideUp(550);
+              $(this).removeClass("open");
+            }
+          });
+      });
+
+
 
 
     //show colturex2

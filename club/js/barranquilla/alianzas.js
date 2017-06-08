@@ -230,6 +230,31 @@ $(document).ready(function(){
   });
 
 
+  // La novasys beta//
+
+  $(function(){
+  $("#activobeta").show();
+  $(".novasysbeta-titulo").click(function(e){
+
+        e.preventDefault();
+
+        var contenido=$(this).next(".novasysbeta-content");
+
+        if(contenido.css("display")=="none"){ //open
+
+          $(".novasysbeta-titulo").removeClass("open");
+          $(".novasysbeta-content").slideUp(550);
+          contenido.slideDown(550);
+          $(this).addClass("open");
+        }
+        else{ //close
+          contenido.slideUp(550);
+          $(this).removeClass("open");
+        }
+      });
+  });
+
+
 
     // La novasys 2//
 
@@ -786,7 +811,31 @@ $(document).ready(function(){
                     });
                 });
 
-                // edwinR 2//
+                // edwinR2//
+
+                $(function(){
+                $("#activor2").show();
+                $(".edwinR2-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".edwinR2-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".edwinR2-titulo").removeClass("open");
+                        $(".edwinR2-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
+
+                // edwinR2 2//
 
                 $(function(){
                 $("#activo164").show();
@@ -911,6 +960,34 @@ $(document).ready(function(){
                 });
 
 
+                  $(function(){
+                  $("#activocoomedicosta1").show();
+                  $(".coomedicosta1-titulo").click(function(e){
+
+                        e.preventDefault();
+
+                        var contenido=$(this).next(".coomedicosta1-content");
+
+                        if(contenido.css("display")=="none"){ //open
+
+                          $(".coomedicosta1-titulo").removeClass("open");
+                          $(".coomedicosta1-content").slideUp(550);
+                          contenido.slideDown(550);
+                          $(this).addClass("open");
+                        }
+                        else{ //close
+                          contenido.slideUp(550);
+                          $(this).removeClass("open");
+                        }
+                      });
+                  });
+
+
+
+
+
+
+
                 $(function(){
                 $("#activoinnovus").show();
                 $(".innovus-titulo").click(function(e){
@@ -932,6 +1009,30 @@ $(document).ready(function(){
                       }
                     });
                 });
+
+
+                $(function(){
+                $("#activoinnovus2").show();
+                $(".innovus2-titulo").click(function(e){
+
+                      e.preventDefault();
+
+                      var contenido=$(this).next(".innovus2-content");
+
+                      if(contenido.css("display")=="none"){ //open
+
+                        $(".innovus2-titulo").removeClass("open");
+                        $(".innovus2-content").slideUp(550);
+                        contenido.slideDown(550);
+                        $(this).addClass("open");
+                      }
+                      else{ //close
+                        contenido.slideUp(550);
+                        $(this).removeClass("open");
+                      }
+                    });
+                });
+
 
 
 

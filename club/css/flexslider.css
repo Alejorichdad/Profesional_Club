@@ -9,6 +9,7 @@
 }
 
 .slides {
+  max-height: 490px;
   overflow: hidden;
 }
 
@@ -71,3 +72,153 @@
 .flex-active-slide {
   background-color: #E9EAE8;
 }
+
+
+
+@media screen and (max-width: 2300px){
+  .slides{
+    max-height: 570px;
+    overflow: hidden;
+  }
+
+
+@media screen and (max-width: 2200px){
+  .slides{
+    max-height: 548px;
+    overflow: hidden;
+  }
+
+
+@media screen and (max-width: 2100px){
+  .slides{
+    max-height: 524px;
+    overflow: hidden;
+  }
+
+
+@media screen and (max-width: 2000px){
+  .slides{
+    max-height: 500px;
+    overflow: hidden;
+  }
+
+
+@media screen and (max-width: 1920px){
+  .slides{
+    max-height: 490px;
+    overflow: hidden;
+  }
+
+@media screen and (max-width: 1900px){
+  .slides{
+    max-height: 484px;
+    overflow: hidden;
+  }
+
+
+@media screen and (max-width: 1800px){
+  .slides{
+    max-height: 460px;
+    overflow: hidden;
+  }
+
+@media screen and (max-width: 1700px){
+  .slides{
+    max-height: 436px;
+    overflow: hidden;
+  }
+
+
+@media screen and (max-width: 1600px){
+  .slides{
+    max-height: 411px;
+    overflow: hidden;
+  }
+
+@media screen and (max-width: 1500px){
+  .slides{
+    max-height: 383px;
+    overflow: hidden;
+  }
+
+
+@media screen and (max-width: 1400px){
+  .slides{
+    max-height: 357px;
+    overflow: hidden;
+  }
+
+@media screen and (max-width: 1300px){
+  .slides{
+    max-height: 332px;
+    overflow: hidden;
+  }
+
+
+@media screen and (max-width: 1280px){
+  .slides{
+    max-height: 328px;
+    overflow: hidden;
+  }
+
+@media screen and (max-width: 1200px){
+  .slides{
+    max-height: 308px;
+    overflow: hidden;
+  }
+
+@media screen and (max-width: 1200px){
+  .slides{
+    max-height: 308px;
+    overflow: hidden;
+  }
+
+@media screen and (max-width: 1100px){
+  .slides{
+    max-height: 282px;
+    overflow: hidden;
+    }
+
+  @media screen and (max-width: 1000px){
+    .slides{
+      max-height: 256px;
+      overflow: hidden;
+    }
+
+@media screen and (max-width: 900px){
+  .slides{
+    max-height: 231px;
+    overflow: hidden;
+  }
+
+@media screen and (max-width: 800px){
+  .slides{
+    max-height: 208px;
+    overflow: hidden;
+    }
+
+
+@media screen and (max-width: 700px){
+  .slides{
+    max-height: 180px;
+    overflow: hidden;
+  }
+
+
+@media screen and (max-width: 600px){
+  .slides{
+    max-height: 154px;
+    overflow: hidden;
+  }
+
+@media screen and (max-width: 500px){
+  .slides{
+    max-height: 130px;
+    overflow: hidden;
+  }
+
+@media screen and (max-width: 400px){
+  .slides{
+    max-height: 104px;
+    overflow: hidden;
+  }

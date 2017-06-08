@@ -294,7 +294,7 @@ $(this).removeClass("open");
 
 
 
-//Hotel sicarare
+//Hotel bosque
 
 $(function(){
 $("#activo159").show();
@@ -317,6 +317,31 @@ $(this).removeClass("open");
 }
 });
 });
+
+
+
+$(function(){
+$("#activobosque").show();
+$(".bosque11-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".bosque11-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".bosque11-titulo").removeClass("open");
+$(".bosque11-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
 
 
 
@@ -392,6 +417,37 @@ $(this).removeClass("open");
 }
 });
 });
+
+
+
+
+
+//Hoz
+
+$(function(){
+$("#activohoz1").show();
+$(".hoz1-titulo").click(function(e){
+
+e.preventDefault();
+
+var contenido=$(this).next(".hoz1-content");
+
+if(contenido.css("display")=="none"){ //open
+
+$(".hoz1-titulo").removeClass("open");
+$(".hoz1-content").slideUp(550);
+contenido.slideDown(550);
+$(this).addClass("open");
+}
+else{ //close
+contenido.slideUp(550);
+$(this).removeClass("open");
+}
+});
+});
+
+
+
 
 
 //ksai
