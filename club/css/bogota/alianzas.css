@@ -3565,27 +3565,27 @@ height: auto;
 
 
 
-#egphnew-main{
+#egph-main{
 margin:40px auto;
 min-width:320px;
 width:340px;
 }
 
-#egphnew-main h1{
+#egph-main h1{
 font-size: 40px;
 text-shadow:4px 4px 5px #16a085;
 }
 
-.egphnew-container {
+.egph-container {
 width: 100%;
 margin: 0 0 1px;
 }
 
-.egphnew-imagen{
+.egph-imagen{
 width: 340px;
 }
 
-.egphnew-titulo {
+.egph-titulo {
 position: relative;
 display: block;
 padding: 10px;
@@ -3597,25 +3597,25 @@ color: #fff;
 text-decoration: none;
 }
 
-.egphnew-titulo.open {
+.egph-titulo.open {
 background: #76B503;
 color: #fff;
 }
 
-.egphnew-titulo:hover {
+.egph-titulo:hover {
 background: #84C599;
 color: #2c3e50;
 }
 
-.egphnew-titulo span.toggle-icon1:before {
+.egph-titulo span.toggle-icon1:before {
 content:"+";
 }
 
-.egphnew-titulo.open span.toggle-icon1:before {
+.egph-titulo.open span.toggle-icon1:before {
 content:"-";
 }
 
-.egphnew-titulo span.toggle-icon1 {
+.egph-titulo span.toggle-icon1 {
 position: abaprisa2ute;
 top: 10px;
 right: 20px;
@@ -3623,12 +3623,12 @@ font-size: 38px;
 font-weight:bold;
 }
 
-.egphnew-content {
+.egph-content {
 display: none;
 overflow: auto;
 }
 
-.egphnew-content p{
+.egph-content p{
 text-align: justify;
 font-size: 15px;
 font-family: lato, sans-serif;
@@ -3637,7 +3637,7 @@ background-color: #ddd;
 color: #2c3e50;
 }
 
-.egphnew-content img {
+.egph-content img {
 display: block;
 float: left;
 width: 340px;

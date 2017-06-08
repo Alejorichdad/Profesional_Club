@@ -177,29 +177,29 @@ height: auto;
 
 
 
-#atxel-main{
+#atxel1-main{
 margin:40px auto;
 min-width:320px;
 width:340px;
 
 }
 
-#atxel-main h1{
+#atxel1-main h1{
 font-size: 40px;
 text-shadow:4px 4px 5px #16a085;
 
 }
 
-.atxel-container {
+.atxel1-container {
 width: 100%;
 margin: 0 0 1px;
 }
 
-.atxel-imagen{
+.atxel1-imagen{
 width: 340px;
 }
 
-.atxel-titulo {
+.atxel1-titulo {
 position: relative;
 display: block;
 padding: 10px;
@@ -211,25 +211,25 @@ color: #fff;
 text-decoration: none;
 }
 
-.atxel-titulo.open {
+.atxel1-titulo.open {
 background: #76B503;
 color: #fff;
 }
 
-.atxel-titulo:hover {
+.atxel1-titulo:hover {
 background: #84C599;
 color: #2c3e50;
 }
 
-.atxel-titulo span.toggle-icon1:before {
+.atxel1-titulo span.toggle-icon1:before {
 content:"+";
 }
 
-.atxel-titulo.open span.toggle-icon1:before {
+.atxel1-titulo.open span.toggle-icon1:before {
 content:"-";
 }
 
-.atxel-titulo span.toggle-icon1 {
+.atxel1-titulo span.toggle-icon1 {
 position: abaprisa2ute;
 top: 10px;
 right: 20px;
@@ -237,12 +237,12 @@ font-size: 38px;
 font-weight:bold;
 }
 
-.atxel-content {
+.atxel1-content {
 display: none;
 overflow: auto;
 }
 
-.atxel-content p{
+.atxel1-content p{
 text-align: justify;
 font-size: 15px;
 font-family: lato, sans-serif;
@@ -251,7 +251,7 @@ background-color: #ddd;
 color: #2c3e50;
 }
 
-.atxel-content img {
+.atxel1-content img {
 display: block;
 float: left;
 width: 340px;

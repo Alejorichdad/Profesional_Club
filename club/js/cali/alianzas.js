@@ -58,17 +58,17 @@ $(this).removeClass("open");
 
 
 $(function(){
-$("#activoatxel").show();
-$(".atxel-titulo").click(function(e){
+$("#activoatxel1").show();
+$(".atxel1-titulo").click(function(e){
 
 e.preventDefault();
 
-var contenido=$(this).next(".atxel-content");
+var contenido=$(this).next(".atxel1-content");
 
 if(contenido.css("display")=="none"){ //open
 
-$(".atxel-titulo").removeClass("open");
-$(".atxel-content").slideUp(550);
+$(".atxel1-titulo").removeClass("open");
+$(".atxel1-content").slideUp(550);
 contenido.slideDown(550);
 $(this).addClass("open");
 }
