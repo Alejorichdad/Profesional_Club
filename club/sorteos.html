@@ -10,6 +10,7 @@
 
 
 
+
   <!--efecto lightbox-->
   <!-- Add jQuery library -->
   <!-- Add jQuery library -->
@@ -270,38 +271,29 @@
 
     </div>
 
-    <div class="formulario1">
-      <form class="formulario">
-        <div class="label">
-          <label for="nombre">Nombre</label>
-        </div>
-        <div class="label">
-          <input class="entrada" type="text" requiered id="nombre" id="prompt" name="nombre" value=""/>
-        </div>
+    <div class="footer-form footer-text">
+      <form  id="contactp" name="contacto" method="post" action="enviar.php" class="footer-form footer-text">
 
-        <div class="label ">
-          <label for="email">Email</label>
-        </div>
-        <div class="label">
-          <input class="entrada" type="text" required id="email" name="email"/>
-        </div>
 
-        <div class="label">
-          <label for="mensaje">Mensaje</label>
-        </div>
-        <div class="label">
-          <textarea name="mensaje" id="mensaje" rows="8" cols="40"></textarea>
-        </div>
+      <!--<label for="Validation">validation*</label>-->
+      <input class="validation" name=”validation” type=”text” id=”validation”/>
 
-        <div class="label">
-          <label for="enviar"></label>
-        </div>
+      <label for="nombre">Nombre </label>
+       <input  type="text" name="nombre" id="nombre" maxlength="50" size="30">
 
-        <div class="label ">
-          <input class="buttons registrarse" type="submit" name="enviar" value="enviar"/>
-        </div>
 
-      </form>
+      <label for="mail">E-mail </label>
+      <input  class="entrada" type="text" name="mail" id="mail" maxlength="80" size="30">
+
+
+      <label for="mensaje">Mensaje </label>
+      <textarea  name="mensaje" id="mensaje" maxlength="1000" cols="50" rows="8"></textarea>
+
+      <input class="registrarse buton1" type="submit" name="submit" value="Enviar">
+
+
+    </form>
+
     </div>
 
   </footer>

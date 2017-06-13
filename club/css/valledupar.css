@@ -621,6 +621,12 @@ span {
 }
 
 
+.validation {
+  visibility: hidden;
+  display: none;
+}
+
+
 
 @media screen and (max-width: 1280px){
   .linea-izq hr{

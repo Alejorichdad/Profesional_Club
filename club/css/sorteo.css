@@ -377,31 +377,122 @@ table {                      /* stilos table en verde para registro */
   margin-bottom: 0;
 }
 
-.formulario {                               /* inicia stilos formulario */
+/* footer seccion */
+.footer-seccion{
+background-color: #253341;
+width: 100%;
 
-  display: block;
-  margin: auto;
-  font-size: 13px;
-  font-family: sans-serif;
-  color: #fff;
-  width: 300px;
-  padding-top: 20px;
-  margin-bottom: 20px;
 
+
+}
+
+.footer-seccion-div{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;;
+max-width: 1180px;
+margin: 0 auto;
+padding-top: 15px;
+padding-bottom: 20px;
+}
+
+.footer-info {
+
+width: auto;
+font-size: 14px;
+font-weight: 100;
+text-align: center;
+margin-bottom: 10px;
+
+}
+
+.footer-text {
+display: flex;
+justify-content: center;
+flex-direction: column;
+font-family: lato, sans-serif;
+color: #ffffff;
+font-size: 14px;
+font-weight: 100;
+
+}
+
+.footer-info ul {
+list-style-type: circle;
+color: #B3C642;
+padding-left: 20px;
+padding-top: 25px;
+
+
+
+}
+
+.lista {
+margin-bottom: 10px;
+text-align: justify;
+width: 300px;
+}
+
+
+
+
+.footer-redes {
+
+display: flex;
+text-align: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.redes-sociales-container {
+display: flex;
+justify-content: space-around;
+width: 210px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.footer-form{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding-top: 6px;
 }
 
 .entrada {
-  width: 250px;
+margin-top: 4px;
+margin-bottom: 4px;
+
 }
 
-.label {
-  margin-bottom: 5px;
+
+.buton1 {
+width: 90px;
+
 }
 
-.mailto {
+
+.terminos {
+text-decoration: none;
+color: #fff;
+
+}
+
+.validation {
+visibility: hidden;
+display: none;
+}
+
+
+.mailto{
   text-decoration: none;
   color: #fff;
 }
+
+
 
 
 @media screen and (max-width: 900px) {

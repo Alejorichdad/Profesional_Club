@@ -614,6 +614,11 @@ span {
 }
 
 
+.validation {
+  visibility: hidden;
+  display: none;
+}
+
 
 @media screen and (max-width: 1280px){
   .linea-izq hr{
@@ -649,6 +654,9 @@ span {
     width: 200px;
   }
 }
+
+
+
 
 
 /*@media screen and (max-width: 3000px){

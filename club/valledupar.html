@@ -1774,18 +1774,27 @@
   </div>
   <div class="footer-form footer-text">
 
-    <label for="nombre">Nombre</label>
-    <input class="entrada" type="text" required id="nombre" name="nombre">
-
-    <label for="email">Correo Electronico</label>
-    <input class="entrada" type="email" required id="email" name="email">
-
-    <label for="mensaje">Mensaje</label>
-    <textarea  class="entrada" name="mensaje" rows="8" cols="50" id="mensaje"></textarea>
-
-    <input  class="registrarse buton1"  type="submit"  value="Enviar">
+    <form  id="contactp" name="contacto" method="post" action="enviar.php" class="footer-form footer-text">
 
 
+    <!--<label for="Validation">validation*</label>-->
+    <input class="validation" name=”validation” type=”text” id=”validation”/>
+
+    <label for="nombre">Nombre </label>
+     <input  type="text" name="nombre" id="nombre" maxlength="50" size="30">
+
+
+    <label for="mail">E-mail </label>
+    <input  class="entrada" type="text" name="mail" id="mail" maxlength="80" size="30">
+
+
+    <label for="mensaje">Mensaje </label>
+    <textarea  name="mensaje" id="mensaje" maxlength="1000" cols="50" rows="8"></textarea>
+
+    <input class="registrarse buton1" type="submit" name="submit" value="Enviar">
+
+
+  </form>
   </div>
 </div>
 </footer>
