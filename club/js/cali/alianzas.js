@@ -2,6 +2,36 @@ $(document).ready(function(){
 
 
 
+
+
+  // - ALIANZA -  humantecnology -//
+
+
+
+  $(function(){
+  $("#activofomento").show();
+  $(".fomento-titulo").click(function(e){
+
+  e.preventDefault();
+
+  var contenido=$(this).next(".fomento-content");
+
+  if(contenido.css("display")=="none"){ //open
+
+  $(".fomento-titulo").removeClass("open");
+  $(".fomento-content").slideUp(550);
+  contenido.slideDown(550);
+  $(this).addClass("open");
+  }
+  else{ //close
+  contenido.slideUp(550);
+  $(this).removeClass("open");
+  }
+  });
+  });
+
+
+
 // - ALIANZA -  humantecnology -//
 
 

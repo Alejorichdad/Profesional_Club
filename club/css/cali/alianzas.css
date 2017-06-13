@@ -5201,3 +5201,89 @@ float: left;
 width: 340px;
 height: auto;
 }
+
+
+
+
+/* Alianza # 1  humantecnology */
+
+#fomento-main{
+margin:40px auto;
+min-width:320px;
+width:340px;
+
+}
+
+#fomento-main h1{
+font-size: 40px;
+text-shadow:4px 4px 5px #16a085;
+
+}
+
+.fomento-container {
+width: 100%;
+margin: 0 0 1px;
+}
+
+.fomento-imagen{
+width: 340px;
+}
+
+.fomento-titulo {
+position: relative;
+display: block;
+padding: 10px;
+font-size: 15px;
+font-weight: 300;
+font-family: lato,sans-serif;
+background: #76B503;
+color: #fff;
+text-decoration: none;
+}
+
+.fomento-titulo.open {
+background: #76B503;
+color: #fff;
+}
+
+.fomento-titulo:hover {
+background: #84C599;
+color: #2c3e50;
+}
+
+.fomento-titulo span.toggle-icon1:before {
+content:"+";
+}
+
+.fomento-titulo.open span.toggle-icon1:before {
+content:"-";
+}
+
+.fomento-titulo span.toggle-icon1 {
+position: abaprisa2ute;
+top: 10px;
+right: 20px;
+font-size: 38px;
+font-weight:bold;
+}
+
+.fomento-content {
+display: none;
+overflow: auto;
+}
+
+.fomento-content p{
+text-align: justify;
+font-size: 15px;
+font-family: lato, sans-serif;
+padding: 15px 25px;
+background-color: #ddd;
+color: #2c3e50;
+}
+
+.fomento-content img {
+display: block;
+float: left;
+width: 340px;
+height: auto;
+}
